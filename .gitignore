@@ -1,0 +1,39 @@
+# Raw and interim data — large, regenerable from pipelines, not committed
+data/raw/
+data/interim/
+
+# Model tables can get large depending on lead-time count; keep them out too
+# unless you specifically want small final feature-target CSVs versioned.
+data/processed/model_tables/*.csv
+
+# Large source data kept outside processed/ (NetCDFs, geojsons, etc.)
+*.nc
+*.tif
+!worldpop/*.tif           # exception: keep the one WorldPop raster tracked if small enough,
+                           # otherwise remove this exception and document where to re-download it
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Experiment scratch
+experiments/results/*.tmp
+
+# MD files
+*.md
+
+# docs folder
+docs/
+
+# claude folder
+.claude/

@@ -1,0 +1,23 @@
+# Pin versions once you confirm what's currently working in your environment
+# (run `pip freeze | grep -iE "pandas|numpy|xarray|netcdf4|geopandas|rasterio|shapely|scipy|requests"`
+# and replace the placeholders below with the actual installed versions).
+#
+# Geospatial packages (rasterio, geopandas) depend on GDAL/PROJ binaries.
+# If `pip install` fails on these, it is almost always a GDAL install issue,
+# not a version-pin issue — resolve GDAL first rather than loosening pins.
+
+pandas
+numpy
+xarray
+netCDF4
+geopandas
+rasterio
+shapely
+scipy
+requests
+
+# Add once modeling begins:
+# xgboost
+# shap
+# torch          # for LSTM / TabICLv2
+# scikit-learn
