@@ -1,0 +1,23 @@
+/opt/miniconda3/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1217: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a, func=_nanmedian, keepdims=keepdims,
+[lstm] lead=0: n=828, 29.0s
+/opt/miniconda3/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1217: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a, func=_nanmedian, keepdims=keepdims,
+[lstm] lead=1: n=828, 30.3s
+/opt/miniconda3/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1217: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a, func=_nanmedian, keepdims=keepdims,
+[lstm] lead=2: n=828, 28.8s
+/opt/miniconda3/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1217: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a, func=_nanmedian, keepdims=keepdims,
+[lstm] lead=3: n=828, 29.8s
+/opt/miniconda3/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1217: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a, func=_nanmedian, keepdims=keepdims,
+[lstm] lead=4: n=828, 29.1s
+/opt/miniconda3/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1217: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a, func=_nanmedian, keepdims=keepdims,
+[lstm] lead=8: n=828, 28.1s
+/opt/miniconda3/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1217: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a, func=_nanmedian, keepdims=keepdims,
+[lstm] lead=12: n=828, 28.2s
+[lstm] TOTAL: 203.3s (5796 rows)
+Done. Wrote local_stability_lstm.csv

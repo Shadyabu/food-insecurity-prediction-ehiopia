@@ -50,3 +50,6 @@ busker_scripts/
 
 # Busker's dataset
 busker_dataset/
+
+
+pipelines/glofas/glofas-seasonal-forecast-sample.grib
