@@ -1,0 +1,223 @@
+{
+  "run_at": "2026-08-24T13:55:22",
+  "git_sha": "d17391825b352c1040a30d00995f9e884ee638f7",
+  "model_tables_dir": "../../../data/processed/model_tables",
+  "xgb_params": {
+    "n_estimators": 400,
+    "max_depth": 4,
+    "learning_rate": 0.01,
+    "random_state": 42
+  },
+  "target_mode": "level",
+  "exclude_feature_cluster": [
+    "agriculture"
+  ],
+  "exclude_acled_lags": false,
+  "log_transform_acled": false,
+  "split_rule": "date-based (train 2011-04..2019-12, test 2020-01..2022-12), observed==True rows only",
+  "leads": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    8,
+    12
+  ],
+  "clusters": [
+    "pastoral",
+    "agropastoral",
+    "crop_farming"
+  ],
+  "cells": [
+    {
+      "lhz": "pastoral",
+      "lead": 0,
+      "n_features": 269,
+      "n_train": 620,
+      "n_test": 180,
+      "train_end": "2019-10-01",
+      "test_start": "2020-02-01"
+    },
+    {
+      "lhz": "agropastoral",
+      "lead": 0,
+      "n_features": 255,
+      "n_train": 155,
+      "n_test": 45,
+      "train_end": "2019-10-01",
+      "test_start": "2020-02-01"
+    },
+    {
+      "lhz": "crop_farming",
+      "lead": 0,
+      "n_features": 279,
+      "n_train": 2077,
+      "n_test": 603,
+      "train_end": "2019-10-01",
+      "test_start": "2020-02-01"
+    },
+    {
+      "lhz": "pastoral",
+      "lead": 1,
+      "n_features": 281,
+      "n_train": 620,
+      "n_test": 180,
+      "train_end": "2019-10-01",
+      "test_start": "2020-02-01"
+    },
+    {
+      "lhz": "agropastoral",
+      "lead": 1,
+      "n_features": 267,
+      "n_train": 155,
+      "n_test": 45,
+      "train_end": "2019-10-01",
+      "test_start": "2020-02-01"
+    },
+    {
+      "lhz": "crop_farming",
+      "lead": 1,
+      "n_features": 291,
+      "n_train": 2077,
+      "n_test": 603,
+      "train_end": "2019-10-01",
+      "test_start": "2020-02-01"
+    },
+    {
+      "lhz": "pastoral",
+      "lead": 2,
+      "n_features": 269,
+      "n_train": 620,
+      "n_test": 180,
+      "train_end": "2019-10-01",
+      "test_start": "2020-02-01"
+    },
+    {
+      "lhz": "agropastoral",
+      "lead": 2,
+      "n_features": 255,
+      "n_train": 155,
+      "n_test": 45,
+      "train_end": "2019-10-01",
+      "test_start": "2020-02-01"
+    },
+    {
+      "lhz": "crop_farming",
+      "lead": 2,
+      "n_features": 279,
+      "n_train": 2077,
+      "n_test": 603,
+      "train_end": "2019-10-01",
+      "test_start": "2020-02-01"
+    },
+    {
+      "lhz": "pastoral",
+      "lead": 3,
+      "n_features": 278,
+      "n_train": 620,
+      "n_test": 180,
+      "train_end": "2019-10-01",
+      "test_start": "2020-02-01"
+    },
+    {
+      "lhz": "agropastoral",
+      "lead": 3,
+      "n_features": 265,
+      "n_train": 155,
+      "n_test": 45,
+      "train_end": "2019-10-01",
+      "test_start": "2020-02-01"
+    },
+    {
+      "lhz": "crop_farming",
+      "lead": 3,
+      "n_features": 288,
+      "n_train": 2077,
+      "n_test": 603,
+      "train_end": "2019-10-01",
+      "test_start": "2020-02-01"
+    },
+    {
+      "lhz": "pastoral",
+      "lead": 4,
+      "n_features": 269,
+      "n_train": 620,
+      "n_test": 180,
+      "train_end": "2019-10-01",
+      "test_start": "2020-02-01"
+    },
+    {
+      "lhz": "agropastoral",
+      "lead": 4,
+      "n_features": 255,
+      "n_train": 155,
+      "n_test": 45,
+      "train_end": "2019-10-01",
+      "test_start": "2020-02-01"
+    },
+    {
+      "lhz": "crop_farming",
+      "lead": 4,
+      "n_features": 279,
+      "n_train": 2077,
+      "n_test": 603,
+      "train_end": "2019-10-01",
+      "test_start": "2020-02-01"
+    },
+    {
+      "lhz": "pastoral",
+      "lead": 8,
+      "n_features": 269,
+      "n_train": 620,
+      "n_test": 180,
+      "train_end": "2019-10-01",
+      "test_start": "2020-02-01"
+    },
+    {
+      "lhz": "agropastoral",
+      "lead": 8,
+      "n_features": 255,
+      "n_train": 155,
+      "n_test": 45,
+      "train_end": "2019-10-01",
+      "test_start": "2020-02-01"
+    },
+    {
+      "lhz": "crop_farming",
+      "lead": 8,
+      "n_features": 279,
+      "n_train": 2077,
+      "n_test": 603,
+      "train_end": "2019-10-01",
+      "test_start": "2020-02-01"
+    },
+    {
+      "lhz": "pastoral",
+      "lead": 12,
+      "n_features": 269,
+      "n_train": 620,
+      "n_test": 180,
+      "train_end": "2019-10-01",
+      "test_start": "2020-02-01"
+    },
+    {
+      "lhz": "agropastoral",
+      "lead": 12,
+      "n_features": 255,
+      "n_train": 155,
+      "n_test": 45,
+      "train_end": "2019-10-01",
+      "test_start": "2020-02-01"
+    },
+    {
+      "lhz": "crop_farming",
+      "lead": 12,
+      "n_features": 279,
+      "n_train": 2077,
+      "n_test": 603,
+      "train_end": "2019-10-01",
+      "test_start": "2020-02-01"
+    }
+  ]
+}

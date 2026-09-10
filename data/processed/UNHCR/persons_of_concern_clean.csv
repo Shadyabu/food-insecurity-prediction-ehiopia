@@ -1,0 +1,327 @@
+year,country_of_origin,country_of_origin_iso3,refugees,asylum_seekers,idps
+2008,Burundi,BDI,54,61,0
+2008,Cameroon,CMR,0,12,0
+2008,Dem. Rep. of the Congo,COD,225,128,0
+2008,Djibouti,DJI,52,0,0
+2008,Eritrea,ERI,21018,714,0
+2008,Kenya,KEN,2645,0,0
+2008,Rwanda,RWA,7,5,0
+2008,Sudan,SDN,25913,10,0
+2008,Somalia,SOM,33625,710,0
+2008,Uganda,UGA,34,7,0
+2008,Yemen,YEM,0,9,0
+2009,Burundi,BDI,78,22,0
+2009,Dem. Rep. of the Congo,COD,295,146,0
+2009,Congo,COG,0,5,0
+2009,Djibouti,DJI,64,14,0
+2009,Eritrea,ERI,36164,465,0
+2009,Kenya,KEN,2732,1446,0
+2009,Rwanda,RWA,10,0,0
+2009,Sudan,SDN,23516,120,0
+2009,Somalia,SOM,58980,217,0
+2009,Uganda,UGA,32,6,0
+2009,Yemen,YEM,9,0,0
+2010,Burundi,BDI,79,14,0
+2010,Dem. Rep. of the Congo,COD,383,108,0
+2010,Congo,COG,5,0,0
+2010,Djibouti,DJI,62,10,0
+2010,Eritrea,ERI,44791,143,0
+2010,Kenya,KEN,2425,335,0
+2010,Rwanda,RWA,12,7,0
+2010,Sudan,SDN,25238,100,0
+2010,Somalia,SOM,81247,297,0
+2010,Uganda,UGA,34,0,0
+2010,Yemen,YEM,12,0,0
+2011,Burundi,BDI,64,12,0
+2011,Cote d'Ivoire,CIV,5,0,0
+2011,Dem. Rep. of the Congo,COD,534,30,0
+2011,Djibouti,DJI,70,0,0
+2011,Eritrea,ERI,54896,50,0
+2011,Kenya,KEN,2454,303,0
+2011,Liberia,LBR,0,5,0
+2011,Rwanda,RWA,13,7,0
+2011,Sudan,SDN,45286,728,0
+2011,Somalia,SOM,185466,138,0
+2011,Uganda,UGA,29,0,0
+2011,Yemen,YEM,22,67,0
+2012,Burundi,BDI,66,12,0
+2012,Cote d'Ivoire,CIV,5,0,0
+2012,Dem. Rep. of the Congo,COD,582,149,0
+2012,Djibouti,DJI,74,0,0
+2012,Eritrea,ERI,63771,52,0
+2012,Ethiopia,ETH,0,0,0
+2012,Kenya,KEN,2894,0,0
+2012,Liberia,LBR,0,5,0
+2012,Rwanda,RWA,12,6,0
+2012,Sudan,SDN,27175,271,0
+2012,Somalia,SOM,223031,212,0
+2012,South Sudan,SSD,58715,21,0
+2012,Uganda,UGA,20,0,0
+2012,Yemen,YEM,43,109,0
+2013,Burundi,BDI,59,21,0
+2013,Cote d'Ivoire,CIV,5,0,0
+2013,Dem. Rep. of the Congo,COD,516,466,0
+2013,Congo,COG,0,5,0
+2013,Djibouti,DJI,75,0,0
+2013,Eritrea,ERI,84377,9,0
+2013,Ethiopia,ETH,0,0,0
+2013,Kenya,KEN,2894,0,0
+2013,Liberia,LBR,0,5,0
+2013,Nigeria,NGA,5,0,0
+2013,Rwanda,RWA,11,6,0
+2013,Sudan,SDN,33582,309,0
+2013,Somalia,SOM,240825,7,0
+2013,South Sudan,SSD,71506,27,0
+2013,Uganda,UGA,20,0,0
+2013,Yemen,YEM,58,75,0
+2014,Burundi,BDI,62,44,0
+2014,Cote d'Ivoire,CIV,5,0,0
+2014,Dem. Rep. of the Congo,COD,427,580,0
+2014,Congo,COG,0,5,0
+2014,Djibouti,DJI,76,0,0
+2014,Egypt,EGY,0,5,0
+2014,Eritrea,ERI,123784,14,0
+2014,Ethiopia,ETH,0,0,0
+2014,Kenya,KEN,2728,348,0
+2014,Liberia,LBR,0,5,0
+2014,Nigeria,NGA,5,0,0
+2014,Rwanda,RWA,11,6,0
+2014,Sudan,SDN,35447,278,0
+2014,Somalia,SOM,245097,2683,0
+2014,South Sudan,SSD,251791,65,0
+2014,Syrian Arab Rep.,SYR,0,8,0
+2014,Uganda,UGA,22,0,0
+2014,Yemen,YEM,65,79,0
+2015,Burundi,BDI,52,56,0
+2015,Cote d'Ivoire,CIV,5,0,0
+2015,Dem. Rep. of the Congo,COD,426,620,0
+2015,Cuba,CUB,0,5,0
+2015,Djibouti,DJI,76,0,0
+2015,Egypt,EGY,5,0,0
+2015,Eritrea,ERI,155231,0,0
+2015,Iraq,IRQ,0,7,0
+2015,Kenya,KEN,3193,346,0
+2015,Liberia,LBR,0,5,0
+2015,Rwanda,RWA,11,6,0
+2015,Sudan,SDN,37785,386,0
+2015,Somalia,SOM,256669,0,0
+2015,South Sudan,SSD,281508,439,0
+2015,Syrian Arab Rep.,SYR,9,15,0
+2015,Uganda,UGA,23,5,0
+2015,Yemen,YEM,1088,236,0
+2016,Burundi,BDI,57,63,0
+2016,Cote d'Ivoire,CIV,5,0,0
+2016,Dem. Rep. of the Congo,COD,444,587,0
+2016,Cuba,CUB,5,0,0
+2016,Djibouti,DJI,81,0,0
+2016,Egypt,EGY,5,0,0
+2016,Eritrea,ERI,165548,78,0
+2016,Ethiopia,ETH,0,0,0
+2016,Iraq,IRQ,10,0,0
+2016,Kenya,KEN,3326,412,0
+2016,Rwanda,RWA,11,6,0
+2016,Sudan,SDN,39896,447,0
+2016,Somalia,SOM,242014,79,0
+2016,South Sudan,SSD,338774,47,0
+2016,Syrian Arab Rep.,SYR,9,48,0
+2016,Uganda,UGA,23,5,0
+2016,Yemen,YEM,1423,176,0
+2017,Burundi,BDI,58,74,0
+2017,Cote d'Ivoire,CIV,5,0,0
+2017,Dem. Rep. of the Congo,COD,530,523,0
+2017,Cuba,CUB,5,0,0
+2017,Djibouti,DJI,76,8,0
+2017,Egypt,EGY,5,0,0
+2017,Eritrea,ERI,164605,216,0
+2017,Ethiopia,ETH,0,0,1078429
+2017,Iraq,IRQ,10,0,0
+2017,Kenya,KEN,3459,429,0
+2017,Rwanda,RWA,10,6,0
+2017,Sudan,SDN,43892,497,0
+2017,Somalia,SOM,253779,83,0
+2017,South Sudan,SSD,421373,494,0
+2017,Syrian Arab Rep.,SYR,9,67,0
+2017,Uganda,UGA,18,5,0
+2017,Yemen,YEM,1578,191,0
+2018,Burundi,BDI,62,68,0
+2018,Cote d'Ivoire,CIV,5,0,0
+2018,Dem. Rep. of the Congo,COD,552,297,0
+2018,Cuba,CUB,5,0,0
+2018,Djibouti,DJI,79,8,0
+2018,Egypt,EGY,5,0,0
+2018,Eritrea,ERI,173965,139,0
+2018,Ethiopia,ETH,0,0,2615800
+2018,Iraq,IRQ,10,0,0
+2018,Kenya,KEN,3471,429,0
+2018,Rwanda,RWA,11,6,0
+2018,Sudan,SDN,44003,437,0
+2018,Somalia,SOM,257199,84,0
+2018,South Sudan,SSD,422135,400,0
+2018,Syrian Arab Rep.,SYR,9,70,0
+2018,Uganda,UGA,17,5,0
+2018,Yemen,YEM,1698,193,0
+2019,Burundi,BDI,59,71,0
+2019,Cote d'Ivoire,CIV,5,0,0
+2019,Cameroon,CMR,0,5,0
+2019,Dem. Rep. of the Congo,COD,731,246,0
+2019,Cuba,CUB,5,0,0
+2019,Djibouti,DJI,49,0,0
+2019,Egypt,EGY,5,0,0
+2019,Eritrea,ERI,158596,94,0
+2019,Ethiopia,ETH,0,0,1733628
+2019,Iraq,IRQ,10,0,0
+2019,Kenya,KEN,4033,0,0
+2019,Nigeria,NGA,0,5,0
+2019,State of Palestine,PSE,0,5,0
+2019,Rwanda,RWA,11,6,0
+2019,Sudan,SDN,41479,480,0
+2019,Somalia,SOM,192181,55,0
+2019,South Sudan,SSD,334014,168,0
+2019,Syrian Arab Rep.,SYR,0,410,0
+2019,Uganda,UGA,19,5,0
+2019,Yemen,YEM,1926,127,0
+2020,Burundi,BDI,59,72,0
+2020,Cote d'Ivoire,CIV,5,0,0
+2020,Cameroon,CMR,0,5,0
+2020,Dem. Rep. of the Congo,COD,738,282,0
+2020,Cuba,CUB,5,0,0
+2020,Djibouti,DJI,49,0,0
+2020,Egypt,EGY,5,0,0
+2020,Eritrea,ERI,181091,180,0
+2020,Ethiopia,ETH,0,0,2733628
+2020,Iraq,IRQ,10,0,0
+2020,Jordan,JOR,0,10,0
+2020,Kenya,KEN,4022,0,0
+2020,Nigeria,NGA,0,5,0
+2020,State of Palestine,PSE,0,5,0
+2020,Rwanda,RWA,13,7,0
+2020,Sudan,SDN,43566,532,0
+2020,Somalia,SOM,203803,46,0
+2020,South Sudan,SSD,365030,206,0
+2020,Syrian Arab Rep.,SYR,6,424,0
+2020,Uganda,UGA,7,5,0
+2020,Yemen,YEM,2045,122,0
+2021,Burundi,BDI,55,74,0
+2021,Cote d'Ivoire,CIV,5,0,0
+2021,Cameroon,CMR,0,5,0
+2021,Dem. Rep. of the Congo,COD,769,294,0
+2021,Cuba,CUB,5,0,0
+2021,Djibouti,DJI,56,5,0
+2021,Egypt,EGY,5,0,0
+2021,Eritrea,ERI,158294,236,0
+2021,Ethiopia,ETH,0,0,3646267
+2021,Iraq,IRQ,10,0,0
+2021,Jordan,JOR,0,19,0
+2021,Kenya,KEN,4033,0,0
+2021,Lebanon,LBN,0,18,0
+2021,Mali,MLI,0,5,0
+2021,Nigeria,NGA,5,5,0
+2021,State of Palestine,PSE,0,14,0
+2021,Rwanda,RWA,11,7,0
+2021,Sudan,SDN,45843,590,0
+2021,Somalia,SOM,223018,44,0
+2021,South Sudan,SSD,386750,179,0
+2021,Syrian Arab Rep.,SYR,38,629,0
+2021,Chad,TCD,0,5,0
+2021,Uganda,UGA,13,5,0
+2021,Yemen,YEM,2373,117,0
+2022,Burundi,BDI,64,67,0
+2022,Cote d'Ivoire,CIV,5,0,0
+2022,Dem. Rep. of the Congo,COD,848,209,0
+2022,Cuba,CUB,5,0,0
+2022,Djibouti,DJI,53,5,0
+2022,Egypt,EGY,5,0,0
+2022,Eritrea,ERI,162812,254,0
+2022,Ethiopia,ETH,0,0,2730000
+2022,Iraq,IRQ,10,0,0
+2022,Jordan,JOR,0,19,0
+2022,Kenya,KEN,4023,0,0
+2022,Lebanon,LBN,0,18,0
+2022,Mali,MLI,0,5,0
+2022,Nigeria,NGA,5,5,0
+2022,State of Palestine,PSE,0,13,0
+2022,Rwanda,RWA,11,7,0
+2022,Sudan,SDN,48020,666,0
+2022,Somalia,SOM,251842,51,0
+2022,South Sudan,SSD,409422,202,0
+2022,Syrian Arab Rep.,SYR,69,599,0
+2022,Chad,TCD,0,5,0
+2022,Uganda,UGA,11,5,0
+2022,Yemen,YEM,2393,84,0
+2023,Afghanistan,AFG,0,5,0
+2023,Burundi,BDI,75,55,0
+2023,Cote d'Ivoire,CIV,5,0,0
+2023,Dem. Rep. of the Congo,COD,864,177,0
+2023,Cuba,CUB,5,0,0
+2023,Djibouti,DJI,55,5,0
+2023,Egypt,EGY,5,0,0
+2023,Eritrea,ERI,169074,7776,0
+2023,Ethiopia,ETH,0,0,2561497
+2023,Iraq,IRQ,10,0,0
+2023,Jordan,JOR,0,19,0
+2023,Kenya,KEN,4024,0,0
+2023,Lebanon,LBN,0,18,0
+2023,Mali,MLI,0,5,0
+2023,Nigeria,NGA,0,6,0
+2023,State of Palestine,PSE,7,6,0
+2023,Rwanda,RWA,11,7,0
+2023,Sudan,SDN,77424,402,0
+2023,Somalia,SOM,307500,46185,0
+2023,South Sudan,SSD,418231,8432,0
+2023,Syrian Arab Rep.,SYR,110,569,0
+2023,Chad,TCD,0,5,0
+2023,Uganda,UGA,12,6,0
+2023,Yemen,YEM,2434,69,0
+2024,Afghanistan,AFG,0,5,0
+2024,Burundi,BDI,77,53,0
+2024,Central African Rep.,CAF,0,7,0
+2024,Cameroon,CMR,0,7,0
+2024,Dem. Rep. of the Congo,COD,749,204,0
+2024,Cuba,CUB,5,0,0
+2024,Djibouti,DJI,48,8,0
+2024,Egypt,EGY,5,0,0
+2024,Eritrea,ERI,171105,8012,0
+2024,Ethiopia,ETH,0,0,2272533
+2024,Iraq,IRQ,10,0,0
+2024,Jordan,JOR,0,19,0
+2024,Kenya,KEN,5640,9,0
+2024,Lebanon,LBN,5,24,0
+2024,Liberia,LBR,0,17,0
+2024,Mali,MLI,0,5,0
+2024,Nigeria,NGA,0,23,0
+2024,State of Palestine,PSE,7,13,0
+2024,Rwanda,RWA,11,7,0
+2024,Sudan,SDN,90442,378,0
+2024,Sierra Leone,SLE,0,9,0
+2024,Somalia,SOM,317973,43961,0
+2024,South Sudan,SSD,420129,9547,0
+2024,Syrian Arab Rep.,SYR,118,630,0
+2024,Chad,TCD,0,5,0
+2024,Uganda,UGA,14,5,0
+2024,Yemen,YEM,2488,107,0
+2025,Afghanistan,AFG,0,5,0
+2025,Burundi,BDI,88,48,0
+2025,Central African Rep.,CAF,0,5,0
+2025,Cameroon,CMR,0,5,0
+2025,Dem. Rep. of the Congo,COD,726,187,0
+2025,Cuba,CUB,5,0,0
+2025,Djibouti,DJI,48,8,0
+2025,Eritrea,ERI,162126,7509,0
+2025,Ethiopia,ETH,0,0,2378000
+2025,Iraq,IRQ,10,0,0
+2025,Jordan,JOR,0,19,0
+2025,Kenya,KEN,5639,10,0
+2025,Lebanon,LBN,5,24,0
+2025,Liberia,LBR,0,15,0
+2025,Mali,MLI,0,5,0
+2025,Nigeria,NGA,0,24,0
+2025,State of Palestine,PSE,9,11,0
+2025,Rwanda,RWA,11,7,0
+2025,Sudan,SDN,98493,431,0
+2025,Sierra Leone,SLE,0,9,0
+2025,Somalia,SOM,317879,43993,0
+2025,South Sudan,SSD,422871,59946,0
+2025,Syrian Arab Rep.,SYR,146,604,0
+2025,Chad,TCD,0,5,0
+2025,Uganda,UGA,15,5,0
+2025,Yemen,YEM,2395,112,0

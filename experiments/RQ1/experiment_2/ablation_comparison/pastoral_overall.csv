@@ -1,0 +1,7 @@
+variant,label,n,mean_f1_weighted,mean_mae
+baseline,All clusters (baseline),1260,0.5525573620366677,0.4538644855590647
+no_climate,No climate,1260,0.5682910791525023,0.4335897850267703
+no_agriculture,No agriculture,1260,0.5325141583860283,0.4617475071665485
+no_economic,No economic,1260,0.4431101594260994,0.5436422972562704
+no_conflict,No conflict (ACLED+UNHCR),1260,0.5510923823499125,0.4514277804517264
+busker_arch,"Busker architecture (reference, test ends 2022-06)",1120,0.5880447426127036,0.3760827777467119

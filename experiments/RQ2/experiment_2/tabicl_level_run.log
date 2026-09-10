@@ -1,0 +1,43 @@
+
+fitting 7 pooled TabICLv2 classifiers (one per lead)
+  lead 0:
+    lead  0 [default ] n= 828 n_feat= 83 acc 0.6836 (persistence 0.6703) F1w 0.6822 (persistence 0.6593)
+    lead  0 [extended] n=1380 n_feat= 83 acc 0.6703 (persistence 0.6486) F1w 0.6621 (persistence 0.6348)
+  lead 1:
+    lead  1 [default ] n= 828 n_feat= 83 acc 0.6812 (persistence 0.6703) F1w 0.6772 (persistence 0.6593)
+    lead  1 [extended] n=1380 n_feat= 83 acc 0.6710 (persistence 0.6486) F1w 0.6617 (persistence 0.6348)
+  lead 2:
+    lead  2 [default ] n= 828 n_feat= 83 acc 0.6691 (persistence 0.6703) F1w 0.6593 (persistence 0.6593)
+    lead  2 [extended] n=1380 n_feat= 83 acc 0.6543 (persistence 0.6486) F1w 0.6362 (persistence 0.6348)
+  lead 3:
+    lead  3 [default ] n= 828 n_feat= 83 acc 0.6389 (persistence 0.6703) F1w 0.6182 (persistence 0.6593)
+    lead  3 [extended] n=1380 n_feat= 83 acc 0.6587 (persistence 0.6486) F1w 0.6324 (persistence 0.6348)
+  lead 4:
+    lead  4 [default ] n= 828 n_feat= 83 acc 0.6268 (persistence 0.6413) F1w 0.6038 (persistence 0.6240)
+    lead  4 [extended] n=1380 n_feat= 83 acc 0.6210 (persistence 0.6312) F1w 0.5925 (persistence 0.6155)
+  lead 8:
+    lead  8 [default ] n= 828 n_feat= 83 acc 0.6075 (persistence 0.5978) F1w 0.5779 (persistence 0.5696)
+    lead  8 [extended] n=1380 n_feat= 83 acc 0.6304 (persistence 0.6145) F1w 0.5996 (persistence 0.5946)
+  lead 12:
+    lead 12 [default ] n= 828 n_feat= 83 acc 0.6377 (persistence 0.5906) F1w 0.6165 (persistence 0.5534)
+    lead 12 [extended] n=1380 n_feat= 83 acc 0.6210 (persistence 0.5848) F1w 0.5916 (persistence 0.5606)
+
+Per-lead, pooled over all zones (model | persistence):
+                  n  accuracy  accuracy_baseline  f1_weighted  f1_weighted_baseline
+window   lead                                                                      
+default  0      828    0.6836             0.6703       0.6822                0.6593
+         1      828    0.6812             0.6703       0.6772                0.6593
+         2      828    0.6691             0.6703       0.6593                0.6593
+         3      828    0.6389             0.6703       0.6182                0.6593
+         4      828    0.6268             0.6413       0.6038                0.6240
+         8      828    0.6075             0.5978       0.5779                0.5696
+         12     828    0.6377             0.5906       0.6165                0.5534
+extended 0     1380    0.6703             0.6486       0.6621                0.6348
+         1     1380    0.6710             0.6486       0.6617                0.6348
+         2     1380    0.6543             0.6486       0.6362                0.6348
+         3     1380    0.6587             0.6486       0.6324                0.6348
+         4     1380    0.6210             0.6312       0.5925                0.6155
+         8     1380    0.6304             0.6145       0.5996                0.5946
+         12    1380    0.6210             0.5848       0.5916                0.5606
+
+wrote tabicl_level

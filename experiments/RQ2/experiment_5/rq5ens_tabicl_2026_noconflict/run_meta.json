@@ -1,0 +1,36 @@
+{
+  "run_at": "2026-09-02T18:01:55",
+  "git_sha": "d17391825b352c1040a30d00995f9e884ee638f7",
+  "model_tables_dir": "../../../data/processed/model_tables",
+  "importance_path": "feature_importance_noconflict.csv",
+  "top_n_features": 80,
+  "n_features_by_lead": {
+    "0": 83,
+    "1": 83,
+    "2": 83,
+    "3": 83,
+    "4": 83,
+    "8": 83,
+    "12": 83
+  },
+  "architecture": {
+    "type": "pooled per-lead TabICLv2Classifier",
+    "package": "tabicl",
+    "device": "cpu",
+    "target_col": "ipc_phase_20pct",
+    "seed": 42
+  },
+  "windows": {
+    "default": "train <=2019-12, test 2020-01..2022-12 (Busker-parity split)",
+    "extended": "same training data, test 2026-01..2026-06"
+  },
+  "leads": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    8,
+    12
+  ]
+}

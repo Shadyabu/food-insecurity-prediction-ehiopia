@@ -1,0 +1,5 @@
+model_a,model_b,cluster,n_zones,observed_diff_f1,bootstrap_sd,ci_95_lo,ci_95_hi,p_two_sided_approx,ci_excludes_zero
+exp2_unhcr_delta_noclimate,exp1_busker_arch_reproduction,all,92,0.0233,0.0119,0.0014,0.048,0.044,True
+exp2_unhcr_delta_noclimate,exp1_busker_arch_reproduction,pastoral,20,0.0341,0.0296,-0.0231,0.0868,0.272,False
+exp2_unhcr_delta_noclimate,exp1_busker_arch_reproduction,agropastoral,5,-0.0991,0.0326,-0.1589,-0.0306,0.02,True
+exp2_unhcr_delta_noclimate,exp1_busker_arch_reproduction,crop_farming,67,0.0301,0.0122,0.0067,0.0544,0.008,True

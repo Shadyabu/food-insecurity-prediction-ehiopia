@@ -1,0 +1,55 @@
+{
+  "scale": "1-5",
+  "zone_level": {
+    "n": 92,
+    "rho": -0.27780455532629067,
+    "p_value": 0.007336539763572032,
+    "ci_low": -0.46456712385688,
+    "ci_high": -0.07803917643580911,
+    "n_boot": 5000,
+    "n_boot_degenerate": 0,
+    "reject_h0_at_0.05": true
+  },
+  "lhz_level": {
+    "n": 3,
+    "rho": 0.5,
+    "p_value": 0.6666666666666666,
+    "ci_low": -1.0,
+    "ci_high": 1.0,
+    "n_boot": 5000,
+    "n_boot_degenerate": 534,
+    "reject_h0_at_0.05": false
+  },
+  "sensitivity_min_cluster": {
+    "n": 92,
+    "rho": -0.4428514622770228,
+    "p_value": 9.849837305040918e-06,
+    "ci_low": -0.6029606922732255,
+    "ci_high": -0.2597313800348069,
+    "n_boot": 5000,
+    "n_boot_degenerate": 0,
+    "reject_h0_at_0.05": true
+  },
+  "robustness_excl_constant_target": {
+    "n": 64,
+    "rho": -0.0800421276243026,
+    "p_value": 0.5295281217899253,
+    "ci_low": -0.32409233089289724,
+    "ci_high": 0.16780271695609628,
+    "n_boot": 5000,
+    "n_boot_degenerate": 0,
+    "reject_h0_at_0.05": false
+  },
+  "n_constant_target_zones": 28,
+  "n_zones_excluded": 0,
+  "confounds": {
+    "conflict intensity (mean ACLED events/month)": {
+      "rho": 0.371109706668646,
+      "p_value": 0.00027068806777868945
+    },
+    "typical food-insecurity severity (mean ipc_continuous)": {
+      "rho": 0.11210999093677873,
+      "p_value": 0.28733902265846933
+    }
+  }
+}

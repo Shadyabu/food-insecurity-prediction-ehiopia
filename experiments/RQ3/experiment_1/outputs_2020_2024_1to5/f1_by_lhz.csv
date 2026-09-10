@@ -1,0 +1,4 @@
+lhz,n_test_obs,n_unique_true_classes,trivial_constant_target,excluded,f1_weighted,balanced_accuracy
+agropastoral,525,3,False,False,0.6957811405741925,0.6806120993540764
+crop_farming,7035,4,False,False,0.7374890246867332,0.5654554765015394
+pastoral,2100,4,False,False,0.6137770625004667,0.4280611053945388

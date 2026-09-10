@@ -1,0 +1,32 @@
+{
+  "run_at": "2026-08-24T16:44:28",
+  "git_sha": "d17391825b352c1040a30d00995f9e884ee638f7",
+  "sequences_dir": "experiments/RQ2/experiment_1/sequences",
+  "target_mode": "level",
+  "architecture": {
+    "type": "pooled per-lead LSTM",
+    "hidden_size": 64,
+    "dense_size": 32,
+    "dropout": 0.2,
+    "lr": 0.001,
+    "weight_decay": 1e-05,
+    "batch_size": 64,
+    "max_epochs": 200,
+    "patience": 20,
+    "val_fraction_chronological_tail_of_train": 0.15,
+    "seed": 42
+  },
+  "windows": {
+    "default": "train <=2019-12, test 2020-01..2022-12 (Busker-parity split)",
+    "extended": "same training data, test 2020-01..2024-12"
+  },
+  "leads": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    8,
+    12
+  ]
+}

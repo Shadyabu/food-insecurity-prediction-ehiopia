@@ -1,0 +1,25 @@
+============================================================
+OVERALL SUMMARY
+============================================================
+Shape: (19504, 9)
+Zones: 92 (expected 92)
+Date range: 2009-01-01 to 2026-08-01
+
+PASS: glofas_source_lead1/lead3 only take documented values.
+PASS: glofas_reach_count is constant per zone (static property).
+PASS: all 1272 zero-reach-count rows have exactly 0.0 exceedance across all four columns.
+
+Zones with glofas_reach_count == 0: 6 / 92
+
+============================================================
+SANITY CHECK: Awash-basin vs. dry-lowland zones
+============================================================
+Awash-basin candidate zones matched by name: 5
+Dry-lowland candidate zones matched by name: 1
+
+Awash-candidate glofas_reach_count: mean 43.2, zones with reach_count > 0: 5/5
+Dry-lowland-candidate glofas_reach_count: mean 166.0, zones with reach_count > 0: 1/1
+
+Awash-candidate glofas_exceed_2yr_lead1: mean 0.1361, max 1.0000
+
+This is a directional sanity check only -- no independent numeric reference exists for this source (Sec 1 of the pipeline doc). If Awash-candidate zones do NOT show materially higher reach_count/exceedance activity than dry-lowland zones, investigate the zone-name hint lists above and the network-threshold value (NETWORK_THRESHOLD_KM2 in fetch_glofas_static.py) before trusting the pipeline's output.

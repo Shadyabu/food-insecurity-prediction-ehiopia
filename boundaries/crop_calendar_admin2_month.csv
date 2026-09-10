@@ -1,0 +1,1105 @@
+zone_code,zone_name,region,season_system,month,is_harvest_season,is_lean_season,is_dry_season,months_since_harvest_start,months_since_lean_start
+ET0508,Afder,Somali,somali_gu_deyr,1,True,False,False,0,8
+ET0508,Afder,Somali,somali_gu_deyr,2,False,True,False,1,0
+ET0508,Afder,Somali,somali_gu_deyr,3,False,True,False,2,1
+ET0508,Afder,Somali,somali_gu_deyr,4,False,True,False,3,2
+ET0508,Afder,Somali,somali_gu_deyr,5,False,True,False,4,0
+ET0508,Afder,Somali,somali_gu_deyr,6,False,True,False,5,1
+ET0508,Afder,Somali,somali_gu_deyr,7,True,False,False,0,2
+ET0508,Afder,Somali,somali_gu_deyr,8,False,False,True,1,3
+ET0508,Afder,Somali,somali_gu_deyr,9,False,False,True,2,4
+ET0508,Afder,Somali,somali_gu_deyr,10,False,False,True,3,5
+ET0508,Afder,Somali,somali_gu_deyr,11,False,False,True,4,6
+ET0508,Afder,Somali,somali_gu_deyr,12,False,False,True,5,7
+ET1202,Agnewak,Gambela,national_belg_meher,1,True,False,False,3,9
+ET1202,Agnewak,Gambela,national_belg_meher,2,False,False,True,4,10
+ET1202,Agnewak,Gambela,national_belg_meher,3,False,False,True,5,11
+ET1202,Agnewak,Gambela,national_belg_meher,4,False,True,False,6,0
+ET1202,Agnewak,Gambela,national_belg_meher,5,False,True,False,7,1
+ET1202,Agnewak,Gambela,national_belg_meher,6,False,True,False,8,2
+ET1202,Agnewak,Gambela,national_belg_meher,7,True,False,False,0,3
+ET1202,Agnewak,Gambela,national_belg_meher,8,True,False,False,1,4
+ET1202,Agnewak,Gambela,national_belg_meher,9,False,False,True,2,5
+ET1202,Agnewak,Gambela,national_belg_meher,10,True,False,False,0,6
+ET1202,Agnewak,Gambela,national_belg_meher,11,True,False,False,1,7
+ET1202,Agnewak,Gambela,national_belg_meher,12,True,False,False,2,8
+ET0712,Alle,SNNP,national_belg_meher,1,True,False,False,3,9
+ET0712,Alle,SNNP,national_belg_meher,2,False,False,True,4,10
+ET0712,Alle,SNNP,national_belg_meher,3,False,False,True,5,11
+ET0712,Alle,SNNP,national_belg_meher,4,False,True,False,6,0
+ET0712,Alle,SNNP,national_belg_meher,5,False,True,False,7,1
+ET0712,Alle,SNNP,national_belg_meher,6,False,True,False,8,2
+ET0712,Alle,SNNP,national_belg_meher,7,True,False,False,0,3
+ET0712,Alle,SNNP,national_belg_meher,8,True,False,False,1,4
+ET0712,Alle,SNNP,national_belg_meher,9,False,False,True,2,5
+ET0712,Alle,SNNP,national_belg_meher,10,True,False,False,0,6
+ET0712,Alle,SNNP,national_belg_meher,11,True,False,False,1,7
+ET0712,Alle,SNNP,national_belg_meher,12,True,False,False,2,8
+ET0721,Amaro,SNNP,national_belg_meher,1,True,False,False,3,9
+ET0721,Amaro,SNNP,national_belg_meher,2,False,False,True,4,10
+ET0721,Amaro,SNNP,national_belg_meher,3,False,False,True,5,11
+ET0721,Amaro,SNNP,national_belg_meher,4,False,True,False,6,0
+ET0721,Amaro,SNNP,national_belg_meher,5,False,True,False,7,1
+ET0721,Amaro,SNNP,national_belg_meher,6,False,True,False,8,2
+ET0721,Amaro,SNNP,national_belg_meher,7,True,False,False,0,3
+ET0721,Amaro,SNNP,national_belg_meher,8,True,False,False,1,4
+ET0721,Amaro,SNNP,national_belg_meher,9,False,False,True,2,5
+ET0721,Amaro,SNNP,national_belg_meher,10,True,False,False,0,6
+ET0721,Amaro,SNNP,national_belg_meher,11,True,False,False,1,7
+ET0721,Amaro,SNNP,national_belg_meher,12,True,False,False,2,8
+ET0408,Arsi,Oromia,national_belg_meher,1,True,False,False,3,9
+ET0408,Arsi,Oromia,national_belg_meher,2,False,False,True,4,10
+ET0408,Arsi,Oromia,national_belg_meher,3,False,False,True,5,11
+ET0408,Arsi,Oromia,national_belg_meher,4,False,True,False,6,0
+ET0408,Arsi,Oromia,national_belg_meher,5,False,True,False,7,1
+ET0408,Arsi,Oromia,national_belg_meher,6,False,True,False,8,2
+ET0408,Arsi,Oromia,national_belg_meher,7,True,False,False,0,3
+ET0408,Arsi,Oromia,national_belg_meher,8,True,False,False,1,4
+ET0408,Arsi,Oromia,national_belg_meher,9,False,False,True,2,5
+ET0408,Arsi,Oromia,national_belg_meher,10,True,False,False,0,6
+ET0408,Arsi,Oromia,national_belg_meher,11,True,False,False,1,7
+ET0408,Arsi,Oromia,national_belg_meher,12,True,False,False,2,8
+ET0603,Asosa,Benishangul Gumz,benishangul_meher_only,1,True,False,False,3,7
+ET0603,Asosa,Benishangul Gumz,benishangul_meher_only,2,False,False,True,4,8
+ET0603,Asosa,Benishangul Gumz,benishangul_meher_only,3,False,False,True,5,9
+ET0603,Asosa,Benishangul Gumz,benishangul_meher_only,4,False,False,True,6,10
+ET0603,Asosa,Benishangul Gumz,benishangul_meher_only,5,False,False,True,7,11
+ET0603,Asosa,Benishangul Gumz,benishangul_meher_only,6,False,True,False,8,0
+ET0603,Asosa,Benishangul Gumz,benishangul_meher_only,7,False,True,False,9,1
+ET0603,Asosa,Benishangul Gumz,benishangul_meher_only,8,False,True,False,10,2
+ET0603,Asosa,Benishangul Gumz,benishangul_meher_only,9,False,True,False,11,3
+ET0603,Asosa,Benishangul Gumz,benishangul_meher_only,10,True,False,False,0,4
+ET0603,Asosa,Benishangul Gumz,benishangul_meher_only,11,True,False,False,1,5
+ET0603,Asosa,Benishangul Gumz,benishangul_meher_only,12,True,False,False,2,6
+ET0309,Awi,Amhara,national_belg_meher,1,True,False,False,3,9
+ET0309,Awi,Amhara,national_belg_meher,2,False,False,True,4,10
+ET0309,Awi,Amhara,national_belg_meher,3,False,False,True,5,11
+ET0309,Awi,Amhara,national_belg_meher,4,False,True,False,6,0
+ET0309,Awi,Amhara,national_belg_meher,5,False,True,False,7,1
+ET0309,Awi,Amhara,national_belg_meher,6,False,True,False,8,2
+ET0309,Awi,Amhara,national_belg_meher,7,True,False,False,0,3
+ET0309,Awi,Amhara,national_belg_meher,8,True,False,False,1,4
+ET0309,Awi,Amhara,national_belg_meher,9,False,False,True,2,5
+ET0309,Awi,Amhara,national_belg_meher,10,True,False,False,0,6
+ET0309,Awi,Amhara,national_belg_meher,11,True,False,False,1,7
+ET0309,Awi,Amhara,national_belg_meher,12,True,False,False,2,8
+ET0201,Awsi-Zone 1,Afar,national_belg_meher,1,True,False,False,3,9
+ET0201,Awsi-Zone 1,Afar,national_belg_meher,2,False,False,True,4,10
+ET0201,Awsi-Zone 1,Afar,national_belg_meher,3,False,False,True,5,11
+ET0201,Awsi-Zone 1,Afar,national_belg_meher,4,False,True,False,6,0
+ET0201,Awsi-Zone 1,Afar,national_belg_meher,5,False,True,False,7,1
+ET0201,Awsi-Zone 1,Afar,national_belg_meher,6,False,True,False,8,2
+ET0201,Awsi-Zone 1,Afar,national_belg_meher,7,True,False,False,0,3
+ET0201,Awsi-Zone 1,Afar,national_belg_meher,8,True,False,False,1,4
+ET0201,Awsi-Zone 1,Afar,national_belg_meher,9,False,False,True,2,5
+ET0201,Awsi-Zone 1,Afar,national_belg_meher,10,True,False,False,0,6
+ET0201,Awsi-Zone 1,Afar,national_belg_meher,11,True,False,False,1,7
+ET0201,Awsi-Zone 1,Afar,national_belg_meher,12,True,False,False,2,8
+ET0411,Bale,Oromia,national_belg_meher,1,True,False,False,3,9
+ET0411,Bale,Oromia,national_belg_meher,2,False,False,True,4,10
+ET0411,Bale,Oromia,national_belg_meher,3,False,False,True,5,11
+ET0411,Bale,Oromia,national_belg_meher,4,False,True,False,6,0
+ET0411,Bale,Oromia,national_belg_meher,5,False,True,False,7,1
+ET0411,Bale,Oromia,national_belg_meher,6,False,True,False,8,2
+ET0411,Bale,Oromia,national_belg_meher,7,True,False,False,0,3
+ET0411,Bale,Oromia,national_belg_meher,8,True,False,False,1,4
+ET0411,Bale,Oromia,national_belg_meher,9,False,False,True,2,5
+ET0411,Bale,Oromia,national_belg_meher,10,True,False,False,0,6
+ET0411,Bale,Oromia,national_belg_meher,11,True,False,False,1,7
+ET0411,Bale,Oromia,national_belg_meher,12,True,False,False,2,8
+ET0716,Basketo,SNNP,national_belg_meher,1,True,False,False,3,9
+ET0716,Basketo,SNNP,national_belg_meher,2,False,False,True,4,10
+ET0716,Basketo,SNNP,national_belg_meher,3,False,False,True,5,11
+ET0716,Basketo,SNNP,national_belg_meher,4,False,True,False,6,0
+ET0716,Basketo,SNNP,national_belg_meher,5,False,True,False,7,1
+ET0716,Basketo,SNNP,national_belg_meher,6,False,True,False,8,2
+ET0716,Basketo,SNNP,national_belg_meher,7,True,False,False,0,3
+ET0716,Basketo,SNNP,national_belg_meher,8,True,False,False,1,4
+ET0716,Basketo,SNNP,national_belg_meher,9,False,False,True,2,5
+ET0716,Basketo,SNNP,national_belg_meher,10,True,False,False,0,6
+ET0716,Basketo,SNNP,national_belg_meher,11,True,False,False,1,7
+ET0716,Basketo,SNNP,national_belg_meher,12,True,False,False,2,8
+ET1103,Bench Sheko,South West Ethiopia,national_belg_meher,1,True,False,False,3,9
+ET1103,Bench Sheko,South West Ethiopia,national_belg_meher,2,False,False,True,4,10
+ET1103,Bench Sheko,South West Ethiopia,national_belg_meher,3,False,False,True,5,11
+ET1103,Bench Sheko,South West Ethiopia,national_belg_meher,4,False,True,False,6,0
+ET1103,Bench Sheko,South West Ethiopia,national_belg_meher,5,False,True,False,7,1
+ET1103,Bench Sheko,South West Ethiopia,national_belg_meher,6,False,True,False,8,2
+ET1103,Bench Sheko,South West Ethiopia,national_belg_meher,7,True,False,False,0,3
+ET1103,Bench Sheko,South West Ethiopia,national_belg_meher,8,True,False,False,1,4
+ET1103,Bench Sheko,South West Ethiopia,national_belg_meher,9,False,False,True,2,5
+ET1103,Bench Sheko,South West Ethiopia,national_belg_meher,10,True,False,False,0,6
+ET1103,Bench Sheko,South West Ethiopia,national_belg_meher,11,True,False,False,1,7
+ET1103,Bench Sheko,South West Ethiopia,national_belg_meher,12,True,False,False,2,8
+ET0412,Borena,Oromia,national_belg_meher,1,True,False,False,3,9
+ET0412,Borena,Oromia,national_belg_meher,2,False,False,True,4,10
+ET0412,Borena,Oromia,national_belg_meher,3,False,False,True,5,11
+ET0412,Borena,Oromia,national_belg_meher,4,False,True,False,6,0
+ET0412,Borena,Oromia,national_belg_meher,5,False,True,False,7,1
+ET0412,Borena,Oromia,national_belg_meher,6,False,True,False,8,2
+ET0412,Borena,Oromia,national_belg_meher,7,True,False,False,0,3
+ET0412,Borena,Oromia,national_belg_meher,8,True,False,False,1,4
+ET0412,Borena,Oromia,national_belg_meher,9,False,False,True,2,5
+ET0412,Borena,Oromia,national_belg_meher,10,True,False,False,0,6
+ET0412,Borena,Oromia,national_belg_meher,11,True,False,False,1,7
+ET0412,Borena,Oromia,national_belg_meher,12,True,False,False,2,8
+ET0416,Buno Bedele,Oromia,national_belg_meher,1,True,False,False,3,9
+ET0416,Buno Bedele,Oromia,national_belg_meher,2,False,False,True,4,10
+ET0416,Buno Bedele,Oromia,national_belg_meher,3,False,False,True,5,11
+ET0416,Buno Bedele,Oromia,national_belg_meher,4,False,True,False,6,0
+ET0416,Buno Bedele,Oromia,national_belg_meher,5,False,True,False,7,1
+ET0416,Buno Bedele,Oromia,national_belg_meher,6,False,True,False,8,2
+ET0416,Buno Bedele,Oromia,national_belg_meher,7,True,False,False,0,3
+ET0416,Buno Bedele,Oromia,national_belg_meher,8,True,False,False,1,4
+ET0416,Buno Bedele,Oromia,national_belg_meher,9,False,False,True,2,5
+ET0416,Buno Bedele,Oromia,national_belg_meher,10,True,False,False,0,6
+ET0416,Buno Bedele,Oromia,national_belg_meher,11,True,False,False,1,7
+ET0416,Buno Bedele,Oromia,national_belg_meher,12,True,False,False,2,8
+ET0722,Burji,SNNP,national_belg_meher,1,True,False,False,3,9
+ET0722,Burji,SNNP,national_belg_meher,2,False,False,True,4,10
+ET0722,Burji,SNNP,national_belg_meher,3,False,False,True,5,11
+ET0722,Burji,SNNP,national_belg_meher,4,False,True,False,6,0
+ET0722,Burji,SNNP,national_belg_meher,5,False,True,False,7,1
+ET0722,Burji,SNNP,national_belg_meher,6,False,True,False,8,2
+ET0722,Burji,SNNP,national_belg_meher,7,True,False,False,0,3
+ET0722,Burji,SNNP,national_belg_meher,8,True,False,False,1,4
+ET0722,Burji,SNNP,national_belg_meher,9,False,False,True,2,5
+ET0722,Burji,SNNP,national_belg_meher,10,True,False,False,0,6
+ET0722,Burji,SNNP,national_belg_meher,11,True,False,False,1,7
+ET0722,Burji,SNNP,national_belg_meher,12,True,False,False,2,8
+ET0102,Central Tigray,Tigray,national_belg_meher,1,True,False,False,3,9
+ET0102,Central Tigray,Tigray,national_belg_meher,2,False,False,True,4,10
+ET0102,Central Tigray,Tigray,national_belg_meher,3,False,False,True,5,11
+ET0102,Central Tigray,Tigray,national_belg_meher,4,False,True,False,6,0
+ET0102,Central Tigray,Tigray,national_belg_meher,5,False,True,False,7,1
+ET0102,Central Tigray,Tigray,national_belg_meher,6,False,True,False,8,2
+ET0102,Central Tigray,Tigray,national_belg_meher,7,True,False,False,0,3
+ET0102,Central Tigray,Tigray,national_belg_meher,8,True,False,False,1,4
+ET0102,Central Tigray,Tigray,national_belg_meher,9,False,False,True,2,5
+ET0102,Central Tigray,Tigray,national_belg_meher,10,True,False,False,0,6
+ET0102,Central Tigray,Tigray,national_belg_meher,11,True,False,False,1,7
+ET0102,Central Tigray,Tigray,national_belg_meher,12,True,False,False,2,8
+ET0311,Central Gondar,Amhara,national_belg_meher,1,True,False,False,3,9
+ET0311,Central Gondar,Amhara,national_belg_meher,2,False,False,True,4,10
+ET0311,Central Gondar,Amhara,national_belg_meher,3,False,False,True,5,11
+ET0311,Central Gondar,Amhara,national_belg_meher,4,False,True,False,6,0
+ET0311,Central Gondar,Amhara,national_belg_meher,5,False,True,False,7,1
+ET0311,Central Gondar,Amhara,national_belg_meher,6,False,True,False,8,2
+ET0311,Central Gondar,Amhara,national_belg_meher,7,True,False,False,0,3
+ET0311,Central Gondar,Amhara,national_belg_meher,8,True,False,False,1,4
+ET0311,Central Gondar,Amhara,national_belg_meher,9,False,False,True,2,5
+ET0311,Central Gondar,Amhara,national_belg_meher,10,True,False,False,0,6
+ET0311,Central Gondar,Amhara,national_belg_meher,11,True,False,False,1,7
+ET0311,Central Gondar,Amhara,national_belg_meher,12,True,False,False,2,8
+ET0511,Daawa,Somali,somali_gu_deyr,1,True,False,False,0,8
+ET0511,Daawa,Somali,somali_gu_deyr,2,False,True,False,1,0
+ET0511,Daawa,Somali,somali_gu_deyr,3,False,True,False,2,1
+ET0511,Daawa,Somali,somali_gu_deyr,4,False,True,False,3,2
+ET0511,Daawa,Somali,somali_gu_deyr,5,False,True,False,4,0
+ET0511,Daawa,Somali,somali_gu_deyr,6,False,True,False,5,1
+ET0511,Daawa,Somali,somali_gu_deyr,7,True,False,False,0,2
+ET0511,Daawa,Somali,somali_gu_deyr,8,False,False,True,1,3
+ET0511,Daawa,Somali,somali_gu_deyr,9,False,False,True,2,4
+ET0511,Daawa,Somali,somali_gu_deyr,10,False,False,True,3,5
+ET0511,Daawa,Somali,somali_gu_deyr,11,False,False,True,4,6
+ET0511,Daawa,Somali,somali_gu_deyr,12,False,False,True,5,7
+ET1104,Dawuro,South West Ethiopia,national_belg_meher,1,True,False,False,3,9
+ET1104,Dawuro,South West Ethiopia,national_belg_meher,2,False,False,True,4,10
+ET1104,Dawuro,South West Ethiopia,national_belg_meher,3,False,False,True,5,11
+ET1104,Dawuro,South West Ethiopia,national_belg_meher,4,False,True,False,6,0
+ET1104,Dawuro,South West Ethiopia,national_belg_meher,5,False,True,False,7,1
+ET1104,Dawuro,South West Ethiopia,national_belg_meher,6,False,True,False,8,2
+ET1104,Dawuro,South West Ethiopia,national_belg_meher,7,True,False,False,0,3
+ET1104,Dawuro,South West Ethiopia,national_belg_meher,8,True,False,False,1,4
+ET1104,Dawuro,South West Ethiopia,national_belg_meher,9,False,False,True,2,5
+ET1104,Dawuro,South West Ethiopia,national_belg_meher,10,True,False,False,0,6
+ET1104,Dawuro,South West Ethiopia,national_belg_meher,11,True,False,False,1,7
+ET1104,Dawuro,South West Ethiopia,national_belg_meher,12,True,False,False,2,8
+ET0723,Derashe,SNNP,national_belg_meher,1,True,False,False,3,9
+ET0723,Derashe,SNNP,national_belg_meher,2,False,False,True,4,10
+ET0723,Derashe,SNNP,national_belg_meher,3,False,False,True,5,11
+ET0723,Derashe,SNNP,national_belg_meher,4,False,True,False,6,0
+ET0723,Derashe,SNNP,national_belg_meher,5,False,True,False,7,1
+ET0723,Derashe,SNNP,national_belg_meher,6,False,True,False,8,2
+ET0723,Derashe,SNNP,national_belg_meher,7,True,False,False,0,3
+ET0723,Derashe,SNNP,national_belg_meher,8,True,False,False,1,4
+ET0723,Derashe,SNNP,national_belg_meher,9,False,False,True,2,5
+ET0723,Derashe,SNNP,national_belg_meher,10,True,False,False,0,6
+ET0723,Derashe,SNNP,national_belg_meher,11,True,False,False,1,7
+ET0723,Derashe,SNNP,national_belg_meher,12,True,False,False,2,8
+ET1502,Dire Dawa rural,Dire Dawa,national_belg_meher,1,True,False,False,3,9
+ET1502,Dire Dawa rural,Dire Dawa,national_belg_meher,2,False,False,True,4,10
+ET1502,Dire Dawa rural,Dire Dawa,national_belg_meher,3,False,False,True,5,11
+ET1502,Dire Dawa rural,Dire Dawa,national_belg_meher,4,False,True,False,6,0
+ET1502,Dire Dawa rural,Dire Dawa,national_belg_meher,5,False,True,False,7,1
+ET1502,Dire Dawa rural,Dire Dawa,national_belg_meher,6,False,True,False,8,2
+ET1502,Dire Dawa rural,Dire Dawa,national_belg_meher,7,True,False,False,0,3
+ET1502,Dire Dawa rural,Dire Dawa,national_belg_meher,8,True,False,False,1,4
+ET1502,Dire Dawa rural,Dire Dawa,national_belg_meher,9,False,False,True,2,5
+ET1502,Dire Dawa rural,Dire Dawa,national_belg_meher,10,True,False,False,0,6
+ET1502,Dire Dawa rural,Dire Dawa,national_belg_meher,11,True,False,False,1,7
+ET1502,Dire Dawa rural,Dire Dawa,national_belg_meher,12,True,False,False,2,8
+ET1501,Dire Dawa urban,Dire Dawa,national_belg_meher,1,True,False,False,3,9
+ET1501,Dire Dawa urban,Dire Dawa,national_belg_meher,2,False,False,True,4,10
+ET1501,Dire Dawa urban,Dire Dawa,national_belg_meher,3,False,False,True,5,11
+ET1501,Dire Dawa urban,Dire Dawa,national_belg_meher,4,False,True,False,6,0
+ET1501,Dire Dawa urban,Dire Dawa,national_belg_meher,5,False,True,False,7,1
+ET1501,Dire Dawa urban,Dire Dawa,national_belg_meher,6,False,True,False,8,2
+ET1501,Dire Dawa urban,Dire Dawa,national_belg_meher,7,True,False,False,0,3
+ET1501,Dire Dawa urban,Dire Dawa,national_belg_meher,8,True,False,False,1,4
+ET1501,Dire Dawa urban,Dire Dawa,national_belg_meher,9,False,False,True,2,5
+ET1501,Dire Dawa urban,Dire Dawa,national_belg_meher,10,True,False,False,0,6
+ET1501,Dire Dawa urban,Dire Dawa,national_belg_meher,11,True,False,False,1,7
+ET1501,Dire Dawa urban,Dire Dawa,national_belg_meher,12,True,False,False,2,8
+ET0507,Doolo,Somali,somali_gu_deyr,1,True,False,False,0,8
+ET0507,Doolo,Somali,somali_gu_deyr,2,False,True,False,1,0
+ET0507,Doolo,Somali,somali_gu_deyr,3,False,True,False,2,1
+ET0507,Doolo,Somali,somali_gu_deyr,4,False,True,False,3,2
+ET0507,Doolo,Somali,somali_gu_deyr,5,False,True,False,4,0
+ET0507,Doolo,Somali,somali_gu_deyr,6,False,True,False,5,1
+ET0507,Doolo,Somali,somali_gu_deyr,7,True,False,False,0,2
+ET0507,Doolo,Somali,somali_gu_deyr,8,False,False,True,1,3
+ET0507,Doolo,Somali,somali_gu_deyr,9,False,False,True,2,4
+ET0507,Doolo,Somali,somali_gu_deyr,10,False,False,True,3,5
+ET0507,Doolo,Somali,somali_gu_deyr,11,False,False,True,4,6
+ET0507,Doolo,Somali,somali_gu_deyr,12,False,False,True,5,7
+ET0421,East Bale,Oromia,national_belg_meher,1,True,False,False,3,9
+ET0421,East Bale,Oromia,national_belg_meher,2,False,False,True,4,10
+ET0421,East Bale,Oromia,national_belg_meher,3,False,False,True,5,11
+ET0421,East Bale,Oromia,national_belg_meher,4,False,True,False,6,0
+ET0421,East Bale,Oromia,national_belg_meher,5,False,True,False,7,1
+ET0421,East Bale,Oromia,national_belg_meher,6,False,True,False,8,2
+ET0421,East Bale,Oromia,national_belg_meher,7,True,False,False,0,3
+ET0421,East Bale,Oromia,national_belg_meher,8,True,False,False,1,4
+ET0421,East Bale,Oromia,national_belg_meher,9,False,False,True,2,5
+ET0421,East Bale,Oromia,national_belg_meher,10,True,False,False,0,6
+ET0421,East Bale,Oromia,national_belg_meher,11,True,False,False,1,7
+ET0421,East Bale,Oromia,national_belg_meher,12,True,False,False,2,8
+ET0306,East Gojam,Amhara,national_belg_meher,1,True,False,False,3,9
+ET0306,East Gojam,Amhara,national_belg_meher,2,False,False,True,4,10
+ET0306,East Gojam,Amhara,national_belg_meher,3,False,False,True,5,11
+ET0306,East Gojam,Amhara,national_belg_meher,4,False,True,False,6,0
+ET0306,East Gojam,Amhara,national_belg_meher,5,False,True,False,7,1
+ET0306,East Gojam,Amhara,national_belg_meher,6,False,True,False,8,2
+ET0306,East Gojam,Amhara,national_belg_meher,7,True,False,False,0,3
+ET0306,East Gojam,Amhara,national_belg_meher,8,True,False,False,1,4
+ET0306,East Gojam,Amhara,national_belg_meher,9,False,False,True,2,5
+ET0306,East Gojam,Amhara,national_belg_meher,10,True,False,False,0,6
+ET0306,East Gojam,Amhara,national_belg_meher,11,True,False,False,1,7
+ET0306,East Gojam,Amhara,national_belg_meher,12,True,False,False,2,8
+ET0410,East Hararge,Oromia,national_belg_meher,1,True,False,False,3,9
+ET0410,East Hararge,Oromia,national_belg_meher,2,False,False,True,4,10
+ET0410,East Hararge,Oromia,national_belg_meher,3,False,False,True,5,11
+ET0410,East Hararge,Oromia,national_belg_meher,4,False,True,False,6,0
+ET0410,East Hararge,Oromia,national_belg_meher,5,False,True,False,7,1
+ET0410,East Hararge,Oromia,national_belg_meher,6,False,True,False,8,2
+ET0410,East Hararge,Oromia,national_belg_meher,7,True,False,False,0,3
+ET0410,East Hararge,Oromia,national_belg_meher,8,True,False,False,1,4
+ET0410,East Hararge,Oromia,national_belg_meher,9,False,False,True,2,5
+ET0410,East Hararge,Oromia,national_belg_meher,10,True,False,False,0,6
+ET0410,East Hararge,Oromia,national_belg_meher,11,True,False,False,1,7
+ET0410,East Hararge,Oromia,national_belg_meher,12,True,False,False,2,8
+ET0407,East Shewa,Oromia,national_belg_meher,1,True,False,False,3,9
+ET0407,East Shewa,Oromia,national_belg_meher,2,False,False,True,4,10
+ET0407,East Shewa,Oromia,national_belg_meher,3,False,False,True,5,11
+ET0407,East Shewa,Oromia,national_belg_meher,4,False,True,False,6,0
+ET0407,East Shewa,Oromia,national_belg_meher,5,False,True,False,7,1
+ET0407,East Shewa,Oromia,national_belg_meher,6,False,True,False,8,2
+ET0407,East Shewa,Oromia,national_belg_meher,7,True,False,False,0,3
+ET0407,East Shewa,Oromia,national_belg_meher,8,True,False,False,1,4
+ET0407,East Shewa,Oromia,national_belg_meher,9,False,False,True,2,5
+ET0407,East Shewa,Oromia,national_belg_meher,10,True,False,False,0,6
+ET0407,East Shewa,Oromia,national_belg_meher,11,True,False,False,1,7
+ET0407,East Shewa,Oromia,national_belg_meher,12,True,False,False,2,8
+ET0402,East Wellega,Oromia,national_belg_meher,1,True,False,False,3,9
+ET0402,East Wellega,Oromia,national_belg_meher,2,False,False,True,4,10
+ET0402,East Wellega,Oromia,national_belg_meher,3,False,False,True,5,11
+ET0402,East Wellega,Oromia,national_belg_meher,4,False,True,False,6,0
+ET0402,East Wellega,Oromia,national_belg_meher,5,False,True,False,7,1
+ET0402,East Wellega,Oromia,national_belg_meher,6,False,True,False,8,2
+ET0402,East Wellega,Oromia,national_belg_meher,7,True,False,False,0,3
+ET0402,East Wellega,Oromia,national_belg_meher,8,True,False,False,1,4
+ET0402,East Wellega,Oromia,national_belg_meher,9,False,False,True,2,5
+ET0402,East Wellega,Oromia,national_belg_meher,10,True,False,False,0,6
+ET0402,East Wellega,Oromia,national_belg_meher,11,True,False,False,1,7
+ET0402,East Wellega,Oromia,national_belg_meher,12,True,False,False,2,8
+ET0103,Eastern Tigray,Tigray,national_belg_meher,1,True,False,False,3,9
+ET0103,Eastern Tigray,Tigray,national_belg_meher,2,False,False,True,4,10
+ET0103,Eastern Tigray,Tigray,national_belg_meher,3,False,False,True,5,11
+ET0103,Eastern Tigray,Tigray,national_belg_meher,4,False,True,False,6,0
+ET0103,Eastern Tigray,Tigray,national_belg_meher,5,False,True,False,7,1
+ET0103,Eastern Tigray,Tigray,national_belg_meher,6,False,True,False,8,2
+ET0103,Eastern Tigray,Tigray,national_belg_meher,7,True,False,False,0,3
+ET0103,Eastern Tigray,Tigray,national_belg_meher,8,True,False,False,1,4
+ET0103,Eastern Tigray,Tigray,national_belg_meher,9,False,False,True,2,5
+ET0103,Eastern Tigray,Tigray,national_belg_meher,10,True,False,False,0,6
+ET0103,Eastern Tigray,Tigray,national_belg_meher,11,True,False,False,1,7
+ET0103,Eastern Tigray,Tigray,national_belg_meher,12,True,False,False,2,8
+ET0504,Erer,Somali,somali_gu_deyr,1,True,False,False,0,8
+ET0504,Erer,Somali,somali_gu_deyr,2,False,True,False,1,0
+ET0504,Erer,Somali,somali_gu_deyr,3,False,True,False,2,1
+ET0504,Erer,Somali,somali_gu_deyr,4,False,True,False,3,2
+ET0504,Erer,Somali,somali_gu_deyr,5,False,True,False,4,0
+ET0504,Erer,Somali,somali_gu_deyr,6,False,True,False,5,1
+ET0504,Erer,Somali,somali_gu_deyr,7,True,False,False,0,2
+ET0504,Erer,Somali,somali_gu_deyr,8,False,False,True,1,3
+ET0504,Erer,Somali,somali_gu_deyr,9,False,False,True,2,4
+ET0504,Erer,Somali,somali_gu_deyr,10,False,False,True,3,5
+ET0504,Erer,Somali,somali_gu_deyr,11,False,False,True,4,6
+ET0504,Erer,Somali,somali_gu_deyr,12,False,False,True,5,7
+ET0502,Fafan,Somali,somali_gu_deyr,1,True,False,False,0,8
+ET0502,Fafan,Somali,somali_gu_deyr,2,False,True,False,1,0
+ET0502,Fafan,Somali,somali_gu_deyr,3,False,True,False,2,1
+ET0502,Fafan,Somali,somali_gu_deyr,4,False,True,False,3,2
+ET0502,Fafan,Somali,somali_gu_deyr,5,False,True,False,4,0
+ET0502,Fafan,Somali,somali_gu_deyr,6,False,True,False,5,1
+ET0502,Fafan,Somali,somali_gu_deyr,7,True,False,False,0,2
+ET0502,Fafan,Somali,somali_gu_deyr,8,False,False,True,1,3
+ET0502,Fafan,Somali,somali_gu_deyr,9,False,False,True,2,4
+ET0502,Fafan,Somali,somali_gu_deyr,10,False,False,True,3,5
+ET0502,Fafan,Somali,somali_gu_deyr,11,False,False,True,4,6
+ET0502,Fafan,Somali,somali_gu_deyr,12,False,False,True,5,7
+ET0204,Fanti-Zone 4,Afar,national_belg_meher,1,True,False,False,3,9
+ET0204,Fanti-Zone 4,Afar,national_belg_meher,2,False,False,True,4,10
+ET0204,Fanti-Zone 4,Afar,national_belg_meher,3,False,False,True,5,11
+ET0204,Fanti-Zone 4,Afar,national_belg_meher,4,False,True,False,6,0
+ET0204,Fanti-Zone 4,Afar,national_belg_meher,5,False,True,False,7,1
+ET0204,Fanti-Zone 4,Afar,national_belg_meher,6,False,True,False,8,2
+ET0204,Fanti-Zone 4,Afar,national_belg_meher,7,True,False,False,0,3
+ET0204,Fanti-Zone 4,Afar,national_belg_meher,8,True,False,False,1,4
+ET0204,Fanti-Zone 4,Afar,national_belg_meher,9,False,False,True,2,5
+ET0204,Fanti-Zone 4,Afar,national_belg_meher,10,True,False,False,0,6
+ET0204,Fanti-Zone 4,Afar,national_belg_meher,11,True,False,False,1,7
+ET0204,Fanti-Zone 4,Afar,national_belg_meher,12,True,False,False,2,8
+ET0420,Finfine Special,Oromia,national_belg_meher,1,True,False,False,3,9
+ET0420,Finfine Special,Oromia,national_belg_meher,2,False,False,True,4,10
+ET0420,Finfine Special,Oromia,national_belg_meher,3,False,False,True,5,11
+ET0420,Finfine Special,Oromia,national_belg_meher,4,False,True,False,6,0
+ET0420,Finfine Special,Oromia,national_belg_meher,5,False,True,False,7,1
+ET0420,Finfine Special,Oromia,national_belg_meher,6,False,True,False,8,2
+ET0420,Finfine Special,Oromia,national_belg_meher,7,True,False,False,0,3
+ET0420,Finfine Special,Oromia,national_belg_meher,8,True,False,False,1,4
+ET0420,Finfine Special,Oromia,national_belg_meher,9,False,False,True,2,5
+ET0420,Finfine Special,Oromia,national_belg_meher,10,True,False,False,0,6
+ET0420,Finfine Special,Oromia,national_belg_meher,11,True,False,False,1,7
+ET0420,Finfine Special,Oromia,national_belg_meher,12,True,False,False,2,8
+ET0203,Gabi-Zone 3,Afar,national_belg_meher,1,True,False,False,3,9
+ET0203,Gabi-Zone 3,Afar,national_belg_meher,2,False,False,True,4,10
+ET0203,Gabi-Zone 3,Afar,national_belg_meher,3,False,False,True,5,11
+ET0203,Gabi-Zone 3,Afar,national_belg_meher,4,False,True,False,6,0
+ET0203,Gabi-Zone 3,Afar,national_belg_meher,5,False,True,False,7,1
+ET0203,Gabi-Zone 3,Afar,national_belg_meher,6,False,True,False,8,2
+ET0203,Gabi-Zone 3,Afar,national_belg_meher,7,True,False,False,0,3
+ET0203,Gabi-Zone 3,Afar,national_belg_meher,8,True,False,False,1,4
+ET0203,Gabi-Zone 3,Afar,national_belg_meher,9,False,False,True,2,5
+ET0203,Gabi-Zone 3,Afar,national_belg_meher,10,True,False,False,0,6
+ET0203,Gabi-Zone 3,Afar,national_belg_meher,11,True,False,False,1,7
+ET0203,Gabi-Zone 3,Afar,national_belg_meher,12,True,False,False,2,8
+ET0710,Gamo,SNNP,national_belg_meher,1,True,False,False,3,9
+ET0710,Gamo,SNNP,national_belg_meher,2,False,False,True,4,10
+ET0710,Gamo,SNNP,national_belg_meher,3,False,False,True,5,11
+ET0710,Gamo,SNNP,national_belg_meher,4,False,True,False,6,0
+ET0710,Gamo,SNNP,national_belg_meher,5,False,True,False,7,1
+ET0710,Gamo,SNNP,national_belg_meher,6,False,True,False,8,2
+ET0710,Gamo,SNNP,national_belg_meher,7,True,False,False,0,3
+ET0710,Gamo,SNNP,national_belg_meher,8,True,False,False,1,4
+ET0710,Gamo,SNNP,national_belg_meher,9,False,False,True,2,5
+ET0710,Gamo,SNNP,national_belg_meher,10,True,False,False,0,6
+ET0710,Gamo,SNNP,national_belg_meher,11,True,False,False,1,7
+ET0710,Gamo,SNNP,national_belg_meher,12,True,False,False,2,8
+ET0705,Gedeo,SNNP,national_belg_meher,1,True,False,False,3,9
+ET0705,Gedeo,SNNP,national_belg_meher,2,False,False,True,4,10
+ET0705,Gedeo,SNNP,national_belg_meher,3,False,False,True,5,11
+ET0705,Gedeo,SNNP,national_belg_meher,4,False,True,False,6,0
+ET0705,Gedeo,SNNP,national_belg_meher,5,False,True,False,7,1
+ET0705,Gedeo,SNNP,national_belg_meher,6,False,True,False,8,2
+ET0705,Gedeo,SNNP,national_belg_meher,7,True,False,False,0,3
+ET0705,Gedeo,SNNP,national_belg_meher,8,True,False,False,1,4
+ET0705,Gedeo,SNNP,national_belg_meher,9,False,False,True,2,5
+ET0705,Gedeo,SNNP,national_belg_meher,10,True,False,False,0,6
+ET0705,Gedeo,SNNP,national_belg_meher,11,True,False,False,1,7
+ET0705,Gedeo,SNNP,national_belg_meher,12,True,False,False,2,8
+ET0715,Gofa,SNNP,national_belg_meher,1,True,False,False,3,9
+ET0715,Gofa,SNNP,national_belg_meher,2,False,False,True,4,10
+ET0715,Gofa,SNNP,national_belg_meher,3,False,False,True,5,11
+ET0715,Gofa,SNNP,national_belg_meher,4,False,True,False,6,0
+ET0715,Gofa,SNNP,national_belg_meher,5,False,True,False,7,1
+ET0715,Gofa,SNNP,national_belg_meher,6,False,True,False,8,2
+ET0715,Gofa,SNNP,national_belg_meher,7,True,False,False,0,3
+ET0715,Gofa,SNNP,national_belg_meher,8,True,False,False,1,4
+ET0715,Gofa,SNNP,national_belg_meher,9,False,False,True,2,5
+ET0715,Gofa,SNNP,national_belg_meher,10,True,False,False,0,6
+ET0715,Gofa,SNNP,national_belg_meher,11,True,False,False,1,7
+ET0715,Gofa,SNNP,national_belg_meher,12,True,False,False,2,8
+ET0414,Guji,Oromia,national_belg_meher,1,True,False,False,3,9
+ET0414,Guji,Oromia,national_belg_meher,2,False,False,True,4,10
+ET0414,Guji,Oromia,national_belg_meher,3,False,False,True,5,11
+ET0414,Guji,Oromia,national_belg_meher,4,False,True,False,6,0
+ET0414,Guji,Oromia,national_belg_meher,5,False,True,False,7,1
+ET0414,Guji,Oromia,national_belg_meher,6,False,True,False,8,2
+ET0414,Guji,Oromia,national_belg_meher,7,True,False,False,0,3
+ET0414,Guji,Oromia,national_belg_meher,8,True,False,False,1,4
+ET0414,Guji,Oromia,national_belg_meher,9,False,False,True,2,5
+ET0414,Guji,Oromia,national_belg_meher,10,True,False,False,0,6
+ET0414,Guji,Oromia,national_belg_meher,11,True,False,False,1,7
+ET0414,Guji,Oromia,national_belg_meher,12,True,False,False,2,8
+ET0701,Guraghe,SNNP,national_belg_meher,1,True,False,False,3,9
+ET0701,Guraghe,SNNP,national_belg_meher,2,False,False,True,4,10
+ET0701,Guraghe,SNNP,national_belg_meher,3,False,False,True,5,11
+ET0701,Guraghe,SNNP,national_belg_meher,4,False,True,False,6,0
+ET0701,Guraghe,SNNP,national_belg_meher,5,False,True,False,7,1
+ET0701,Guraghe,SNNP,national_belg_meher,6,False,True,False,8,2
+ET0701,Guraghe,SNNP,national_belg_meher,7,True,False,False,0,3
+ET0701,Guraghe,SNNP,national_belg_meher,8,True,False,False,1,4
+ET0701,Guraghe,SNNP,national_belg_meher,9,False,False,True,2,5
+ET0701,Guraghe,SNNP,national_belg_meher,10,True,False,False,0,6
+ET0701,Guraghe,SNNP,national_belg_meher,11,True,False,False,1,7
+ET0701,Guraghe,SNNP,national_belg_meher,12,True,False,False,2,8
+ET0702,Hadiya,SNNP,national_belg_meher,1,True,False,False,3,9
+ET0702,Hadiya,SNNP,national_belg_meher,2,False,False,True,4,10
+ET0702,Hadiya,SNNP,national_belg_meher,3,False,False,True,5,11
+ET0702,Hadiya,SNNP,national_belg_meher,4,False,True,False,6,0
+ET0702,Hadiya,SNNP,national_belg_meher,5,False,True,False,7,1
+ET0702,Hadiya,SNNP,national_belg_meher,6,False,True,False,8,2
+ET0702,Hadiya,SNNP,national_belg_meher,7,True,False,False,0,3
+ET0702,Hadiya,SNNP,national_belg_meher,8,True,False,False,1,4
+ET0702,Hadiya,SNNP,national_belg_meher,9,False,False,True,2,5
+ET0702,Hadiya,SNNP,national_belg_meher,10,True,False,False,0,6
+ET0702,Hadiya,SNNP,national_belg_meher,11,True,False,False,1,7
+ET0702,Hadiya,SNNP,national_belg_meher,12,True,False,False,2,8
+ET0714,Halaba,SNNP,national_belg_meher,1,True,False,False,3,9
+ET0714,Halaba,SNNP,national_belg_meher,2,False,False,True,4,10
+ET0714,Halaba,SNNP,national_belg_meher,3,False,False,True,5,11
+ET0714,Halaba,SNNP,national_belg_meher,4,False,True,False,6,0
+ET0714,Halaba,SNNP,national_belg_meher,5,False,True,False,7,1
+ET0714,Halaba,SNNP,national_belg_meher,6,False,True,False,8,2
+ET0714,Halaba,SNNP,national_belg_meher,7,True,False,False,0,3
+ET0714,Halaba,SNNP,national_belg_meher,8,True,False,False,1,4
+ET0714,Halaba,SNNP,national_belg_meher,9,False,False,True,2,5
+ET0714,Halaba,SNNP,national_belg_meher,10,True,False,False,0,6
+ET0714,Halaba,SNNP,national_belg_meher,11,True,False,False,1,7
+ET0714,Halaba,SNNP,national_belg_meher,12,True,False,False,2,8
+ET1301,Harari,Harari,national_belg_meher,1,True,False,False,3,9
+ET1301,Harari,Harari,national_belg_meher,2,False,False,True,4,10
+ET1301,Harari,Harari,national_belg_meher,3,False,False,True,5,11
+ET1301,Harari,Harari,national_belg_meher,4,False,True,False,6,0
+ET1301,Harari,Harari,national_belg_meher,5,False,True,False,7,1
+ET1301,Harari,Harari,national_belg_meher,6,False,True,False,8,2
+ET1301,Harari,Harari,national_belg_meher,7,True,False,False,0,3
+ET1301,Harari,Harari,national_belg_meher,8,True,False,False,1,4
+ET1301,Harari,Harari,national_belg_meher,9,False,False,True,2,5
+ET1301,Harari,Harari,national_belg_meher,10,True,False,False,0,6
+ET1301,Harari,Harari,national_belg_meher,11,True,False,False,1,7
+ET1301,Harari,Harari,national_belg_meher,12,True,False,False,2,8
+ET0205,Hari-Zone 5,Afar,national_belg_meher,1,True,False,False,3,9
+ET0205,Hari-Zone 5,Afar,national_belg_meher,2,False,False,True,4,10
+ET0205,Hari-Zone 5,Afar,national_belg_meher,3,False,False,True,5,11
+ET0205,Hari-Zone 5,Afar,national_belg_meher,4,False,True,False,6,0
+ET0205,Hari-Zone 5,Afar,national_belg_meher,5,False,True,False,7,1
+ET0205,Hari-Zone 5,Afar,national_belg_meher,6,False,True,False,8,2
+ET0205,Hari-Zone 5,Afar,national_belg_meher,7,True,False,False,0,3
+ET0205,Hari-Zone 5,Afar,national_belg_meher,8,True,False,False,1,4
+ET0205,Hari-Zone 5,Afar,national_belg_meher,9,False,False,True,2,5
+ET0205,Hari-Zone 5,Afar,national_belg_meher,10,True,False,False,0,6
+ET0205,Hari-Zone 5,Afar,national_belg_meher,11,True,False,False,1,7
+ET0205,Hari-Zone 5,Afar,national_belg_meher,12,True,False,False,2,8
+ET0419,Horo Gudru Wellega,Oromia,national_belg_meher,1,True,False,False,3,9
+ET0419,Horo Gudru Wellega,Oromia,national_belg_meher,2,False,False,True,4,10
+ET0419,Horo Gudru Wellega,Oromia,national_belg_meher,3,False,False,True,5,11
+ET0419,Horo Gudru Wellega,Oromia,national_belg_meher,4,False,True,False,6,0
+ET0419,Horo Gudru Wellega,Oromia,national_belg_meher,5,False,True,False,7,1
+ET0419,Horo Gudru Wellega,Oromia,national_belg_meher,6,False,True,False,8,2
+ET0419,Horo Gudru Wellega,Oromia,national_belg_meher,7,True,False,False,0,3
+ET0419,Horo Gudru Wellega,Oromia,national_belg_meher,8,True,False,False,1,4
+ET0419,Horo Gudru Wellega,Oromia,national_belg_meher,9,False,False,True,2,5
+ET0419,Horo Gudru Wellega,Oromia,national_belg_meher,10,True,False,False,0,6
+ET0419,Horo Gudru Wellega,Oromia,national_belg_meher,11,True,False,False,1,7
+ET0419,Horo Gudru Wellega,Oromia,national_belg_meher,12,True,False,False,2,8
+ET0403,Ilu Aba Bora,Oromia,national_belg_meher,1,True,False,False,3,9
+ET0403,Ilu Aba Bora,Oromia,national_belg_meher,2,False,False,True,4,10
+ET0403,Ilu Aba Bora,Oromia,national_belg_meher,3,False,False,True,5,11
+ET0403,Ilu Aba Bora,Oromia,national_belg_meher,4,False,True,False,6,0
+ET0403,Ilu Aba Bora,Oromia,national_belg_meher,5,False,True,False,7,1
+ET0403,Ilu Aba Bora,Oromia,national_belg_meher,6,False,True,False,8,2
+ET0403,Ilu Aba Bora,Oromia,national_belg_meher,7,True,False,False,0,3
+ET0403,Ilu Aba Bora,Oromia,national_belg_meher,8,True,False,False,1,4
+ET0403,Ilu Aba Bora,Oromia,national_belg_meher,9,False,False,True,2,5
+ET0403,Ilu Aba Bora,Oromia,national_belg_meher,10,True,False,False,0,6
+ET0403,Ilu Aba Bora,Oromia,national_belg_meher,11,True,False,False,1,7
+ET0403,Ilu Aba Bora,Oromia,national_belg_meher,12,True,False,False,2,8
+ET1204,Itang Special woreda,Gambela,national_belg_meher,1,True,False,False,3,9
+ET1204,Itang Special woreda,Gambela,national_belg_meher,2,False,False,True,4,10
+ET1204,Itang Special woreda,Gambela,national_belg_meher,3,False,False,True,5,11
+ET1204,Itang Special woreda,Gambela,national_belg_meher,4,False,True,False,6,0
+ET1204,Itang Special woreda,Gambela,national_belg_meher,5,False,True,False,7,1
+ET1204,Itang Special woreda,Gambela,national_belg_meher,6,False,True,False,8,2
+ET1204,Itang Special woreda,Gambela,national_belg_meher,7,True,False,False,0,3
+ET1204,Itang Special woreda,Gambela,national_belg_meher,8,True,False,False,1,4
+ET1204,Itang Special woreda,Gambela,national_belg_meher,9,False,False,True,2,5
+ET1204,Itang Special woreda,Gambela,national_belg_meher,10,True,False,False,0,6
+ET1204,Itang Special woreda,Gambela,national_belg_meher,11,True,False,False,1,7
+ET1204,Itang Special woreda,Gambela,national_belg_meher,12,True,False,False,2,8
+ET0503,Jarar,Somali,somali_gu_deyr,1,True,False,False,0,8
+ET0503,Jarar,Somali,somali_gu_deyr,2,False,True,False,1,0
+ET0503,Jarar,Somali,somali_gu_deyr,3,False,True,False,2,1
+ET0503,Jarar,Somali,somali_gu_deyr,4,False,True,False,3,2
+ET0503,Jarar,Somali,somali_gu_deyr,5,False,True,False,4,0
+ET0503,Jarar,Somali,somali_gu_deyr,6,False,True,False,5,1
+ET0503,Jarar,Somali,somali_gu_deyr,7,True,False,False,0,2
+ET0503,Jarar,Somali,somali_gu_deyr,8,False,False,True,1,3
+ET0503,Jarar,Somali,somali_gu_deyr,9,False,False,True,2,4
+ET0503,Jarar,Somali,somali_gu_deyr,10,False,False,True,3,5
+ET0503,Jarar,Somali,somali_gu_deyr,11,False,False,True,4,6
+ET0503,Jarar,Somali,somali_gu_deyr,12,False,False,True,5,7
+ET0404,Jimma,Oromia,national_belg_meher,1,True,False,False,3,9
+ET0404,Jimma,Oromia,national_belg_meher,2,False,False,True,4,10
+ET0404,Jimma,Oromia,national_belg_meher,3,False,False,True,5,11
+ET0404,Jimma,Oromia,national_belg_meher,4,False,True,False,6,0
+ET0404,Jimma,Oromia,national_belg_meher,5,False,True,False,7,1
+ET0404,Jimma,Oromia,national_belg_meher,6,False,True,False,8,2
+ET0404,Jimma,Oromia,national_belg_meher,7,True,False,False,0,3
+ET0404,Jimma,Oromia,national_belg_meher,8,True,False,False,1,4
+ET0404,Jimma,Oromia,national_belg_meher,9,False,False,True,2,5
+ET0404,Jimma,Oromia,national_belg_meher,10,True,False,False,0,6
+ET0404,Jimma,Oromia,national_belg_meher,11,True,False,False,1,7
+ET0404,Jimma,Oromia,national_belg_meher,12,True,False,False,2,8
+ET0604,Kamashi,Benishangul Gumz,benishangul_meher_only,1,True,False,False,3,7
+ET0604,Kamashi,Benishangul Gumz,benishangul_meher_only,2,False,False,True,4,8
+ET0604,Kamashi,Benishangul Gumz,benishangul_meher_only,3,False,False,True,5,9
+ET0604,Kamashi,Benishangul Gumz,benishangul_meher_only,4,False,False,True,6,10
+ET0604,Kamashi,Benishangul Gumz,benishangul_meher_only,5,False,False,True,7,11
+ET0604,Kamashi,Benishangul Gumz,benishangul_meher_only,6,False,True,False,8,0
+ET0604,Kamashi,Benishangul Gumz,benishangul_meher_only,7,False,True,False,9,1
+ET0604,Kamashi,Benishangul Gumz,benishangul_meher_only,8,False,True,False,10,2
+ET0604,Kamashi,Benishangul Gumz,benishangul_meher_only,9,False,True,False,11,3
+ET0604,Kamashi,Benishangul Gumz,benishangul_meher_only,10,True,False,False,0,4
+ET0604,Kamashi,Benishangul Gumz,benishangul_meher_only,11,True,False,False,1,5
+ET0604,Kamashi,Benishangul Gumz,benishangul_meher_only,12,True,False,False,2,6
+ET1102,Kefa,South West Ethiopia,national_belg_meher,1,True,False,False,3,9
+ET1102,Kefa,South West Ethiopia,national_belg_meher,2,False,False,True,4,10
+ET1102,Kefa,South West Ethiopia,national_belg_meher,3,False,False,True,5,11
+ET1102,Kefa,South West Ethiopia,national_belg_meher,4,False,True,False,6,0
+ET1102,Kefa,South West Ethiopia,national_belg_meher,5,False,True,False,7,1
+ET1102,Kefa,South West Ethiopia,national_belg_meher,6,False,True,False,8,2
+ET1102,Kefa,South West Ethiopia,national_belg_meher,7,True,False,False,0,3
+ET1102,Kefa,South West Ethiopia,national_belg_meher,8,True,False,False,1,4
+ET1102,Kefa,South West Ethiopia,national_belg_meher,9,False,False,True,2,5
+ET1102,Kefa,South West Ethiopia,national_belg_meher,10,True,False,False,0,6
+ET1102,Kefa,South West Ethiopia,national_belg_meher,11,True,False,False,1,7
+ET1102,Kefa,South West Ethiopia,national_belg_meher,12,True,False,False,2,8
+ET0418,Kellem Wollega,Oromia,national_belg_meher,1,True,False,False,3,9
+ET0418,Kellem Wollega,Oromia,national_belg_meher,2,False,False,True,4,10
+ET0418,Kellem Wollega,Oromia,national_belg_meher,3,False,False,True,5,11
+ET0418,Kellem Wollega,Oromia,national_belg_meher,4,False,True,False,6,0
+ET0418,Kellem Wollega,Oromia,national_belg_meher,5,False,True,False,7,1
+ET0418,Kellem Wollega,Oromia,national_belg_meher,6,False,True,False,8,2
+ET0418,Kellem Wollega,Oromia,national_belg_meher,7,True,False,False,0,3
+ET0418,Kellem Wollega,Oromia,national_belg_meher,8,True,False,False,1,4
+ET0418,Kellem Wollega,Oromia,national_belg_meher,9,False,False,True,2,5
+ET0418,Kellem Wollega,Oromia,national_belg_meher,10,True,False,False,0,6
+ET0418,Kellem Wollega,Oromia,national_belg_meher,11,True,False,False,1,7
+ET0418,Kellem Wollega,Oromia,national_belg_meher,12,True,False,False,2,8
+ET0703,Kembata Tembaro,SNNP,national_belg_meher,1,True,False,False,3,9
+ET0703,Kembata Tembaro,SNNP,national_belg_meher,2,False,False,True,4,10
+ET0703,Kembata Tembaro,SNNP,national_belg_meher,3,False,False,True,5,11
+ET0703,Kembata Tembaro,SNNP,national_belg_meher,4,False,True,False,6,0
+ET0703,Kembata Tembaro,SNNP,national_belg_meher,5,False,True,False,7,1
+ET0703,Kembata Tembaro,SNNP,national_belg_meher,6,False,True,False,8,2
+ET0703,Kembata Tembaro,SNNP,national_belg_meher,7,True,False,False,0,3
+ET0703,Kembata Tembaro,SNNP,national_belg_meher,8,True,False,False,1,4
+ET0703,Kembata Tembaro,SNNP,national_belg_meher,9,False,False,True,2,5
+ET0703,Kembata Tembaro,SNNP,national_belg_meher,10,True,False,False,0,6
+ET0703,Kembata Tembaro,SNNP,national_belg_meher,11,True,False,False,1,7
+ET0703,Kembata Tembaro,SNNP,national_belg_meher,12,True,False,False,2,8
+ET0202,Kilbati-Zone 2,Afar,national_belg_meher,1,True,False,False,3,9
+ET0202,Kilbati-Zone 2,Afar,national_belg_meher,2,False,False,True,4,10
+ET0202,Kilbati-Zone 2,Afar,national_belg_meher,3,False,False,True,5,11
+ET0202,Kilbati-Zone 2,Afar,national_belg_meher,4,False,True,False,6,0
+ET0202,Kilbati-Zone 2,Afar,national_belg_meher,5,False,True,False,7,1
+ET0202,Kilbati-Zone 2,Afar,national_belg_meher,6,False,True,False,8,2
+ET0202,Kilbati-Zone 2,Afar,national_belg_meher,7,True,False,False,0,3
+ET0202,Kilbati-Zone 2,Afar,national_belg_meher,8,True,False,False,1,4
+ET0202,Kilbati-Zone 2,Afar,national_belg_meher,9,False,False,True,2,5
+ET0202,Kilbati-Zone 2,Afar,national_belg_meher,10,True,False,False,0,6
+ET0202,Kilbati-Zone 2,Afar,national_belg_meher,11,True,False,False,1,7
+ET0202,Kilbati-Zone 2,Afar,national_belg_meher,12,True,False,False,2,8
+ET0713,Konso,SNNP,national_belg_meher,1,True,False,False,3,9
+ET0713,Konso,SNNP,national_belg_meher,2,False,False,True,4,10
+ET0713,Konso,SNNP,national_belg_meher,3,False,False,True,5,11
+ET0713,Konso,SNNP,national_belg_meher,4,False,True,False,6,0
+ET0713,Konso,SNNP,national_belg_meher,5,False,True,False,7,1
+ET0713,Konso,SNNP,national_belg_meher,6,False,True,False,8,2
+ET0713,Konso,SNNP,national_belg_meher,7,True,False,False,0,3
+ET0713,Konso,SNNP,national_belg_meher,8,True,False,False,1,4
+ET0713,Konso,SNNP,national_belg_meher,9,False,False,True,2,5
+ET0713,Konso,SNNP,national_belg_meher,10,True,False,False,0,6
+ET0713,Konso,SNNP,national_belg_meher,11,True,False,False,1,7
+ET0713,Konso,SNNP,national_belg_meher,12,True,False,False,2,8
+ET1106,Konta Special,South West Ethiopia,national_belg_meher,1,True,False,False,3,9
+ET1106,Konta Special,South West Ethiopia,national_belg_meher,2,False,False,True,4,10
+ET1106,Konta Special,South West Ethiopia,national_belg_meher,3,False,False,True,5,11
+ET1106,Konta Special,South West Ethiopia,national_belg_meher,4,False,True,False,6,0
+ET1106,Konta Special,South West Ethiopia,national_belg_meher,5,False,True,False,7,1
+ET1106,Konta Special,South West Ethiopia,national_belg_meher,6,False,True,False,8,2
+ET1106,Konta Special,South West Ethiopia,national_belg_meher,7,True,False,False,0,3
+ET1106,Konta Special,South West Ethiopia,national_belg_meher,8,True,False,False,1,4
+ET1106,Konta Special,South West Ethiopia,national_belg_meher,9,False,False,True,2,5
+ET1106,Konta Special,South West Ethiopia,national_belg_meher,10,True,False,False,0,6
+ET1106,Konta Special,South West Ethiopia,national_belg_meher,11,True,False,False,1,7
+ET1106,Konta Special,South West Ethiopia,national_belg_meher,12,True,False,False,2,8
+ET0505,Korahe,Somali,somali_gu_deyr,1,True,False,False,0,8
+ET0505,Korahe,Somali,somali_gu_deyr,2,False,True,False,1,0
+ET0505,Korahe,Somali,somali_gu_deyr,3,False,True,False,2,1
+ET0505,Korahe,Somali,somali_gu_deyr,4,False,True,False,3,2
+ET0505,Korahe,Somali,somali_gu_deyr,5,False,True,False,4,0
+ET0505,Korahe,Somali,somali_gu_deyr,6,False,True,False,5,1
+ET0505,Korahe,Somali,somali_gu_deyr,7,True,False,False,0,2
+ET0505,Korahe,Somali,somali_gu_deyr,8,False,False,True,1,3
+ET0505,Korahe,Somali,somali_gu_deyr,9,False,False,True,2,4
+ET0505,Korahe,Somali,somali_gu_deyr,10,False,False,True,3,5
+ET0505,Korahe,Somali,somali_gu_deyr,11,False,False,True,4,6
+ET0505,Korahe,Somali,somali_gu_deyr,12,False,False,True,5,7
+ET0509,Liban,Somali,somali_gu_deyr,1,True,False,False,0,8
+ET0509,Liban,Somali,somali_gu_deyr,2,False,True,False,1,0
+ET0509,Liban,Somali,somali_gu_deyr,3,False,True,False,2,1
+ET0509,Liban,Somali,somali_gu_deyr,4,False,True,False,3,2
+ET0509,Liban,Somali,somali_gu_deyr,5,False,True,False,4,0
+ET0509,Liban,Somali,somali_gu_deyr,6,False,True,False,5,1
+ET0509,Liban,Somali,somali_gu_deyr,7,True,False,False,0,2
+ET0509,Liban,Somali,somali_gu_deyr,8,False,False,True,1,3
+ET0509,Liban,Somali,somali_gu_deyr,9,False,False,True,2,4
+ET0509,Liban,Somali,somali_gu_deyr,10,False,False,True,3,5
+ET0509,Liban,Somali,somali_gu_deyr,11,False,False,True,4,6
+ET0509,Liban,Somali,somali_gu_deyr,12,False,False,True,5,7
+ET1203,Majang,Gambela,national_belg_meher,1,True,False,False,3,9
+ET1203,Majang,Gambela,national_belg_meher,2,False,False,True,4,10
+ET1203,Majang,Gambela,national_belg_meher,3,False,False,True,5,11
+ET1203,Majang,Gambela,national_belg_meher,4,False,True,False,6,0
+ET1203,Majang,Gambela,national_belg_meher,5,False,True,False,7,1
+ET1203,Majang,Gambela,national_belg_meher,6,False,True,False,8,2
+ET1203,Majang,Gambela,national_belg_meher,7,True,False,False,0,3
+ET1203,Majang,Gambela,national_belg_meher,8,True,False,False,1,4
+ET1203,Majang,Gambela,national_belg_meher,9,False,False,True,2,5
+ET1203,Majang,Gambela,national_belg_meher,10,True,False,False,0,6
+ET1203,Majang,Gambela,national_belg_meher,11,True,False,False,1,7
+ET1203,Majang,Gambela,national_belg_meher,12,True,False,False,2,8
+ET0605,Mao Komo Special,Benishangul Gumz,benishangul_meher_only,1,True,False,False,3,7
+ET0605,Mao Komo Special,Benishangul Gumz,benishangul_meher_only,2,False,False,True,4,8
+ET0605,Mao Komo Special,Benishangul Gumz,benishangul_meher_only,3,False,False,True,5,9
+ET0605,Mao Komo Special,Benishangul Gumz,benishangul_meher_only,4,False,False,True,6,10
+ET0605,Mao Komo Special,Benishangul Gumz,benishangul_meher_only,5,False,False,True,7,11
+ET0605,Mao Komo Special,Benishangul Gumz,benishangul_meher_only,6,False,True,False,8,0
+ET0605,Mao Komo Special,Benishangul Gumz,benishangul_meher_only,7,False,True,False,9,1
+ET0605,Mao Komo Special,Benishangul Gumz,benishangul_meher_only,8,False,True,False,10,2
+ET0605,Mao Komo Special,Benishangul Gumz,benishangul_meher_only,9,False,True,False,11,3
+ET0605,Mao Komo Special,Benishangul Gumz,benishangul_meher_only,10,True,False,False,0,4
+ET0605,Mao Komo Special,Benishangul Gumz,benishangul_meher_only,11,True,False,False,1,5
+ET0605,Mao Komo Special,Benishangul Gumz,benishangul_meher_only,12,True,False,False,2,6
+ET0107,Mekelle Tigray,Tigray,national_belg_meher,1,True,False,False,3,9
+ET0107,Mekelle Tigray,Tigray,national_belg_meher,2,False,False,True,4,10
+ET0107,Mekelle Tigray,Tigray,national_belg_meher,3,False,False,True,5,11
+ET0107,Mekelle Tigray,Tigray,national_belg_meher,4,False,True,False,6,0
+ET0107,Mekelle Tigray,Tigray,national_belg_meher,5,False,True,False,7,1
+ET0107,Mekelle Tigray,Tigray,national_belg_meher,6,False,True,False,8,2
+ET0107,Mekelle Tigray,Tigray,national_belg_meher,7,True,False,False,0,3
+ET0107,Mekelle Tigray,Tigray,national_belg_meher,8,True,False,False,1,4
+ET0107,Mekelle Tigray,Tigray,national_belg_meher,9,False,False,True,2,5
+ET0107,Mekelle Tigray,Tigray,national_belg_meher,10,True,False,False,0,6
+ET0107,Mekelle Tigray,Tigray,national_belg_meher,11,True,False,False,1,7
+ET0107,Mekelle Tigray,Tigray,national_belg_meher,12,True,False,False,2,8
+ET0602,Metekel,Benishangul Gumz,benishangul_meher_only,1,True,False,False,3,7
+ET0602,Metekel,Benishangul Gumz,benishangul_meher_only,2,False,False,True,4,8
+ET0602,Metekel,Benishangul Gumz,benishangul_meher_only,3,False,False,True,5,9
+ET0602,Metekel,Benishangul Gumz,benishangul_meher_only,4,False,False,True,6,10
+ET0602,Metekel,Benishangul Gumz,benishangul_meher_only,5,False,False,True,7,11
+ET0602,Metekel,Benishangul Gumz,benishangul_meher_only,6,False,True,False,8,0
+ET0602,Metekel,Benishangul Gumz,benishangul_meher_only,7,False,True,False,9,1
+ET0602,Metekel,Benishangul Gumz,benishangul_meher_only,8,False,True,False,10,2
+ET0602,Metekel,Benishangul Gumz,benishangul_meher_only,9,False,True,False,11,3
+ET0602,Metekel,Benishangul Gumz,benishangul_meher_only,10,True,False,False,0,4
+ET0602,Metekel,Benishangul Gumz,benishangul_meher_only,11,True,False,False,1,5
+ET0602,Metekel,Benishangul Gumz,benishangul_meher_only,12,True,False,False,2,6
+ET1105,Mirab Omo,South West Ethiopia,national_belg_meher,1,True,False,False,3,9
+ET1105,Mirab Omo,South West Ethiopia,national_belg_meher,2,False,False,True,4,10
+ET1105,Mirab Omo,South West Ethiopia,national_belg_meher,3,False,False,True,5,11
+ET1105,Mirab Omo,South West Ethiopia,national_belg_meher,4,False,True,False,6,0
+ET1105,Mirab Omo,South West Ethiopia,national_belg_meher,5,False,True,False,7,1
+ET1105,Mirab Omo,South West Ethiopia,national_belg_meher,6,False,True,False,8,2
+ET1105,Mirab Omo,South West Ethiopia,national_belg_meher,7,True,False,False,0,3
+ET1105,Mirab Omo,South West Ethiopia,national_belg_meher,8,True,False,False,1,4
+ET1105,Mirab Omo,South West Ethiopia,national_belg_meher,9,False,False,True,2,5
+ET1105,Mirab Omo,South West Ethiopia,national_belg_meher,10,True,False,False,0,6
+ET1105,Mirab Omo,South West Ethiopia,national_belg_meher,11,True,False,False,1,7
+ET1105,Mirab Omo,South West Ethiopia,national_belg_meher,12,True,False,False,2,8
+ET0510,Nogob,Somali,somali_gu_deyr,1,True,False,False,0,8
+ET0510,Nogob,Somali,somali_gu_deyr,2,False,True,False,1,0
+ET0510,Nogob,Somali,somali_gu_deyr,3,False,True,False,2,1
+ET0510,Nogob,Somali,somali_gu_deyr,4,False,True,False,3,2
+ET0510,Nogob,Somali,somali_gu_deyr,5,False,True,False,4,0
+ET0510,Nogob,Somali,somali_gu_deyr,6,False,True,False,5,1
+ET0510,Nogob,Somali,somali_gu_deyr,7,True,False,False,0,2
+ET0510,Nogob,Somali,somali_gu_deyr,8,False,False,True,1,3
+ET0510,Nogob,Somali,somali_gu_deyr,9,False,False,True,2,4
+ET0510,Nogob,Somali,somali_gu_deyr,10,False,False,True,3,5
+ET0510,Nogob,Somali,somali_gu_deyr,11,False,False,True,4,6
+ET0510,Nogob,Somali,somali_gu_deyr,12,False,False,True,5,7
+ET0301,North Gondar,Amhara,national_belg_meher,1,True,False,False,3,9
+ET0301,North Gondar,Amhara,national_belg_meher,2,False,False,True,4,10
+ET0301,North Gondar,Amhara,national_belg_meher,3,False,False,True,5,11
+ET0301,North Gondar,Amhara,national_belg_meher,4,False,True,False,6,0
+ET0301,North Gondar,Amhara,national_belg_meher,5,False,True,False,7,1
+ET0301,North Gondar,Amhara,national_belg_meher,6,False,True,False,8,2
+ET0301,North Gondar,Amhara,national_belg_meher,7,True,False,False,0,3
+ET0301,North Gondar,Amhara,national_belg_meher,8,True,False,False,1,4
+ET0301,North Gondar,Amhara,national_belg_meher,9,False,False,True,2,5
+ET0301,North Gondar,Amhara,national_belg_meher,10,True,False,False,0,6
+ET0301,North Gondar,Amhara,national_belg_meher,11,True,False,False,1,7
+ET0301,North Gondar,Amhara,national_belg_meher,12,True,False,False,2,8
+ET0305,North Shewa (AM),Amhara,national_belg_meher,1,True,False,False,3,9
+ET0305,North Shewa (AM),Amhara,national_belg_meher,2,False,False,True,4,10
+ET0305,North Shewa (AM),Amhara,national_belg_meher,3,False,False,True,5,11
+ET0305,North Shewa (AM),Amhara,national_belg_meher,4,False,True,False,6,0
+ET0305,North Shewa (AM),Amhara,national_belg_meher,5,False,True,False,7,1
+ET0305,North Shewa (AM),Amhara,national_belg_meher,6,False,True,False,8,2
+ET0305,North Shewa (AM),Amhara,national_belg_meher,7,True,False,False,0,3
+ET0305,North Shewa (AM),Amhara,national_belg_meher,8,True,False,False,1,4
+ET0305,North Shewa (AM),Amhara,national_belg_meher,9,False,False,True,2,5
+ET0305,North Shewa (AM),Amhara,national_belg_meher,10,True,False,False,0,6
+ET0305,North Shewa (AM),Amhara,national_belg_meher,11,True,False,False,1,7
+ET0305,North Shewa (AM),Amhara,national_belg_meher,12,True,False,False,2,8
+ET0406,North Shewa (OR),Oromia,national_belg_meher,1,True,False,False,3,9
+ET0406,North Shewa (OR),Oromia,national_belg_meher,2,False,False,True,4,10
+ET0406,North Shewa (OR),Oromia,national_belg_meher,3,False,False,True,5,11
+ET0406,North Shewa (OR),Oromia,national_belg_meher,4,False,True,False,6,0
+ET0406,North Shewa (OR),Oromia,national_belg_meher,5,False,True,False,7,1
+ET0406,North Shewa (OR),Oromia,national_belg_meher,6,False,True,False,8,2
+ET0406,North Shewa (OR),Oromia,national_belg_meher,7,True,False,False,0,3
+ET0406,North Shewa (OR),Oromia,national_belg_meher,8,True,False,False,1,4
+ET0406,North Shewa (OR),Oromia,national_belg_meher,9,False,False,True,2,5
+ET0406,North Shewa (OR),Oromia,national_belg_meher,10,True,False,False,0,6
+ET0406,North Shewa (OR),Oromia,national_belg_meher,11,True,False,False,1,7
+ET0406,North Shewa (OR),Oromia,national_belg_meher,12,True,False,False,2,8
+ET0303,North Wello,Amhara,national_belg_meher,1,True,False,False,3,9
+ET0303,North Wello,Amhara,national_belg_meher,2,False,False,True,4,10
+ET0303,North Wello,Amhara,national_belg_meher,3,False,False,True,5,11
+ET0303,North Wello,Amhara,national_belg_meher,4,False,True,False,6,0
+ET0303,North Wello,Amhara,national_belg_meher,5,False,True,False,7,1
+ET0303,North Wello,Amhara,national_belg_meher,6,False,True,False,8,2
+ET0303,North Wello,Amhara,national_belg_meher,7,True,False,False,0,3
+ET0303,North Wello,Amhara,national_belg_meher,8,True,False,False,1,4
+ET0303,North Wello,Amhara,national_belg_meher,9,False,False,True,2,5
+ET0303,North Wello,Amhara,national_belg_meher,10,True,False,False,0,6
+ET0303,North Wello,Amhara,national_belg_meher,11,True,False,False,1,7
+ET0303,North Wello,Amhara,national_belg_meher,12,True,False,False,2,8
+ET0101,North Western Tigray,Tigray,national_belg_meher,1,True,False,False,3,9
+ET0101,North Western Tigray,Tigray,national_belg_meher,2,False,False,True,4,10
+ET0101,North Western Tigray,Tigray,national_belg_meher,3,False,False,True,5,11
+ET0101,North Western Tigray,Tigray,national_belg_meher,4,False,True,False,6,0
+ET0101,North Western Tigray,Tigray,national_belg_meher,5,False,True,False,7,1
+ET0101,North Western Tigray,Tigray,national_belg_meher,6,False,True,False,8,2
+ET0101,North Western Tigray,Tigray,national_belg_meher,7,True,False,False,0,3
+ET0101,North Western Tigray,Tigray,national_belg_meher,8,True,False,False,1,4
+ET0101,North Western Tigray,Tigray,national_belg_meher,9,False,False,True,2,5
+ET0101,North Western Tigray,Tigray,national_belg_meher,10,True,False,False,0,6
+ET0101,North Western Tigray,Tigray,national_belg_meher,11,True,False,False,1,7
+ET0101,North Western Tigray,Tigray,national_belg_meher,12,True,False,False,2,8
+ET1201,Nuwer,Gambela,national_belg_meher,1,True,False,False,3,9
+ET1201,Nuwer,Gambela,national_belg_meher,2,False,False,True,4,10
+ET1201,Nuwer,Gambela,national_belg_meher,3,False,False,True,5,11
+ET1201,Nuwer,Gambela,national_belg_meher,4,False,True,False,6,0
+ET1201,Nuwer,Gambela,national_belg_meher,5,False,True,False,7,1
+ET1201,Nuwer,Gambela,national_belg_meher,6,False,True,False,8,2
+ET1201,Nuwer,Gambela,national_belg_meher,7,True,False,False,0,3
+ET1201,Nuwer,Gambela,national_belg_meher,8,True,False,False,1,4
+ET1201,Nuwer,Gambela,national_belg_meher,9,False,False,True,2,5
+ET1201,Nuwer,Gambela,national_belg_meher,10,True,False,False,0,6
+ET1201,Nuwer,Gambela,national_belg_meher,11,True,False,False,1,7
+ET1201,Nuwer,Gambela,national_belg_meher,12,True,False,False,2,8
+ET0310,Oromia,Amhara,national_belg_meher,1,True,False,False,3,9
+ET0310,Oromia,Amhara,national_belg_meher,2,False,False,True,4,10
+ET0310,Oromia,Amhara,national_belg_meher,3,False,False,True,5,11
+ET0310,Oromia,Amhara,national_belg_meher,4,False,True,False,6,0
+ET0310,Oromia,Amhara,national_belg_meher,5,False,True,False,7,1
+ET0310,Oromia,Amhara,national_belg_meher,6,False,True,False,8,2
+ET0310,Oromia,Amhara,national_belg_meher,7,True,False,False,0,3
+ET0310,Oromia,Amhara,national_belg_meher,8,True,False,False,1,4
+ET0310,Oromia,Amhara,national_belg_meher,9,False,False,True,2,5
+ET0310,Oromia,Amhara,national_belg_meher,10,True,False,False,0,6
+ET0310,Oromia,Amhara,national_belg_meher,11,True,False,False,1,7
+ET0310,Oromia,Amhara,national_belg_meher,12,True,False,False,2,8
+ET1401,Region 14,Addis Ababa,national_belg_meher,1,True,False,False,3,9
+ET1401,Region 14,Addis Ababa,national_belg_meher,2,False,False,True,4,10
+ET1401,Region 14,Addis Ababa,national_belg_meher,3,False,False,True,5,11
+ET1401,Region 14,Addis Ababa,national_belg_meher,4,False,True,False,6,0
+ET1401,Region 14,Addis Ababa,national_belg_meher,5,False,True,False,7,1
+ET1401,Region 14,Addis Ababa,national_belg_meher,6,False,True,False,8,2
+ET1401,Region 14,Addis Ababa,national_belg_meher,7,True,False,False,0,3
+ET1401,Region 14,Addis Ababa,national_belg_meher,8,True,False,False,1,4
+ET1401,Region 14,Addis Ababa,national_belg_meher,9,False,False,True,2,5
+ET1401,Region 14,Addis Ababa,national_belg_meher,10,True,False,False,0,6
+ET1401,Region 14,Addis Ababa,national_belg_meher,11,True,False,False,1,7
+ET1401,Region 14,Addis Ababa,national_belg_meher,12,True,False,False,2,8
+ET0506,Shabelle,Somali,somali_gu_deyr,1,True,False,False,0,8
+ET0506,Shabelle,Somali,somali_gu_deyr,2,False,True,False,1,0
+ET0506,Shabelle,Somali,somali_gu_deyr,3,False,True,False,2,1
+ET0506,Shabelle,Somali,somali_gu_deyr,4,False,True,False,3,2
+ET0506,Shabelle,Somali,somali_gu_deyr,5,False,True,False,4,0
+ET0506,Shabelle,Somali,somali_gu_deyr,6,False,True,False,5,1
+ET0506,Shabelle,Somali,somali_gu_deyr,7,True,False,False,0,2
+ET0506,Shabelle,Somali,somali_gu_deyr,8,False,False,True,1,3
+ET0506,Shabelle,Somali,somali_gu_deyr,9,False,False,True,2,4
+ET0506,Shabelle,Somali,somali_gu_deyr,10,False,False,True,3,5
+ET0506,Shabelle,Somali,somali_gu_deyr,11,False,False,True,4,6
+ET0506,Shabelle,Somali,somali_gu_deyr,12,False,False,True,5,7
+ET1101,Sheka,South West Ethiopia,national_belg_meher,1,True,False,False,3,9
+ET1101,Sheka,South West Ethiopia,national_belg_meher,2,False,False,True,4,10
+ET1101,Sheka,South West Ethiopia,national_belg_meher,3,False,False,True,5,11
+ET1101,Sheka,South West Ethiopia,national_belg_meher,4,False,True,False,6,0
+ET1101,Sheka,South West Ethiopia,national_belg_meher,5,False,True,False,7,1
+ET1101,Sheka,South West Ethiopia,national_belg_meher,6,False,True,False,8,2
+ET1101,Sheka,South West Ethiopia,national_belg_meher,7,True,False,False,0,3
+ET1101,Sheka,South West Ethiopia,national_belg_meher,8,True,False,False,1,4
+ET1101,Sheka,South West Ethiopia,national_belg_meher,9,False,False,True,2,5
+ET1101,Sheka,South West Ethiopia,national_belg_meher,10,True,False,False,0,6
+ET1101,Sheka,South West Ethiopia,national_belg_meher,11,True,False,False,1,7
+ET1101,Sheka,South West Ethiopia,national_belg_meher,12,True,False,False,2,8
+ET1600,Sidama,Sidama,national_belg_meher,1,True,False,False,3,9
+ET1600,Sidama,Sidama,national_belg_meher,2,False,False,True,4,10
+ET1600,Sidama,Sidama,national_belg_meher,3,False,False,True,5,11
+ET1600,Sidama,Sidama,national_belg_meher,4,False,True,False,6,0
+ET1600,Sidama,Sidama,national_belg_meher,5,False,True,False,7,1
+ET1600,Sidama,Sidama,national_belg_meher,6,False,True,False,8,2
+ET1600,Sidama,Sidama,national_belg_meher,7,True,False,False,0,3
+ET1600,Sidama,Sidama,national_belg_meher,8,True,False,False,1,4
+ET1600,Sidama,Sidama,national_belg_meher,9,False,False,True,2,5
+ET1600,Sidama,Sidama,national_belg_meher,10,True,False,False,0,6
+ET1600,Sidama,Sidama,national_belg_meher,11,True,False,False,1,7
+ET1600,Sidama,Sidama,national_belg_meher,12,True,False,False,2,8
+ET0720,Siltie,SNNP,national_belg_meher,1,True,False,False,3,9
+ET0720,Siltie,SNNP,national_belg_meher,2,False,False,True,4,10
+ET0720,Siltie,SNNP,national_belg_meher,3,False,False,True,5,11
+ET0720,Siltie,SNNP,national_belg_meher,4,False,True,False,6,0
+ET0720,Siltie,SNNP,national_belg_meher,5,False,True,False,7,1
+ET0720,Siltie,SNNP,national_belg_meher,6,False,True,False,8,2
+ET0720,Siltie,SNNP,national_belg_meher,7,True,False,False,0,3
+ET0720,Siltie,SNNP,national_belg_meher,8,True,False,False,1,4
+ET0720,Siltie,SNNP,national_belg_meher,9,False,False,True,2,5
+ET0720,Siltie,SNNP,national_belg_meher,10,True,False,False,0,6
+ET0720,Siltie,SNNP,national_belg_meher,11,True,False,False,1,7
+ET0720,Siltie,SNNP,national_belg_meher,12,True,False,False,2,8
+ET0501,Siti,Somali,somali_gu_deyr,1,True,False,False,0,8
+ET0501,Siti,Somali,somali_gu_deyr,2,False,True,False,1,0
+ET0501,Siti,Somali,somali_gu_deyr,3,False,True,False,2,1
+ET0501,Siti,Somali,somali_gu_deyr,4,False,True,False,3,2
+ET0501,Siti,Somali,somali_gu_deyr,5,False,True,False,4,0
+ET0501,Siti,Somali,somali_gu_deyr,6,False,True,False,5,1
+ET0501,Siti,Somali,somali_gu_deyr,7,True,False,False,0,2
+ET0501,Siti,Somali,somali_gu_deyr,8,False,False,True,1,3
+ET0501,Siti,Somali,somali_gu_deyr,9,False,False,True,2,4
+ET0501,Siti,Somali,somali_gu_deyr,10,False,False,True,3,5
+ET0501,Siti,Somali,somali_gu_deyr,11,False,False,True,4,6
+ET0501,Siti,Somali,somali_gu_deyr,12,False,False,True,5,7
+ET0106,South Eastern Tigray,Tigray,national_belg_meher,1,True,False,False,3,9
+ET0106,South Eastern Tigray,Tigray,national_belg_meher,2,False,False,True,4,10
+ET0106,South Eastern Tigray,Tigray,national_belg_meher,3,False,False,True,5,11
+ET0106,South Eastern Tigray,Tigray,national_belg_meher,4,False,True,False,6,0
+ET0106,South Eastern Tigray,Tigray,national_belg_meher,5,False,True,False,7,1
+ET0106,South Eastern Tigray,Tigray,national_belg_meher,6,False,True,False,8,2
+ET0106,South Eastern Tigray,Tigray,national_belg_meher,7,True,False,False,0,3
+ET0106,South Eastern Tigray,Tigray,national_belg_meher,8,True,False,False,1,4
+ET0106,South Eastern Tigray,Tigray,national_belg_meher,9,False,False,True,2,5
+ET0106,South Eastern Tigray,Tigray,national_belg_meher,10,True,False,False,0,6
+ET0106,South Eastern Tigray,Tigray,national_belg_meher,11,True,False,False,1,7
+ET0106,South Eastern Tigray,Tigray,national_belg_meher,12,True,False,False,2,8
+ET0302,South Gondar,Amhara,national_belg_meher,1,True,False,False,3,9
+ET0302,South Gondar,Amhara,national_belg_meher,2,False,False,True,4,10
+ET0302,South Gondar,Amhara,national_belg_meher,3,False,False,True,5,11
+ET0302,South Gondar,Amhara,national_belg_meher,4,False,True,False,6,0
+ET0302,South Gondar,Amhara,national_belg_meher,5,False,True,False,7,1
+ET0302,South Gondar,Amhara,national_belg_meher,6,False,True,False,8,2
+ET0302,South Gondar,Amhara,national_belg_meher,7,True,False,False,0,3
+ET0302,South Gondar,Amhara,national_belg_meher,8,True,False,False,1,4
+ET0302,South Gondar,Amhara,national_belg_meher,9,False,False,True,2,5
+ET0302,South Gondar,Amhara,national_belg_meher,10,True,False,False,0,6
+ET0302,South Gondar,Amhara,national_belg_meher,11,True,False,False,1,7
+ET0302,South Gondar,Amhara,national_belg_meher,12,True,False,False,2,8
+ET0707,South Omo,SNNP,national_belg_meher,1,True,False,False,3,9
+ET0707,South Omo,SNNP,national_belg_meher,2,False,False,True,4,10
+ET0707,South Omo,SNNP,national_belg_meher,3,False,False,True,5,11
+ET0707,South Omo,SNNP,national_belg_meher,4,False,True,False,6,0
+ET0707,South Omo,SNNP,national_belg_meher,5,False,True,False,7,1
+ET0707,South Omo,SNNP,national_belg_meher,6,False,True,False,8,2
+ET0707,South Omo,SNNP,national_belg_meher,7,True,False,False,0,3
+ET0707,South Omo,SNNP,national_belg_meher,8,True,False,False,1,4
+ET0707,South Omo,SNNP,national_belg_meher,9,False,False,True,2,5
+ET0707,South Omo,SNNP,national_belg_meher,10,True,False,False,0,6
+ET0707,South Omo,SNNP,national_belg_meher,11,True,False,False,1,7
+ET0707,South Omo,SNNP,national_belg_meher,12,True,False,False,2,8
+ET0304,South Wello,Amhara,national_belg_meher,1,True,False,False,3,9
+ET0304,South Wello,Amhara,national_belg_meher,2,False,False,True,4,10
+ET0304,South Wello,Amhara,national_belg_meher,3,False,False,True,5,11
+ET0304,South Wello,Amhara,national_belg_meher,4,False,True,False,6,0
+ET0304,South Wello,Amhara,national_belg_meher,5,False,True,False,7,1
+ET0304,South Wello,Amhara,national_belg_meher,6,False,True,False,8,2
+ET0304,South Wello,Amhara,national_belg_meher,7,True,False,False,0,3
+ET0304,South Wello,Amhara,national_belg_meher,8,True,False,False,1,4
+ET0304,South Wello,Amhara,national_belg_meher,9,False,False,True,2,5
+ET0304,South Wello,Amhara,national_belg_meher,10,True,False,False,0,6
+ET0304,South Wello,Amhara,national_belg_meher,11,True,False,False,1,7
+ET0304,South Wello,Amhara,national_belg_meher,12,True,False,False,2,8
+ET0413,South West Shewa,Oromia,national_belg_meher,1,True,False,False,3,9
+ET0413,South West Shewa,Oromia,national_belg_meher,2,False,False,True,4,10
+ET0413,South West Shewa,Oromia,national_belg_meher,3,False,False,True,5,11
+ET0413,South West Shewa,Oromia,national_belg_meher,4,False,True,False,6,0
+ET0413,South West Shewa,Oromia,national_belg_meher,5,False,True,False,7,1
+ET0413,South West Shewa,Oromia,national_belg_meher,6,False,True,False,8,2
+ET0413,South West Shewa,Oromia,national_belg_meher,7,True,False,False,0,3
+ET0413,South West Shewa,Oromia,national_belg_meher,8,True,False,False,1,4
+ET0413,South West Shewa,Oromia,national_belg_meher,9,False,False,True,2,5
+ET0413,South West Shewa,Oromia,national_belg_meher,10,True,False,False,0,6
+ET0413,South West Shewa,Oromia,national_belg_meher,11,True,False,False,1,7
+ET0413,South West Shewa,Oromia,national_belg_meher,12,True,False,False,2,8
+ET0104,Southern Tigray,Tigray,national_belg_meher,1,True,False,False,3,9
+ET0104,Southern Tigray,Tigray,national_belg_meher,2,False,False,True,4,10
+ET0104,Southern Tigray,Tigray,national_belg_meher,3,False,False,True,5,11
+ET0104,Southern Tigray,Tigray,national_belg_meher,4,False,True,False,6,0
+ET0104,Southern Tigray,Tigray,national_belg_meher,5,False,True,False,7,1
+ET0104,Southern Tigray,Tigray,national_belg_meher,6,False,True,False,8,2
+ET0104,Southern Tigray,Tigray,national_belg_meher,7,True,False,False,0,3
+ET0104,Southern Tigray,Tigray,national_belg_meher,8,True,False,False,1,4
+ET0104,Southern Tigray,Tigray,national_belg_meher,9,False,False,True,2,5
+ET0104,Southern Tigray,Tigray,national_belg_meher,10,True,False,False,0,6
+ET0104,Southern Tigray,Tigray,national_belg_meher,11,True,False,False,1,7
+ET0104,Southern Tigray,Tigray,national_belg_meher,12,True,False,False,2,8
+ET0308,Wag Hamra,Amhara,national_belg_meher,1,True,False,False,3,9
+ET0308,Wag Hamra,Amhara,national_belg_meher,2,False,False,True,4,10
+ET0308,Wag Hamra,Amhara,national_belg_meher,3,False,False,True,5,11
+ET0308,Wag Hamra,Amhara,national_belg_meher,4,False,True,False,6,0
+ET0308,Wag Hamra,Amhara,national_belg_meher,5,False,True,False,7,1
+ET0308,Wag Hamra,Amhara,national_belg_meher,6,False,True,False,8,2
+ET0308,Wag Hamra,Amhara,national_belg_meher,7,True,False,False,0,3
+ET0308,Wag Hamra,Amhara,national_belg_meher,8,True,False,False,1,4
+ET0308,Wag Hamra,Amhara,national_belg_meher,9,False,False,True,2,5
+ET0308,Wag Hamra,Amhara,national_belg_meher,10,True,False,False,0,6
+ET0308,Wag Hamra,Amhara,national_belg_meher,11,True,False,False,1,7
+ET0308,Wag Hamra,Amhara,national_belg_meher,12,True,False,False,2,8
+ET0417,West Arsi,Oromia,national_belg_meher,1,True,False,False,3,9
+ET0417,West Arsi,Oromia,national_belg_meher,2,False,False,True,4,10
+ET0417,West Arsi,Oromia,national_belg_meher,3,False,False,True,5,11
+ET0417,West Arsi,Oromia,national_belg_meher,4,False,True,False,6,0
+ET0417,West Arsi,Oromia,national_belg_meher,5,False,True,False,7,1
+ET0417,West Arsi,Oromia,national_belg_meher,6,False,True,False,8,2
+ET0417,West Arsi,Oromia,national_belg_meher,7,True,False,False,0,3
+ET0417,West Arsi,Oromia,national_belg_meher,8,True,False,False,1,4
+ET0417,West Arsi,Oromia,national_belg_meher,9,False,False,True,2,5
+ET0417,West Arsi,Oromia,national_belg_meher,10,True,False,False,0,6
+ET0417,West Arsi,Oromia,national_belg_meher,11,True,False,False,1,7
+ET0417,West Arsi,Oromia,national_belg_meher,12,True,False,False,2,8
+ET0307,West Gojam,Amhara,national_belg_meher,1,True,False,False,3,9
+ET0307,West Gojam,Amhara,national_belg_meher,2,False,False,True,4,10
+ET0307,West Gojam,Amhara,national_belg_meher,3,False,False,True,5,11
+ET0307,West Gojam,Amhara,national_belg_meher,4,False,True,False,6,0
+ET0307,West Gojam,Amhara,national_belg_meher,5,False,True,False,7,1
+ET0307,West Gojam,Amhara,national_belg_meher,6,False,True,False,8,2
+ET0307,West Gojam,Amhara,national_belg_meher,7,True,False,False,0,3
+ET0307,West Gojam,Amhara,national_belg_meher,8,True,False,False,1,4
+ET0307,West Gojam,Amhara,national_belg_meher,9,False,False,True,2,5
+ET0307,West Gojam,Amhara,national_belg_meher,10,True,False,False,0,6
+ET0307,West Gojam,Amhara,national_belg_meher,11,True,False,False,1,7
+ET0307,West Gojam,Amhara,national_belg_meher,12,True,False,False,2,8
+ET0312,West Gondar,Amhara,national_belg_meher,1,True,False,False,3,9
+ET0312,West Gondar,Amhara,national_belg_meher,2,False,False,True,4,10
+ET0312,West Gondar,Amhara,national_belg_meher,3,False,False,True,5,11
+ET0312,West Gondar,Amhara,national_belg_meher,4,False,True,False,6,0
+ET0312,West Gondar,Amhara,national_belg_meher,5,False,True,False,7,1
+ET0312,West Gondar,Amhara,national_belg_meher,6,False,True,False,8,2
+ET0312,West Gondar,Amhara,national_belg_meher,7,True,False,False,0,3
+ET0312,West Gondar,Amhara,national_belg_meher,8,True,False,False,1,4
+ET0312,West Gondar,Amhara,national_belg_meher,9,False,False,True,2,5
+ET0312,West Gondar,Amhara,national_belg_meher,10,True,False,False,0,6
+ET0312,West Gondar,Amhara,national_belg_meher,11,True,False,False,1,7
+ET0312,West Gondar,Amhara,national_belg_meher,12,True,False,False,2,8
+ET0415,West Guji,Oromia,national_belg_meher,1,True,False,False,3,9
+ET0415,West Guji,Oromia,national_belg_meher,2,False,False,True,4,10
+ET0415,West Guji,Oromia,national_belg_meher,3,False,False,True,5,11
+ET0415,West Guji,Oromia,national_belg_meher,4,False,True,False,6,0
+ET0415,West Guji,Oromia,national_belg_meher,5,False,True,False,7,1
+ET0415,West Guji,Oromia,national_belg_meher,6,False,True,False,8,2
+ET0415,West Guji,Oromia,national_belg_meher,7,True,False,False,0,3
+ET0415,West Guji,Oromia,national_belg_meher,8,True,False,False,1,4
+ET0415,West Guji,Oromia,national_belg_meher,9,False,False,True,2,5
+ET0415,West Guji,Oromia,national_belg_meher,10,True,False,False,0,6
+ET0415,West Guji,Oromia,national_belg_meher,11,True,False,False,1,7
+ET0415,West Guji,Oromia,national_belg_meher,12,True,False,False,2,8
+ET0409,West Hararge,Oromia,national_belg_meher,1,True,False,False,3,9
+ET0409,West Hararge,Oromia,national_belg_meher,2,False,False,True,4,10
+ET0409,West Hararge,Oromia,national_belg_meher,3,False,False,True,5,11
+ET0409,West Hararge,Oromia,national_belg_meher,4,False,True,False,6,0
+ET0409,West Hararge,Oromia,national_belg_meher,5,False,True,False,7,1
+ET0409,West Hararge,Oromia,national_belg_meher,6,False,True,False,8,2
+ET0409,West Hararge,Oromia,national_belg_meher,7,True,False,False,0,3
+ET0409,West Hararge,Oromia,national_belg_meher,8,True,False,False,1,4
+ET0409,West Hararge,Oromia,national_belg_meher,9,False,False,True,2,5
+ET0409,West Hararge,Oromia,national_belg_meher,10,True,False,False,0,6
+ET0409,West Hararge,Oromia,national_belg_meher,11,True,False,False,1,7
+ET0409,West Hararge,Oromia,national_belg_meher,12,True,False,False,2,8
+ET0405,West Shewa,Oromia,national_belg_meher,1,True,False,False,3,9
+ET0405,West Shewa,Oromia,national_belg_meher,2,False,False,True,4,10
+ET0405,West Shewa,Oromia,national_belg_meher,3,False,False,True,5,11
+ET0405,West Shewa,Oromia,national_belg_meher,4,False,True,False,6,0
+ET0405,West Shewa,Oromia,national_belg_meher,5,False,True,False,7,1
+ET0405,West Shewa,Oromia,national_belg_meher,6,False,True,False,8,2
+ET0405,West Shewa,Oromia,national_belg_meher,7,True,False,False,0,3
+ET0405,West Shewa,Oromia,national_belg_meher,8,True,False,False,1,4
+ET0405,West Shewa,Oromia,national_belg_meher,9,False,False,True,2,5
+ET0405,West Shewa,Oromia,national_belg_meher,10,True,False,False,0,6
+ET0405,West Shewa,Oromia,national_belg_meher,11,True,False,False,1,7
+ET0405,West Shewa,Oromia,national_belg_meher,12,True,False,False,2,8
+ET0401,West Wellega,Oromia,national_belg_meher,1,True,False,False,3,9
+ET0401,West Wellega,Oromia,national_belg_meher,2,False,False,True,4,10
+ET0401,West Wellega,Oromia,national_belg_meher,3,False,False,True,5,11
+ET0401,West Wellega,Oromia,national_belg_meher,4,False,True,False,6,0
+ET0401,West Wellega,Oromia,national_belg_meher,5,False,True,False,7,1
+ET0401,West Wellega,Oromia,national_belg_meher,6,False,True,False,8,2
+ET0401,West Wellega,Oromia,national_belg_meher,7,True,False,False,0,3
+ET0401,West Wellega,Oromia,national_belg_meher,8,True,False,False,1,4
+ET0401,West Wellega,Oromia,national_belg_meher,9,False,False,True,2,5
+ET0401,West Wellega,Oromia,national_belg_meher,10,True,False,False,0,6
+ET0401,West Wellega,Oromia,national_belg_meher,11,True,False,False,1,7
+ET0401,West Wellega,Oromia,national_belg_meher,12,True,False,False,2,8
+ET0105,Western Tigray,Tigray,national_belg_meher,1,True,False,False,3,9
+ET0105,Western Tigray,Tigray,national_belg_meher,2,False,False,True,4,10
+ET0105,Western Tigray,Tigray,national_belg_meher,3,False,False,True,5,11
+ET0105,Western Tigray,Tigray,national_belg_meher,4,False,True,False,6,0
+ET0105,Western Tigray,Tigray,national_belg_meher,5,False,True,False,7,1
+ET0105,Western Tigray,Tigray,national_belg_meher,6,False,True,False,8,2
+ET0105,Western Tigray,Tigray,national_belg_meher,7,True,False,False,0,3
+ET0105,Western Tigray,Tigray,national_belg_meher,8,True,False,False,1,4
+ET0105,Western Tigray,Tigray,national_belg_meher,9,False,False,True,2,5
+ET0105,Western Tigray,Tigray,national_belg_meher,10,True,False,False,0,6
+ET0105,Western Tigray,Tigray,national_belg_meher,11,True,False,False,1,7
+ET0105,Western Tigray,Tigray,national_belg_meher,12,True,False,False,2,8
+ET0706,Welayta,SNNP,national_belg_meher,1,True,False,False,3,9
+ET0706,Welayta,SNNP,national_belg_meher,2,False,False,True,4,10
+ET0706,Welayta,SNNP,national_belg_meher,3,False,False,True,5,11
+ET0706,Welayta,SNNP,national_belg_meher,4,False,True,False,6,0
+ET0706,Welayta,SNNP,national_belg_meher,5,False,True,False,7,1
+ET0706,Welayta,SNNP,national_belg_meher,6,False,True,False,8,2
+ET0706,Welayta,SNNP,national_belg_meher,7,True,False,False,0,3
+ET0706,Welayta,SNNP,national_belg_meher,8,True,False,False,1,4
+ET0706,Welayta,SNNP,national_belg_meher,9,False,False,True,2,5
+ET0706,Welayta,SNNP,national_belg_meher,10,True,False,False,0,6
+ET0706,Welayta,SNNP,national_belg_meher,11,True,False,False,1,7
+ET0706,Welayta,SNNP,national_belg_meher,12,True,False,False,2,8
+ET0724,Yem Special,SNNP,national_belg_meher,1,True,False,False,3,9
+ET0724,Yem Special,SNNP,national_belg_meher,2,False,False,True,4,10
+ET0724,Yem Special,SNNP,national_belg_meher,3,False,False,True,5,11
+ET0724,Yem Special,SNNP,national_belg_meher,4,False,True,False,6,0
+ET0724,Yem Special,SNNP,national_belg_meher,5,False,True,False,7,1
+ET0724,Yem Special,SNNP,national_belg_meher,6,False,True,False,8,2
+ET0724,Yem Special,SNNP,national_belg_meher,7,True,False,False,0,3
+ET0724,Yem Special,SNNP,national_belg_meher,8,True,False,False,1,4
+ET0724,Yem Special,SNNP,national_belg_meher,9,False,False,True,2,5
+ET0724,Yem Special,SNNP,national_belg_meher,10,True,False,False,0,6
+ET0724,Yem Special,SNNP,national_belg_meher,11,True,False,False,1,7
+ET0724,Yem Special,SNNP,national_belg_meher,12,True,False,False,2,8

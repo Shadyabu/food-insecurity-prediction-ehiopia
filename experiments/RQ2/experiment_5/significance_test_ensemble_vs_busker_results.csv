@@ -1,0 +1,5 @@
+model_a,model_b,cluster,n_zones,observed_diff_f1,bootstrap_sd,ci_95_lo,ci_95_hi,p_two_sided_approx,ci_excludes_zero
+ensemble_4way,busker_architecture,all,92,0.0331,0.0124,0.0083,0.0581,0.008,True
+ensemble_4way,busker_architecture,pastoral,20,0.0381,0.0304,-0.0272,0.0941,0.236,False
+ensemble_4way,busker_architecture,agropastoral,5,-0.0317,0.0447,-0.1043,0.0677,0.424,False
+ensemble_4way,busker_architecture,crop_farming,67,0.0399,0.0134,0.0151,0.0645,0.008,True

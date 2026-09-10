@@ -1,0 +1,9 @@
+model_a,model_b,cluster,n_zones,observed_diff_f1,bootstrap_sd,ci_95_lo,ci_95_hi,p_two_sided_approx,ci_excludes_zero
+Blend,XGBoost-noclimate,all,92,0.0024,0.0026,-0.0027,0.0075,0.348,False
+Blend,RandomForest-noclimate,all,92,0.0005,0.0023,-0.0038,0.0053,0.792,False
+Blend,Persistence,all,92,0.0089,0.0089,-0.0087,0.0246,0.344,False
+Blend,XGBoost-noclimate,pastoral,20,0.0068,0.0039,-0.0004,0.0147,0.064,False
+Blend,RandomForest-noclimate,pastoral,20,0.0032,0.0031,-0.0029,0.0088,0.288,False
+Blend,Persistence,pastoral,20,0.0036,0.0127,-0.022,0.0271,0.8,False
+Blend,Persistence,agropastoral,5,-0.0587,0.0474,-0.1622,0.0211,0.2,False
+Blend,Persistence,crop_farming,67,0.0043,0.01,-0.0165,0.0219,0.704,False

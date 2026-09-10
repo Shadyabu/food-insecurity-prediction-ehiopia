@@ -1,0 +1,43 @@
+
+fitting 7 pooled TabICLv2 classifiers (one per lead)
+  lead 0:
+    lead  0 [default ] n= 828 n_feat= 83 acc 0.6836 (persistence 0.6703) F1w 0.6822 (persistence 0.6593)
+    lead  0 [extended] n= 184 n_feat= 83 acc 0.7065 (persistence 0.6739) F1w 0.6993 (persistence 0.6649)
+  lead 1:
+    lead  1 [default ] n= 828 n_feat= 83 acc 0.6691 (persistence 0.6703) F1w 0.6653 (persistence 0.6593)
+    lead  1 [extended] n= 184 n_feat= 83 acc 0.7283 (persistence 0.6739) F1w 0.7287 (persistence 0.6649)
+  lead 2:
+    lead  2 [default ] n= 828 n_feat= 83 acc 0.6643 (persistence 0.6703) F1w 0.6534 (persistence 0.6593)
+    lead  2 [extended] n= 184 n_feat= 83 acc 0.7228 (persistence 0.6739) F1w 0.7242 (persistence 0.6649)
+  lead 3:
+    lead  3 [default ] n= 828 n_feat= 83 acc 0.6184 (persistence 0.6703) F1w 0.5952 (persistence 0.6593)
+    lead  3 [extended] n= 184 n_feat= 83 acc 0.6630 (persistence 0.6739) F1w 0.6672 (persistence 0.6649)
+  lead 4:
+    lead  4 [default ] n= 828 n_feat= 83 acc 0.6159 (persistence 0.6413) F1w 0.5895 (persistence 0.6240)
+    lead  4 [extended] n= 184 n_feat= 83 acc 0.6576 (persistence 0.7011) F1w 0.6646 (persistence 0.6976)
+  lead 8:
+    lead  8 [default ] n= 828 n_feat= 83 acc 0.6208 (persistence 0.5978) F1w 0.5939 (persistence 0.5696)
+    lead  8 [extended] n= 184 n_feat= 83 acc 0.6630 (persistence 0.6576) F1w 0.6626 (persistence 0.6498)
+  lead 12:
+    lead 12 [default ] n= 828 n_feat= 83 acc 0.6268 (persistence 0.5906) F1w 0.6030 (persistence 0.5534)
+    lead 12 [extended] n= 184 n_feat= 83 acc 0.6250 (persistence 0.6576) F1w 0.6103 (persistence 0.6498)
+
+Per-lead, pooled over all zones (model | persistence):
+                 n  accuracy  accuracy_baseline  f1_weighted  f1_weighted_baseline
+window   lead                                                                     
+default  0     828    0.6836             0.6703       0.6822                0.6593
+         1     828    0.6691             0.6703       0.6653                0.6593
+         2     828    0.6643             0.6703       0.6534                0.6593
+         3     828    0.6184             0.6703       0.5952                0.6593
+         4     828    0.6159             0.6413       0.5895                0.6240
+         8     828    0.6208             0.5978       0.5939                0.5696
+         12    828    0.6268             0.5906       0.6030                0.5534
+extended 0     184    0.7065             0.6739       0.6993                0.6649
+         1     184    0.7283             0.6739       0.7287                0.6649
+         2     184    0.7228             0.6739       0.7242                0.6649
+         3     184    0.6630             0.6739       0.6672                0.6649
+         4     184    0.6576             0.7011       0.6646                0.6976
+         8     184    0.6630             0.6576       0.6626                0.6498
+         12    184    0.6250             0.6576       0.6103                0.6498
+
+wrote ../experiment_5/rq5ens_tabicl_2026_noconflict

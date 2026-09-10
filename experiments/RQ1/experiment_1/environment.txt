@@ -1,0 +1,28 @@
+RQ1 Experiment 1 -- environment record
+Generated: 2026-08-18
+Interpreter: /opt/miniconda3/bin/python (Python 3.13.5, Anaconda)
+Platform: Darwin 24.6.0 arm64 (macOS, Apple Silicon)
+
+Relevant package versions (pip list, /opt/miniconda3/bin/python -m pip):
+xgboost       3.4.0
+scikit-learn  1.7.2
+shap          0.52.0
+pandas        2.3.3
+numpy         2.2.6
+pyarrow       25.0.1
+scipy         1.17.1
+matplotlib    3.10.8
+geopandas     1.1.4
+shapely       2.1.2
+
+Note: this machine has two Python installs -- /opt/homebrew/bin/python3
+(3.14, used for the geospatial pipelines/ ingestion scripts) and
+/opt/miniconda3/bin/python (3.13, has xgboost/sklearn/shap/pyarrow). This
+experiment's model-fitting and metrics code was run under the miniconda
+interpreter; the geospatial ingestion pipelines this experiment does NOT
+touch (chirps, ndvi, etc.) use the homebrew interpreter. Both are recorded
+here since the project has no enforced virtualenv (see CLAUDE.md §10).
+
+Busker et al. (2024) describe their own stack (paper §2.2.3, released code
+requirements.txt) as XGBoost + pandas + numpy + scikit-learn + shap, which
+this environment matches on every named package.

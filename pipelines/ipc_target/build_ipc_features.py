@@ -229,29 +229,58 @@ def expand_to_monthly(panel, windows):
 # Lag features
 # --------------------------------------------------------------------------
 
-def add_memory_features(df):
-    """Busker's four memory features, built on zone_code.
-
-    zone_code is a stable panel key across all 15 years. fnid is not -- the FEWS
-    NET mapping units were redrawn in 2019, 2020, 2021 and 2023, so a lag built
-    at fnid level silently returns the wrong place or nothing at all across
-    those boundaries. That is the whole reason the reprojection happens first.
-    """
-    print("\n  building memory features on zone_code")
-    df = df.sort_values(["zone_code", "month"]).reset_index(drop=True)
-    grp = df.groupby("zone_code", sort=False)[TARGET_CONTINUOUS]
-
+def _lag_and_rolling_mean(df, grp, value_col, prefix):
+    """Shared shift/rolling-mean logic for a single column, used for both
+    ipc_continuous and ha_share -- see add_memory_features()."""
+    cols = []
     for lag in LAG_MONTHS:
-        df[f"ipc_lag{lag}"] = grp.shift(lag)
-    df[f"ipc_mean{ROLLING_MEAN_MONTHS}"] = (
-        grp.shift(1)
+        col = f"{prefix}_lag{lag}"
+        df[col] = grp[value_col].shift(lag)
+        cols.append(col)
+    mean_col = f"{prefix}_mean{ROLLING_MEAN_MONTHS}"
+    df[mean_col] = (
+        grp[value_col].shift(1)
         .groupby(df["zone_code"], sort=False)
         .rolling(ROLLING_MEAN_MONTHS, min_periods=1)
         .mean()
         .reset_index(level=0, drop=True)
     )
+    cols.append(mean_col)
+    return cols
 
-    feature_cols = [f"ipc_lag{l}" for l in LAG_MONTHS] + [f"ipc_mean{ROLLING_MEAN_MONTHS}"]
+
+def add_memory_features(df):
+    """Busker's memory features, built on zone_code.
+
+    zone_code is a stable panel key across all 15 years. fnid is not -- the FEWS
+    NET mapping units were redrawn in 2019, 2020, 2021 and 2023, so a lag built
+    at fnid level silently returns the wrong place or nothing at all across
+    those boundaries. That is the whole reason the reprojection happens first.
+
+    Two feature families, both lagged the same way:
+    - ipc_lag{1,4,8} / ipc_mean12: FEWS IPC memory (the target's own history).
+    - ha_share_lag{1,4,8} / ha_share_mean12: humanitarian food assistance.
+      Busker et al. (2024) describe their assistance feature as the FEWS NET
+      "!" flag marking areas that would be one phase worse without significant
+      assistance, "aggregated to the administrative units using the same
+      population-weighted averaging as deployed on the FEWS IPC current
+      situation" and used as a previous-timestep (lagged) feature alongside
+      the IPC memory features -- i.e. exactly ha_share (already computed in
+      aggregate_fews_ipc.py from the is_allowing_for_assistance / HA layer),
+      lagged the same way. This is not a separate pipeline; it is the same
+      quantity already in the panel, just not yet lagged.
+    """
+    print("\n  building memory features on zone_code")
+    df = df.sort_values(["zone_code", "month"]).reset_index(drop=True)
+    grp = df.groupby("zone_code", sort=False)
+
+    feature_cols = _lag_and_rolling_mean(df, grp, TARGET_CONTINUOUS, "ipc")
+
+    if "ha_share" in df.columns:
+        feature_cols += _lag_and_rolling_mean(df, grp, "ha_share", "ha_share")
+    else:
+        print("    ha_share not in panel -- skipping assistance memory features")
+
     for col in feature_cols:
         print(f"    {col}: {df[col].notna().mean():.1%} populated")
 

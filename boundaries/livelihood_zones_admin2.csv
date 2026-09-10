@@ -1,0 +1,93 @@
+zone_code,zone_name,region,pct_pastoral,pct_agropastoral,pct_crop_farming,dominant_livelihood_zone
+ET0101,North Western Tigray,Tigray,0.0,0.0,1.0,crop_farming
+ET0102,Central Tigray,Tigray,0.0,0.0,1.0,crop_farming
+ET0103,Eastern Tigray,Tigray,0.009302325581395349,0.0,0.986046511627907,crop_farming
+ET0104,Southern Tigray,Tigray,0.0,0.0,1.0,crop_farming
+ET0105,Western Tigray,Tigray,0.0,0.0,1.0,crop_farming
+ET0106,South Eastern Tigray,Tigray,0.0,0.0,1.0,crop_farming
+ET0107,Mekelle Tigray,Tigray,0.0,0.0,1.0,crop_farming
+ET0201,Awsi-Zone 1,Afar,0.8488479262672811,0.1502304147465438,0.0009216589861751152,pastoral
+ET0202,Kilbati-Zone 2,Afar,0.9577889447236181,0.03919597989949749,0.003015075376884422,pastoral
+ET0203,Gabi-Zone 3,Afar,0.9251439539347409,0.07293666026871401,0.001919385796545105,pastoral
+ET0204,Fanti-Zone 4,Afar,0.9919137466307277,0.0,0.008086253369272238,pastoral
+ET0205,Hari-Zone 5,Afar,1.0,0.0,0.0,pastoral
+ET0301,North Gondar,Amhara,0.0,0.0,1.0,crop_farming
+ET0302,South Gondar,Amhara,0.0,0.0,1.0,crop_farming
+ET0303,North Wello,Amhara,0.0,0.0,1.0,crop_farming
+ET0304,South Wello,Amhara,0.0,0.0,1.0,crop_farming
+ET0305,North Shewa (AM),Amhara,0.0,0.0,1.0,crop_farming
+ET0306,East Gojam,Amhara,0.0,0.0,1.0,crop_farming
+ET0307,West Gojam,Amhara,0.0,0.0,0.9977678571428571,crop_farming
+ET0308,Wag Hamra,Amhara,0.0,0.0,1.0,crop_farming
+ET0309,Awi,Amhara,0.0,0.0,1.0,crop_farming
+ET0310,Oromia,Amhara,0.0078125,0.0,0.9921875,crop_farming
+ET0311,Central Gondar,Amhara,0.0,0.0,0.9984520123839009,crop_farming
+ET0312,West Gondar,Amhara,0.0,0.0,0.9747747747747748,crop_farming
+ET0401,West Wellega,Oromia,0.0,0.0,1.0,crop_farming
+ET0402,East Wellega,Oromia,0.0,0.0,1.0,crop_farming
+ET0403,Ilu Aba Bora,Oromia,0.0,0.0,1.0,crop_farming
+ET0404,Jimma,Oromia,0.0,0.0,1.0,crop_farming
+ET0405,West Shewa,Oromia,0.0,0.0,1.0,crop_farming
+ET0406,North Shewa (OR),Oromia,0.0,0.0,1.0,crop_farming
+ET0407,East Shewa,Oromia,0.0,0.1894409937888199,0.8105590062111802,crop_farming
+ET0408,Arsi,Oromia,0.0,0.04613095238095238,0.9538690476190477,crop_farming
+ET0409,West Hararge,Oromia,0.003496503496503497,0.4842657342657343,0.5122377622377622,crop_farming
+ET0410,East Hararge,Oromia,0.0,0.4914634146341463,0.4475609756097561,agropastoral
+ET0411,Bale,Oromia,0.5005192107995846,0.1723779854620976,0.3271028037383177,pastoral
+ET0412,Borena,Oromia,0.6803051317614425,0.3196948682385576,0.0,pastoral
+ET0413,South West Shewa,Oromia,0.0,0.0,1.0,crop_farming
+ET0414,Guji,Oromia,0.409982174688057,0.2727272727272727,0.3172905525846702,pastoral
+ET0415,West Guji,Oromia,0.535483870967742,0.2193548387096774,0.2419354838709677,pastoral
+ET0416,Buno Bedele,Oromia,0.0,0.0,1.0,crop_farming
+ET0417,West Arsi,Oromia,0.002403846153846154,0.07211538461538461,0.9254807692307693,crop_farming
+ET0418,Kellem Wollega,Oromia,0.0,0.0,1.0,crop_farming
+ET0419,Horo Gudru Wellega,Oromia,0.0,0.0,1.0,crop_farming
+ET0420,Finfine Special,Oromia,0.0,0.0,1.0,crop_farming
+ET0421,East Bale,Oromia,0.7451690821256038,0.1171497584541063,0.1376811594202899,pastoral
+ET0501,Siti,Somali,0.8776119402985074,0.1114427860696517,0.0009950248756218905,pastoral
+ET0502,Fafan,Somali,0.2859744990892532,0.5610200364298725,0.1329690346083789,agropastoral
+ET0503,Jarar,Somali,0.6752537080405933,0.3247462919594067,0.0,pastoral
+ET0504,Erer,Somali,0.541795665634675,0.2012383900928792,0.01238390092879257,pastoral
+ET0505,Korahe,Somali,0.7236962488563586,0.2753888380603843,0.0009149130832570906,pastoral
+ET0506,Shabelle,Somali,0.6738738738738739,0.1603603603603604,0.1657657657657658,pastoral
+ET0507,Doolo,Somali,1.0,0.0,0.0,pastoral
+ET0508,Afder,Somali,0.6997084548104956,0.2040816326530612,0.09620991253644315,pastoral
+ET0509,Liban,Somali,0.7335907335907336,0.194015444015444,0.07239382239382239,pastoral
+ET0510,Nogob,Somali,0.6800766283524904,0.3180076628352491,0.001915708812260536,pastoral
+ET0511,Daawa,Somali,0.8159203980099502,0.1840796019900497,0.0,pastoral
+ET0602,Metekel,Benishangul Gumz,0.0,0.0,0.9976275207591934,crop_farming
+ET0603,Asosa,Benishangul Gumz,0.0,0.0,0.9894736842105263,crop_farming
+ET0604,Kamashi,Benishangul Gumz,0.0,0.0,0.9970059880239521,crop_farming
+ET0605,Mao Komo Special,Benishangul Gumz,0.0,0.0,0.9519230769230769,crop_farming
+ET0701,Guraghe,SNNP,0.0,0.0,1.0,crop_farming
+ET0702,Hadiya,SNNP,0.0,0.0,1.0,crop_farming
+ET0703,Kembata Tembaro,SNNP,0.0,0.0,1.0,crop_farming
+ET0705,Gedeo,SNNP,0.0,0.0,1.0,crop_farming
+ET0706,Welayta,SNNP,0.0,0.0,1.0,crop_farming
+ET0707,South Omo,SNNP,0.006648936170212766,0.7992021276595744,0.1662234042553191,agropastoral
+ET0710,Gamo,SNNP,0.0,0.0,0.9012345679012346,crop_farming
+ET0712,Alle,SNNP,0.0,0.5,0.5,agropastoral
+ET0713,Konso,SNNP,0.0131578947368421,0.0131578947368421,0.9736842105263158,crop_farming
+ET0714,Halaba,SNNP,0.0,0.0,1.0,crop_farming
+ET0715,Gofa,SNNP,0.0,0.0,1.0,crop_farming
+ET0716,Basketo,SNNP,0.0,0.0,1.0,crop_farming
+ET0720,Siltie,SNNP,0.0,0.0,1.0,crop_farming
+ET0721,Amaro,SNNP,0.0,0.0,0.9629629629629629,crop_farming
+ET0722,Burji,SNNP,0.0,0.0,1.0,crop_farming
+ET0723,Derashe,SNNP,0.0,0.04166666666666666,0.9583333333333334,crop_farming
+ET0724,Yem Special,SNNP,0.0,0.0,1.0,crop_farming
+ET1101,Sheka,South West Ethiopia,0.0,0.0,1.0,crop_farming
+ET1102,Kefa,South West Ethiopia,0.0,0.005813953488372093,0.9941860465116279,crop_farming
+ET1103,Bench Sheko,South West Ethiopia,0.0,0.0,1.0,crop_farming
+ET1104,Dawuro,South West Ethiopia,0.0,0.0,1.0,crop_farming
+ET1105,Mirab Omo,South West Ethiopia,0.002074688796680498,0.3692946058091287,0.4356846473029046,crop_farming
+ET1106,Konta Special,South West Ethiopia,0.0,0.0,1.0,crop_farming
+ET1201,Nuwer,Gambela,0.0,0.8451612903225807,0.1225806451612903,agropastoral
+ET1202,Agnewak,Gambela,0.0,0.1001390820584145,0.8484005563282336,crop_farming
+ET1203,Majang,Gambela,0.0,0.0,1.0,crop_farming
+ET1204,Itang Special woreda,Gambela,0.0,0.1486486486486487,0.8378378378378378,crop_farming
+ET1301,Harari,Harari,0.0,0.0,1.0,crop_farming
+ET1401,Region 14,Addis Ababa,0.0,0.0,1.0,crop_farming
+ET1501,Dire Dawa urban,Dire Dawa,0.0,0.0,1.0,crop_farming
+ET1502,Dire Dawa rural,Dire Dawa,0.0,0.3225806451612903,0.6774193548387096,crop_farming
+ET1600,Sidama,Sidama,0.004524886877828055,0.0,0.995475113122172,crop_farming

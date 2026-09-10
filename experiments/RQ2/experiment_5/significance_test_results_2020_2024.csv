@@ -1,0 +1,10 @@
+model_a,model_b,cluster,n_zones,observed_diff_f1,bootstrap_mean_diff,bootstrap_sd,ci_95_lo,ci_95_hi,p_two_sided_approx,ci_excludes_zero
+RandomForest-delta,XGBoost-delta,all,92,0.0032,0.0033,0.003,-0.0031,0.0093,0.252,False
+RandomForest-delta,XGBoost-delta,pastoral,20,-0.0015,-0.0014,0.0065,-0.0138,0.012,0.772,False
+RandomForest-delta,XGBoost-delta,agropastoral,5,0.0107,0.0074,0.0099,-0.0129,0.0236,0.528,False
+RandomForest-delta,XGBoost-delta,crop_farming,67,0.0046,0.0049,0.0034,-0.0015,0.0114,0.14,False
+LSTM-delta,XGBoost-delta,pastoral,20,-0.0298,-0.029,0.0216,-0.0705,0.0137,0.184,False
+LSTM-delta,XGBoost-delta,agropastoral,5,-0.0812,-0.0832,0.0257,-0.1258,-0.0263,0.0,True
+LSTM-delta,XGBoost-delta,all,92,-0.0558,-0.0562,0.0124,-0.0816,-0.0339,0.0,True
+TabICLv2,LSTM-delta,agropastoral,5,0.0471,0.0447,0.0237,0.0126,0.108,0.024,True
+TabICLv2,XGBoost-delta,pastoral,20,-0.058,-0.0581,0.0313,-0.116,0.0055,0.072,False

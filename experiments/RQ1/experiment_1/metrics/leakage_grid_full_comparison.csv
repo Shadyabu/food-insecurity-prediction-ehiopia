@@ -1,0 +1,9 @@
+combo,mean_abs_r2_diff,robust_within_1sd,robust_within_2sd,bootstrap_within_1sd,bootstrap_within_2sd
+all_3,0.0441,21,21,14,18
+gdpcpi+teleconn,0.0457,21,21,14,17
+ndvi+gdpcpi,0.0499,21,21,14,16
+gdpcpi,0.0526,21,21,12,17
+teleconn,0.0556,21,21,12,16
+baseline,0.0573,21,21,12,16
+ndvi+teleconn,0.0595,21,21,13,17
+ndvi,0.0613,20,21,13,15

@@ -1,0 +1,4 @@
+config,label,n,mean_f1_weighted,mean_mae,mean_r2
+busker_arch,Busker architecture (baseline),5152,0.6872177392323555,0.36069532348739186,0.6122267422994652
+enriched_level,"Ethiopia-enriched dataset, same architecture",5152,0.6824462909900391,0.36427425590310036,0.5796619492010158
+enriched_best,"Ethiopia-enriched dataset, best variant (delta target + no climate)",5152,0.7114396466911743,0.336002912704956,0.6457263242127056

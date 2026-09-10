@@ -29,6 +29,13 @@ venv/
 # Experiment scratch
 experiments/results/*.tmp
 
+# Credentials (e.g. GLEAM SFTP login, CDS/EWDS API key) — never commit
+.gleam_credentials*
+*credentials*.json
+.env
+.env.*
+!.env.example
+
 # MD files
 *.md
 
@@ -37,3 +44,9 @@ docs/
 
 # claude folder
 .claude/
+
+# Busker's scripts
+busker_scripts/
+
+# Busker's dataset
+busker_dataset/

@@ -1,0 +1,7 @@
+subject,test,n_pairs,mean_top_degradation,mean_bottom_degradation,wilcoxon_stat,p_value,reject_h0_at_0.05
+XGBoost,primary_all_k_lead_pairs,21,0.18373542904323859,0.0003261259200342735,231.0,4.76837158203125e-07,True
+XGBoost,secondary_pooled_across_k,3,0.18373542904323859,0.00032612592003427346,6.0,0.125,False
+RandomForest,primary_all_k_lead_pairs,21,0.0035485169249905276,0.000468505385697474,143.0,0.17770814895629883,False
+RandomForest,secondary_pooled_across_k,3,0.003548516924990528,0.00046850538569747393,6.0,0.125,False
+Ensemble,primary_all_k_lead_pairs,21,0.03531553078748072,0.0013493204062003357,231.0,4.76837158203125e-07,True
+Ensemble,secondary_pooled_across_k,3,0.03531553078748071,0.0013493204062003357,6.0,0.125,False

@@ -1,0 +1,127 @@
+variant,label,lhz,lead,n,f1_weighted,mae
+baseline,All clusters (baseline),pastoral,0,180,0.5680931363142071,0.40043727543526214
+baseline,All clusters (baseline),pastoral,1,180,0.6143014458308576,0.41432604417363117
+baseline,All clusters (baseline),pastoral,2,180,0.5957351290684625,0.39601069128507427
+baseline,All clusters (baseline),pastoral,3,180,0.5395194177802873,0.44645237834164564
+baseline,All clusters (baseline),pastoral,4,180,0.5338430892778719,0.45109778452533333
+baseline,All clusters (baseline),pastoral,8,180,0.5036647665327227,0.5479101784589443
+baseline,All clusters (baseline),pastoral,12,180,0.5115908170575959,0.5208170466935624
+baseline,All clusters (baseline),agropastoral,0,45,0.6828070175438598,0.3840548540843651
+baseline,All clusters (baseline),agropastoral,1,45,0.6778571428571429,0.35498796320416914
+baseline,All clusters (baseline),agropastoral,2,45,0.6587153482082487,0.3965388850858318
+baseline,All clusters (baseline),agropastoral,3,45,0.6323981900452489,0.36926148170849254
+baseline,All clusters (baseline),agropastoral,4,45,0.6315018315018315,0.4399332860630753
+baseline,All clusters (baseline),agropastoral,8,45,0.5845977011494252,0.42386760267652224
+baseline,All clusters (baseline),agropastoral,12,45,0.5169230769230769,0.43460255793674396
+baseline,All clusters (baseline),crop_farming,0,603,0.7156600183653321,0.31224201868056095
+baseline,All clusters (baseline),crop_farming,1,603,0.7041888428504512,0.3344082754340838
+baseline,All clusters (baseline),crop_farming,2,603,0.7109007598595638,0.3109622297024348
+baseline,All clusters (baseline),crop_farming,3,603,0.7026564074921278,0.33463656301038225
+baseline,All clusters (baseline),crop_farming,4,603,0.6891495799049312,0.3440869515523726
+baseline,All clusters (baseline),crop_farming,8,603,0.6592829310884605,0.39719918357420414
+baseline,All clusters (baseline),crop_farming,12,603,0.6738191819233598,0.39264994080082694
+no_climate,No climate,pastoral,0,180,0.5987465776322081,0.3853793361732558
+no_climate,No climate,pastoral,1,180,0.575783727240038,0.40486546038860655
+no_climate,No climate,pastoral,2,180,0.5144007271782886,0.4455941243583502
+no_climate,No climate,pastoral,3,180,0.5780002444688913,0.4470564058725943
+no_climate,No climate,pastoral,4,180,0.5665608465608465,0.4605192554023328
+no_climate,No climate,pastoral,8,180,0.5879405721510984,0.44142380093861944
+no_climate,No climate,pastoral,12,180,0.5530591712255549,0.4502901120536335
+no_climate,No climate,agropastoral,0,45,0.624406779661017,0.4155000036451895
+no_climate,No climate,agropastoral,1,45,0.5505901505901505,0.39386281506572296
+no_climate,No climate,agropastoral,2,45,0.5631121519646111,0.41302189394837824
+no_climate,No climate,agropastoral,3,45,0.6421497412524332,0.3908658014643873
+no_climate,No climate,agropastoral,4,45,0.5929917632276979,0.4277651867248802
+no_climate,No climate,agropastoral,8,45,0.5771857923497268,0.41883299001270036
+no_climate,No climate,agropastoral,12,45,0.6284016636957813,0.4185241225883284
+no_climate,No climate,crop_farming,0,603,0.7138467867381438,0.3191918645565259
+no_climate,No climate,crop_farming,1,603,0.7046593592428702,0.32463861141123806
+no_climate,No climate,crop_farming,2,603,0.718818609428463,0.3212987549367935
+no_climate,No climate,crop_farming,3,603,0.7093123522061812,0.3284711721689465
+no_climate,No climate,crop_farming,4,603,0.6723855868194093,0.37032697575230106
+no_climate,No climate,crop_farming,8,603,0.647398784861107,0.3955620031555883
+no_climate,No climate,crop_farming,12,603,0.6710012148174629,0.39382206497526645
+no_agriculture,No agriculture,pastoral,0,180,0.5768971768971768,0.3839166099667413
+no_agriculture,No agriculture,pastoral,1,180,0.5854979693277566,0.4042587320893511
+no_agriculture,No agriculture,pastoral,2,180,0.5764174552443024,0.39365993056377624
+no_agriculture,No agriculture,pastoral,3,180,0.5608888888888889,0.44783993899632074
+no_agriculture,No agriculture,pastoral,4,180,0.5159350853707226,0.4644321338788448
+no_agriculture,No agriculture,pastoral,8,180,0.45095677269590306,0.5695729690178494
+no_agriculture,No agriculture,pastoral,12,180,0.44357446808510637,0.5685522356529559
+no_agriculture,No agriculture,agropastoral,0,45,0.6986800334168756,0.37827412710621217
+no_agriculture,No agriculture,agropastoral,1,45,0.6558626073380172,0.35710755735428845
+no_agriculture,No agriculture,agropastoral,2,45,0.624406779661017,0.39648418824064985
+no_agriculture,No agriculture,agropastoral,3,45,0.610697772173182,0.3795241888555228
+no_agriculture,No agriculture,agropastoral,4,45,0.5644110275689223,0.43513899987945404
+no_agriculture,No agriculture,agropastoral,8,45,0.4612903225806452,0.5112647392506086
+no_agriculture,No agriculture,agropastoral,12,45,0.5169230769230769,0.4658561396130431
+no_agriculture,No agriculture,crop_farming,0,603,0.6929339992992893,0.3260903102582725
+no_agriculture,No agriculture,crop_farming,1,603,0.7060752600185057,0.33301630359428314
+no_agriculture,No agriculture,crop_farming,2,603,0.7142691452361376,0.30739054607940536
+no_agriculture,No agriculture,crop_farming,3,603,0.7109705513412912,0.3371357842294717
+no_agriculture,No agriculture,crop_farming,4,603,0.6863032369295745,0.3453477515954498
+no_agriculture,No agriculture,crop_farming,8,603,0.65707870774259,0.39672637328377147
+no_agriculture,No agriculture,crop_farming,12,603,0.6728698733916011,0.40458144437901733
+no_economic,No economic,pastoral,0,180,0.5196064519180739,0.4436276372407844
+no_economic,No economic,pastoral,1,180,0.5459538457911981,0.45173637303515984
+no_economic,No economic,pastoral,2,180,0.5057025492328139,0.4455187700898405
+no_economic,No economic,pastoral,3,180,0.5104862579281184,0.5021541133809505
+no_economic,No economic,pastoral,4,180,0.41510273431326067,0.5602459228298674
+no_economic,No economic,pastoral,8,180,0.31062032648762505,0.6541193866849243
+no_economic,No economic,pastoral,12,180,0.183950204384987,0.7480938775323671
+no_economic,No economic,agropastoral,0,45,0.6118439294909883,0.42399057724137584
+no_economic,No economic,agropastoral,1,45,0.7308641975308642,0.3581447223480487
+no_economic,No economic,agropastoral,2,45,0.6933333333333334,0.39708124735719014
+no_economic,No economic,agropastoral,3,45,0.6347149029103167,0.3753077083447293
+no_economic,No economic,agropastoral,4,45,0.5926091085511376,0.42079359428638696
+no_economic,No economic,agropastoral,8,45,0.615819209039548,0.42200387934549466
+no_economic,No economic,agropastoral,12,45,0.5866666666666667,0.4366188024143324
+no_economic,No economic,crop_farming,0,603,0.719968360413467,0.3189675708845042
+no_economic,No economic,crop_farming,1,603,0.6975448269707429,0.334039169667754
+no_economic,No economic,crop_farming,2,603,0.7068706914710617,0.31328007910503736
+no_economic,No economic,crop_farming,3,603,0.7068772191469255,0.34174271064085937
+no_economic,No economic,crop_farming,4,603,0.6806048804809598,0.35942385126572596
+no_economic,No economic,crop_farming,8,603,0.6455374481735063,0.39107276021056125
+no_economic,No economic,crop_farming,12,603,0.6587074479759827,0.38823079437283853
+no_conflict,No conflict (ACLED+UNHCR),pastoral,0,180,0.5680931363142071,0.3928154440711603
+no_conflict,No conflict (ACLED+UNHCR),pastoral,1,180,0.5949159755782273,0.41320505774781346
+no_conflict,No conflict (ACLED+UNHCR),pastoral,2,180,0.5819165076102383,0.38966111488377525
+no_conflict,No conflict (ACLED+UNHCR),pastoral,3,180,0.5520088509562193,0.4500840315690558
+no_conflict,No conflict (ACLED+UNHCR),pastoral,4,180,0.549543268758955,0.4480119035836092
+no_conflict,No conflict (ACLED+UNHCR),pastoral,8,180,0.4928043107851508,0.5479099220316171
+no_conflict,No conflict (ACLED+UNHCR),pastoral,12,180,0.5169991235758107,0.5183069892750537
+no_conflict,No conflict (ACLED+UNHCR),agropastoral,0,45,0.6828070175438598,0.3870700543814031
+no_conflict,No conflict (ACLED+UNHCR),agropastoral,1,45,0.6558626073380172,0.36426069040284853
+no_conflict,No conflict (ACLED+UNHCR),agropastoral,2,45,0.6388888888888888,0.4010842898489615
+no_conflict,No conflict (ACLED+UNHCR),agropastoral,3,45,0.6291959406713504,0.38751439426170214
+no_conflict,No conflict (ACLED+UNHCR),agropastoral,4,45,0.5636363636363636,0.45103824620604754
+no_conflict,No conflict (ACLED+UNHCR),agropastoral,8,45,0.5661611656259292,0.43636672726982306
+no_conflict,No conflict (ACLED+UNHCR),agropastoral,12,45,0.5428571428571429,0.43443926268765803
+no_conflict,No conflict (ACLED+UNHCR),crop_farming,0,603,0.718797276674557,0.31260980493611357
+no_conflict,No conflict (ACLED+UNHCR),crop_farming,1,603,0.7002756013014677,0.3336134448178497
+no_conflict,No conflict (ACLED+UNHCR),crop_farming,2,603,0.7122538684155959,0.30948857351372444
+no_conflict,No conflict (ACLED+UNHCR),crop_farming,3,603,0.7012499642242495,0.3364436367819782
+no_conflict,No conflict (ACLED+UNHCR),crop_farming,4,603,0.6917036038668681,0.3448220850131313
+no_conflict,No conflict (ACLED+UNHCR),crop_farming,8,603,0.6525437528110705,0.395424048565323
+no_conflict,No conflict (ACLED+UNHCR),crop_farming,12,603,0.6801803562615754,0.39079223294834864
+busker_arch,"Busker architecture (reference, test ends 2022-06)",pastoral,0,160,0.6198441994247362,0.3507823596538576
+busker_arch,"Busker architecture (reference, test ends 2022-06)",pastoral,1,160,0.602495104151342,0.3455649547371725
+busker_arch,"Busker architecture (reference, test ends 2022-06)",pastoral,2,160,0.6514103103584494,0.33171305983129623
+busker_arch,"Busker architecture (reference, test ends 2022-06)",pastoral,3,160,0.5629304919908467,0.38573311237995184
+busker_arch,"Busker architecture (reference, test ends 2022-06)",pastoral,4,160,0.5089926396090351,0.4339864066325756
+busker_arch,"Busker architecture (reference, test ends 2022-06)",pastoral,8,160,0.611812865497076,0.37951878309075215
+busker_arch,"Busker architecture (reference, test ends 2022-06)",pastoral,12,160,0.5311371100164204,0.4052807679013772
+busker_arch,"Busker architecture (reference, test ends 2022-06)",agropastoral,0,40,0.75,0.3834808479054068
+busker_arch,"Busker architecture (reference, test ends 2022-06)",agropastoral,1,40,0.8182440476190476,0.33031414540713194
+busker_arch,"Busker architecture (reference, test ends 2022-06)",agropastoral,2,40,0.7734397163120568,0.34631424372783304
+busker_arch,"Busker architecture (reference, test ends 2022-06)",agropastoral,3,40,0.7641176470588236,0.3654385904997633
+busker_arch,"Busker architecture (reference, test ends 2022-06)",agropastoral,4,40,0.6823676323676324,0.4199352669225296
+busker_arch,"Busker architecture (reference, test ends 2022-06)",agropastoral,8,40,0.6384049773755656,0.4742670735483575
+busker_arch,"Busker architecture (reference, test ends 2022-06)",agropastoral,12,40,0.6535714285714286,0.48865242218538363
+busker_arch,"Busker architecture (reference, test ends 2022-06)",crop_farming,0,536,0.7181470249680115,0.3231192111559485
+busker_arch,"Busker architecture (reference, test ends 2022-06)",crop_farming,1,536,0.7275645352051113,0.3176261793298283
+busker_arch,"Busker architecture (reference, test ends 2022-06)",crop_farming,2,536,0.7187857840820472,0.316172138847232
+busker_arch,"Busker architecture (reference, test ends 2022-06)",crop_farming,3,536,0.712003346987815,0.3574150349638128
+busker_arch,"Busker architecture (reference, test ends 2022-06)",crop_farming,4,536,0.6808243477445537,0.37075999273382787
+busker_arch,"Busker architecture (reference, test ends 2022-06)",crop_farming,8,536,0.68632002947643,0.384015190863944
+busker_arch,"Busker architecture (reference, test ends 2022-06)",crop_farming,12,536,0.6458363316711959,0.40244727434956573

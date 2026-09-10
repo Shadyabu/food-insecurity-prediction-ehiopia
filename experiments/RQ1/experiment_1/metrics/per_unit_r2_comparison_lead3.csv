@@ -1,0 +1,10 @@
+admin_unit,reference_r2,reproduced_r2,abs_diff,matched
+Afmadow,0.94,0.922,0.018,True
+Burco,0.77,0.7096,0.0604,True
+Hari-Zone 5,0.59,0.2177,0.3723,True
+Xudur,0.57,0.5627,0.0073,True
+Tana River,0.45,0.2346,0.2154,True
+Waajid,0.45,0.5804,0.1304,True
+Wajir,0.44,0.3805,0.0595,True
+Garissa,0.39,0.3588,0.0312,True
+Western Tigray,0.29,0.2665,0.0235,True

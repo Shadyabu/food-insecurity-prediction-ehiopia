@@ -1,0 +1,78 @@
+======================================================================
+Building global SHAP rankings (once, on the full test set)
+======================================================================
+  XGBoost ranking: 215 features
+  RandomForest ranking: 215 features
+  LSTM ranking: 322 features
+  Combined ensemble ranking: 326 features
+
+Building baseline (unmasked) predictions for all 4 members...
+  XGBoost baseline F1 by lead:
+   lead    n        f1
+0     0  828  0.739226
+1     1  828  0.738461
+2     2  828  0.729603
+3     3  828  0.735311
+4     4  828  0.706710
+5     8  828  0.668108
+6    12  828  0.634536
+  RandomForest baseline F1 by lead:
+   lead    n        f1
+0     0  828  0.737497
+1     1  828  0.733697
+2     2  828  0.738327
+3     3  828  0.722521
+4     4  828  0.701890
+5     8  828  0.662576
+6    12  828  0.668261
+  Ensemble baseline F1 by lead:
+   lead    n        f1
+0     0  828  0.739846
+1     1  828  0.747426
+2     2  828  0.744965
+3     3  828  0.749262
+4     4  828  0.723077
+5     8  828  0.675701
+6    12  828  0.673915
+
+--- k=10% (XGB k=22, RF k=22, Ensemble k=33) ---
+  XGBoost top/bottom done in 1.0s
+  RandomForest top/bottom done in 2.0s
+  Ensemble top/bottom done in 611.5s
+
+--- k=25% (XGB k=54, RF k=54, Ensemble k=82) ---
+  XGBoost top/bottom done in 1.0s
+  RandomForest top/bottom done in 1.9s
+  Ensemble top/bottom done in 538.3s
+
+--- k=50% (XGB k=108, RF k=108, Ensemble k=163) ---
+  XGBoost top/bottom done in 1.1s
+  RandomForest top/bottom done in 2.0s
+  Ensemble top/bottom done in 2984.9s
+
+======================================================================
+POOLED (mean over 7 leads) DEGRADATION TABLE
+======================================================================
+     subject  k_pct  k_n  baseline_f1   top_f1  top_degradation  bottom_f1  bottom_degradation
+    Ensemble     10   33     0.722028 0.701862         0.020165   0.722183           -0.000156
+    Ensemble     25   82     0.722028 0.680316         0.041711   0.722087           -0.000060
+    Ensemble     50  163     0.722028 0.677957         0.044070   0.717764            0.004263
+RandomForest     10   22     0.709253 0.709059         0.000194   0.709253            0.000000
+RandomForest     25   54     0.709253 0.705794         0.003459   0.709253            0.000000
+RandomForest     50  108     0.709253 0.702260         0.006992   0.707847            0.001406
+     XGBoost     10   22     0.707422 0.513394         0.194028   0.707422            0.000000
+     XGBoost     25   54     0.707422 0.525573         0.181849   0.707422            0.000000
+     XGBoost     50  108     0.707422 0.532094         0.175329   0.706444            0.000978
+
+======================================================================
+STATISTICAL TESTS (one-sided Wilcoxon signed-rank, top > bottom degradation)
+======================================================================
+     subject                      test  n_pairs  mean_top_degradation  mean_bottom_degradation  wilcoxon_stat      p_value  reject_h0_at_0.05
+     XGBoost  primary_all_k_lead_pairs       21              0.183735                 0.000326          231.0 4.768372e-07               True
+     XGBoost secondary_pooled_across_k        3              0.183735                 0.000326            6.0 1.250000e-01              False
+RandomForest  primary_all_k_lead_pairs       21              0.003549                 0.000469          143.0 1.777081e-01              False
+RandomForest secondary_pooled_across_k        3              0.003549                 0.000469            6.0 1.250000e-01              False
+    Ensemble  primary_all_k_lead_pairs       21              0.035316                 0.001349          231.0 4.768372e-07               True
+    Ensemble secondary_pooled_across_k        3              0.035316                 0.001349            6.0 1.250000e-01              False
+
+Total wall time: 76.2 min

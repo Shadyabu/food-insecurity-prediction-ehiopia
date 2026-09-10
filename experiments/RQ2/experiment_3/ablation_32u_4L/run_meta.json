@@ -1,0 +1,32 @@
+{
+  "run_at": "2026-08-25T14:17:56",
+  "git_sha": "d17391825b352c1040a30d00995f9e884ee638f7",
+  "sequences_dir": "data/sequences",
+  "adjacency": "data/adjacency.npy",
+  "architecture": "tgcn",
+  "head": "ce",
+  "hyperparameters": {
+    "num_layers": 4,
+    "hidden_units": 32,
+    "dropout": 0.2,
+    "lr": 0.001,
+    "weight_decay": 1e-05,
+    "max_epochs": 3000,
+    "patience": 20,
+    "val_fraction_chronological_tail_of_train": 0.15,
+    "seed": 42
+  },
+  "windows": {
+    "default": "train <=2019-12, test 2020-01..2022-12 (Busker-parity split)",
+    "extended": "same training data, test+beyond splits (2020-01 onward, incl. 2023+)"
+  },
+  "leads": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    8,
+    12
+  ]
+}

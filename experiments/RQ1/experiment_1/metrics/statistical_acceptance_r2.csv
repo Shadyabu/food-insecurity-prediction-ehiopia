@@ -1,0 +1,22 @@
+livelihood_zone,lhz_code,lead,reference_r2,reproduced_r2,per_unit_r2_sd,per_unit_r2_robust_sd_mad,n_units,n_units_r2_below_neg10,abs_diff,pct_diff,within_1sd_raw,within_1sd_robust,within_5pct
+Agro-pastoral,ap,0,0.48,0.498,0.7947,0.2508,25,0,0.018,3.75,True,True,True
+Agro-pastoral,ap,1,0.48,0.4896,0.5445,0.4332,25,0,0.0096,2.01,True,True,True
+Agro-pastoral,ap,2,0.48,0.4744,0.6334,0.3345,25,0,0.0056,-1.18,True,True,True
+Agro-pastoral,ap,3,0.37,0.4844,0.8539,0.347,25,0,0.1144,30.91,True,True,False
+Agro-pastoral,ap,4,0.4,0.4114,1.6136,0.2716,25,0,0.0114,2.86,True,True,True
+Agro-pastoral,ap,8,0.23,0.3399,2.815,0.2975,25,1,0.1099,47.79,True,True,False
+Agro-pastoral,ap,12,0.05,0.319,3.0698,0.3134,25,1,0.269,537.95,True,True,False
+Crop farming,other,0,0.54,0.6299,40094821.1963,0.4241,106,8,0.0899,16.64,True,True,False
+Crop farming,other,1,0.65,0.6425,40727200.0644,0.4221,106,10,0.0075,-1.16,True,True,True
+Crop farming,other,2,0.61,0.6275,48533760.7552,0.352,106,8,0.0175,2.87,True,True,True
+Crop farming,other,3,0.57,0.5908,43600977.894,0.284,106,10,0.0208,3.65,True,True,True
+Crop farming,other,4,0.46,0.4745,64513631.1705,0.4959,106,10,0.0145,3.15,True,True,True
+Crop farming,other,8,0.48,0.4873,105381034.5131,0.2952,106,9,0.0073,1.52,True,True,True
+Crop farming,other,12,0.4,0.4329,77989353.1299,0.4647,106,10,0.0329,8.22,True,True,False
+Pastoral,p,0,0.49,0.4662,17.2074,0.4302,82,2,0.0238,-4.85,True,True,True
+Pastoral,p,1,0.55,0.5042,11.8247,0.4784,82,1,0.0458,-8.33,True,True,False
+Pastoral,p,2,0.44,0.5273,36.3613,0.4371,82,1,0.0873,19.84,True,True,False
+Pastoral,p,3,0.53,0.5477,29.0705,0.375,82,3,0.0177,3.34,True,True,True
+Pastoral,p,4,0.35,0.4615,29.2144,0.4311,82,2,0.1115,31.85,True,True,False
+Pastoral,p,8,0.28,0.3437,67.129,0.3494,82,2,0.0637,22.74,True,True,False
+Pastoral,p,12,0.3,0.425,173.9516,0.3598,82,2,0.125,41.66,True,True,False

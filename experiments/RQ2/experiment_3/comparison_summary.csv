@@ -1,0 +1,15 @@
+run,arch,head,layers,units,window,mean_weighted_f1,mean_balanced_acc,mean_accuracy
+tgcn_ce,tgcn,ce,4,64,default,0.3358,0.3019,0.426
+tgcn_ce,tgcn,ce,4,64,extended,0.292,0.2863,0.3898
+gcn_only_ce,gcn_only,ce,4,64,default,0.2575,0.2632,0.3849
+gcn_only_ce,gcn_only,ce,4,64,extended,0.2303,0.2573,0.3716
+lstm_only_ce,lstm_only,ce,4,64,default,0.3978,0.3539,0.435
+lstm_only_ce,lstm_only,ce,4,64,extended,0.3403,0.3294,0.392
+tgcn_coral,tgcn,coral,4,64,default,0.2538,0.2094,0.3678
+tgcn_coral,tgcn,coral,4,64,extended,0.2447,0.1972,0.3471
+ablation_32u_2L,tgcn,ce,2,32,default,0.3294,0.2965,0.4046
+ablation_32u_2L,tgcn,ce,2,32,extended,0.2901,0.2727,0.3648
+ablation_32u_4L,tgcn,ce,4,32,default,0.2336,0.2317,0.2969
+ablation_32u_4L,tgcn,ce,4,32,extended,0.2288,0.2261,0.2965
+ablation_64u_2L,tgcn,ce,2,64,default,0.2491,0.2709,0.3332
+ablation_64u_2L,tgcn,ce,2,64,extended,0.2048,0.2581,0.3017

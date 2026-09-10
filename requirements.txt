@@ -15,9 +15,23 @@ rasterio
 shapely
 scipy
 requests
+cdsapi            # GloFAS acquisition — needs a Copernicus CDS/EWDS account + key, see docs/GloFAS_Pipeline_Documentation.md Sec 9
+python-dotenv     # loads the CDS/EWDS key from a git-ignored .env file (never ~/.cdsapirc, never committed)
+cfgrib            # reads GloFAS's GRIB2 forecast files via xarray — needs the eccodes C library,
+                   # same GDAL-style compiled-binary caveat as rasterio/geopandas above
+openpyxl          # reads .xlsx sources (Ha et al. CPI database, Busker comparison files, WVG SST.xlsx)
+pypdf             # verifies cached ESS CPI bulletin PDFs actually open (cpi pipeline) — parsing itself
+                   # uses the `pdftotext` CLI (poppler), not pypdf, since layout-preserving text extraction
+                   # is what the table-row regex in compute_cpi_monthly_features.py depends on
 
-# Add once modeling begins:
-# xgboost
+xgboost
+scikit-learn
+torch             # LSTM (RQ2 Experiment 1) / TabICLv2 (RQ2 Experiment 2) / T-GCN (RQ2 Experiment 3)
+tabicl            # TabICLv2 pretrained tabular classifier (RQ2 Experiment 2), soda-inria/tabicl;
+                   # pulls in einops; auto-downloads its checkpoint from Hugging Face Hub on first fit()
+torch_geometric   # GCNConv-adjacent primitives; T-GCN Experiment 3 uses torch_geometric_temporal
+                   # for reference only (own GCNStack + nn.GRUCell composition used instead, see
+                   # experiments/RQ2/experiment_3/models/tgcn.py docstring for why)
+torch_geometric_temporal  # transitively needs torch-scatter/torch-sparse, which build from source
+                   # (no prebuilt arm64 wheel) — needs Xcode Command Line Tools installed
 # shap
-# torch          # for LSTM / TabICLv2
-# scikit-learn

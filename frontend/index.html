@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ethiopia Food Insecurity Forecast</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="title-block">
+      <h1>Ethiopia Food Insecurity Forecast</h1>
+      <div id="subtitle" class="subtitle">Loading…</div>
+    </div>
+    <div class="controls">
+      <label for="model-select">Model</label>
+      <select id="model-select"></select>
+    </div>
+  </header>
+
+  <main class="layout">
+    <div id="map"></div>
+
+    <aside id="side-panel" class="side-panel">
+      <div class="panel-empty">Hover or tap a zone to see details.</div>
+    </aside>
+  </main>
+
+  <div class="legend-bar">
+    <div class="legend-group">
+      <span class="legend-label">IPC Phase</span>
+      <div class="legend-swatches" id="ipc-legend"></div>
+    </div>
+    <div class="legend-group">
+      <span class="legend-label">Reason for Prediction</span>
+      <div class="legend-swatches" id="cause-legend"></div>
+    </div>
+  </div>
+
+  <footer class="slider-bar">
+    <div class="slider-row">
+      <span class="slider-side-label">Nowcast</span>
+      <input type="range" id="lead-slider" min="0" max="6" step="1" value="0">
+      <span class="slider-side-label">+12 months</span>
+    </div>
+    <div class="slider-ticks" id="slider-ticks"></div>
+    <div id="target-month-label" class="target-month-label"></div>
+  </footer>
+
+  <div class="caveat">
+    <strong>About this view:</strong> pick a model above — the map color and
+    the "Reason for prediction" panel both come from that same model's own
+    prediction and its own explanation. The default, <em>Champion
+    ensemble</em>, is this project's highest-accuracy combination
+    (XGBoost + RandomForest, both climate-excluded, + LSTM + TabICLv2); its
+    explanation is the best available for it — averaged across the 3 of 4
+    members with a usable per-instance SHAP path — but is marked with an
+    asterisk (*) wherever shown, since 2 of those 3 have no climate
+    features at all, so drought/flood evidence is real but diluted for
+    that option specifically. The 2 non-champion options (XGBoost /
+    RandomForest) are RQ5's own full-feature, climate-included
+    models — slightly less accurate, fully explainable at every phase, no
+    asterisk. ACLED conflict features are structurally unavailable from
+    Sept 2025 onward and GLEAM SSMI/SPEI from Jan 2026 onward (both
+    handled by each model's own missing-value strategy). This is a static
+    snapshot, not a live feed.
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="app.js"></script>
+</body>
+</html>

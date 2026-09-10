@@ -1,0 +1,64 @@
+lhz,lead,n,f1_weighted,mae,r2,config,label
+agropastoral,0,40,0.75,0.3834808479054068,0.3639800372213323,busker_arch,Busker architecture (baseline)
+agropastoral,1,40,0.8182440476190476,0.33031414540713194,0.4591163154200564,busker_arch,Busker architecture (baseline)
+agropastoral,2,40,0.7734397163120568,0.34631424372783304,0.46025300452928697,busker_arch,Busker architecture (baseline)
+agropastoral,3,40,0.7641176470588236,0.3654385904997633,0.3841370549224322,busker_arch,Busker architecture (baseline)
+agropastoral,4,40,0.6823676323676324,0.4199352669225296,0.16611736899873308,busker_arch,Busker architecture (baseline)
+agropastoral,8,40,0.6384049773755656,0.4742670735483575,-0.020944140776895326,busker_arch,Busker architecture (baseline)
+agropastoral,12,40,0.6535714285714286,0.48865242218538363,-0.047887777961219014,busker_arch,Busker architecture (baseline)
+crop_farming,0,536,0.7181470249680115,0.3231192111559485,0.5825487469601621,busker_arch,Busker architecture (baseline)
+crop_farming,1,536,0.7275645352051113,0.3176261793298283,0.60082934374566,busker_arch,Busker architecture (baseline)
+crop_farming,2,536,0.7187857840820472,0.316172138847232,0.5915411697714938,busker_arch,Busker architecture (baseline)
+crop_farming,3,536,0.712003346987815,0.3574150349638128,0.5550629660696339,busker_arch,Busker architecture (baseline)
+crop_farming,4,536,0.6808243477445537,0.37075999273382787,0.3934409680580472,busker_arch,Busker architecture (baseline)
+crop_farming,8,536,0.68632002947643,0.384015190863944,0.38481341376388456,busker_arch,Busker architecture (baseline)
+crop_farming,12,536,0.6458363316711959,0.40244727434956573,0.3387252564821379,busker_arch,Busker architecture (baseline)
+pastoral,0,160,0.6198441994247362,0.3507823596538576,0.4999186778843835,busker_arch,Busker architecture (baseline)
+pastoral,1,160,0.602495104151342,0.3455649547371725,0.5153729571827488,busker_arch,Busker architecture (baseline)
+pastoral,2,160,0.6514103103584494,0.33171305983129623,0.5310490295214283,busker_arch,Busker architecture (baseline)
+pastoral,3,160,0.5629304919908467,0.38573311237995184,0.43846017746121757,busker_arch,Busker architecture (baseline)
+pastoral,4,160,0.5089926396090351,0.4339864066325756,0.287940473480781,busker_arch,Busker architecture (baseline)
+pastoral,8,160,0.611812865497076,0.37951878309075215,0.37589989806616486,busker_arch,Busker architecture (baseline)
+pastoral,12,160,0.5311371100164204,0.4052807679013772,0.4021446691978734,busker_arch,Busker architecture (baseline)
+agropastoral,0,40,0.6992647058823529,0.3726691287627671,0.26807544972749153,enriched_level,"Ethiopia-enriched dataset, same architecture"
+agropastoral,1,40,0.68875,0.34448031036234444,0.4534283144788801,enriched_level,"Ethiopia-enriched dataset, same architecture"
+agropastoral,2,40,0.6304370629370629,0.38676427394329566,0.34304715860640667,enriched_level,"Ethiopia-enriched dataset, same architecture"
+agropastoral,3,40,0.6859090909090908,0.351677195167631,0.407008278262059,enriched_level,"Ethiopia-enriched dataset, same architecture"
+agropastoral,4,40,0.6328441295546559,0.4307907377608954,0.1288348509126328,enriched_level,"Ethiopia-enriched dataset, same architecture"
+agropastoral,8,40,0.6334381551362684,0.4011283599021798,0.3800979678580996,enriched_level,"Ethiopia-enriched dataset, same architecture"
+agropastoral,12,40,0.581638418079096,0.4073098923716435,0.36770648537285355,enriched_level,"Ethiopia-enriched dataset, same architecture"
+crop_farming,0,536,0.7280316371615946,0.3080824883060437,0.5742883347030453,enriched_level,"Ethiopia-enriched dataset, same architecture"
+crop_farming,1,536,0.7177090176294025,0.32390389967359245,0.5255047997416402,enriched_level,"Ethiopia-enriched dataset, same architecture"
+crop_farming,2,536,0.7227782823680425,0.3086316880498457,0.5907317500087593,enriched_level,"Ethiopia-enriched dataset, same architecture"
+crop_farming,3,536,0.7119613316652031,0.3285356410237622,0.5541142403437191,enriched_level,"Ethiopia-enriched dataset, same architecture"
+crop_farming,4,536,0.6979044301240608,0.3362907449575238,0.4677681097222405,enriched_level,"Ethiopia-enriched dataset, same architecture"
+crop_farming,8,536,0.6762332545540627,0.3861763277909652,0.323952016114217,enriched_level,"Ethiopia-enriched dataset, same architecture"
+crop_farming,12,536,0.6846369995896341,0.3746336287553383,0.33099576458940616,enriched_level,"Ethiopia-enriched dataset, same architecture"
+pastoral,0,160,0.58141137396831,0.3979277308326909,0.33569446023659744,enriched_level,"Ethiopia-enriched dataset, same architecture"
+pastoral,1,160,0.6237604083621224,0.41019986866741104,0.3152269801172639,enriched_level,"Ethiopia-enriched dataset, same architecture"
+pastoral,2,160,0.6172793299817592,0.3858106171284324,0.3541720321430245,enriched_level,"Ethiopia-enriched dataset, same architecture"
+pastoral,3,160,0.5373716654966655,0.4457220955517311,0.18072801170126052,enriched_level,"Ethiopia-enriched dataset, same architecture"
+pastoral,4,160,0.5316418598524763,0.4546689004993216,0.19077439967414667,enriched_level,"Ethiopia-enriched dataset, same architecture"
+pastoral,8,160,0.4989362053041299,0.5365316388590287,-0.15658764541788517,enriched_level,"Ethiopia-enriched dataset, same architecture"
+pastoral,12,160,0.5259301509301509,0.4981129118073375,-0.03458921049095198,enriched_level,"Ethiopia-enriched dataset, same architecture"
+agropastoral,0,40,0.6235449735449734,0.40544369549856396,0.2146010952781322,enriched_best,"Ethiopia-enriched dataset, best variant (delta target + no climate)"
+agropastoral,1,40,0.6379006410256409,0.42675494295693905,0.19845163856772774,enriched_best,"Ethiopia-enriched dataset, best variant (delta target + no climate)"
+agropastoral,2,40,0.6057300600343053,0.4042353092023732,0.19921499950072674,enriched_best,"Ethiopia-enriched dataset, best variant (delta target + no climate)"
+agropastoral,3,40,0.6520941322828115,0.37696251886761684,0.3268453930533327,enriched_best,"Ethiopia-enriched dataset, best variant (delta target + no climate)"
+agropastoral,4,40,0.5592592592592591,0.4316121588583902,0.11182934395992461,enriched_best,"Ethiopia-enriched dataset, best variant (delta target + no climate)"
+agropastoral,8,40,0.6354636591478696,0.3642189995170056,0.36228147965657687,enriched_best,"Ethiopia-enriched dataset, best variant (delta target + no climate)"
+agropastoral,12,40,0.6723376623376625,0.3801989568645651,0.3605133602245657,enriched_best,"Ethiopia-enriched dataset, best variant (delta target + no climate)"
+crop_farming,0,536,0.763836473855826,0.2677489037045555,0.6759253165564172,enriched_best,"Ethiopia-enriched dataset, best variant (delta target + no climate)"
+crop_farming,1,536,0.7626928704544461,0.2714705070706425,0.6699039864711118,enriched_best,"Ethiopia-enriched dataset, best variant (delta target + no climate)"
+crop_farming,2,536,0.7542027660479594,0.275972909362075,0.6696029436589058,enriched_best,"Ethiopia-enriched dataset, best variant (delta target + no climate)"
+crop_farming,3,536,0.7538429706811853,0.27277694373315436,0.6798340877726292,enriched_best,"Ethiopia-enriched dataset, best variant (delta target + no climate)"
+crop_farming,4,536,0.7292877620949466,0.31500901255894503,0.5890449286333639,enriched_best,"Ethiopia-enriched dataset, best variant (delta target + no climate)"
+crop_farming,8,536,0.6920849455583957,0.381467908880389,0.3499305238228396,enriched_best,"Ethiopia-enriched dataset, best variant (delta target + no climate)"
+crop_farming,12,536,0.6442440025627031,0.39441191572979817,0.3274358223863991,enriched_best,"Ethiopia-enriched dataset, best variant (delta target + no climate)"
+pastoral,0,160,0.6459842995169083,0.35495168255194776,0.4646878714213686,enriched_best,"Ethiopia-enriched dataset, best variant (delta target + no climate)"
+pastoral,1,160,0.6495496648668777,0.38919078433357124,0.3893815601655498,enriched_best,"Ethiopia-enriched dataset, best variant (delta target + no climate)"
+pastoral,2,160,0.6228139465904229,0.42375689932630534,0.3229343314393488,enriched_best,"Ethiopia-enriched dataset, best variant (delta target + no climate)"
+pastoral,3,160,0.6597341954022988,0.3793480280004652,0.42730489286857065,enriched_best,"Ethiopia-enriched dataset, best variant (delta target + no climate)"
+pastoral,4,160,0.5923032325968665,0.42421809134114347,0.25697790144845944,enriched_best,"Ethiopia-enriched dataset, best variant (delta target + no climate)"
+pastoral,8,160,0.6046470856102004,0.3988611280870109,0.2822438688662856,enriched_best,"Ethiopia-enriched dataset, best variant (delta target + no climate)"
+pastoral,12,160,0.5525835020242915,0.4524358915352525,0.1430016303446061,enriched_best,"Ethiopia-enriched dataset, best variant (delta target + no climate)"

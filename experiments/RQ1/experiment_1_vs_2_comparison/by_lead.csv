@@ -1,0 +1,22 @@
+config,label,lead,n,f1_weighted,mae,r2
+busker_arch,Busker architecture (baseline),0,736,0.7041520737929458,0.3324134628266601,0.6765522741705114
+enriched_best,"Ethiopia-enriched dataset, best variant (delta target + no climate)",0,736,0.7383206160022213,0.29418944213844556,0.725816455785157
+enriched_level,"Ethiopia-enriched dataset, same architecture",0,736,0.7009412932329381,0.33112420627144107,0.6521082981822459
+busker_arch,Busker architecture (baseline),1,736,0.7101361257426817,0.3243893895312783,0.6917896360615516
+enriched_best,"Ethiopia-enriched dataset, best variant (delta target + no climate)",1,736,0.7353981179319584,0.3055012432085779,0.7134430297064832
+enriched_level,"Ethiopia-enriched dataset, same architecture",1,736,0.7041188596583589,0.34378217612272427,0.6255675688215441
+busker_arch,Busker architecture (baseline),2,736,0.7159934466909739,0.32118875780466993,0.6879494551811611
+enriched_best,"Ethiopia-enriched dataset, best variant (delta target + no climate)",2,736,0.7223494622936769,0.3150706463021413,0.705925072050747
+enriched_level,"Ethiopia-enriched dataset, same architecture",2,736,0.7024108241859072,0.3296560523002694,0.6659929297738192
+busker_arch,Busker architecture (baseline),3,736,0.6877782403534735,0.3640072015507969,0.6537578860143143
+enriched_best,"Ethiopia-enriched dataset, best variant (delta target + no climate)",3,736,0.7328932705008396,0.30160683026596447,0.727002829484247
+enriched_level,"Ethiopia-enriched dataset, same architecture",3,736,0.679496580498684,0.35526865038548744,0.6265664363641641
+busker_arch,Busker architecture (baseline),4,736,0.6582373109069899,0.38717743456989817,0.5340237222818291
+enriched_best,"Ethiopia-enriched dataset, best variant (delta target + no climate)",4,736,0.7106504871014774,0.34508724415830583,0.6480694065460904
+enriched_level,"Ethiopia-enriched dataset, same architecture",4,736,0.6731341964405665,0.36716099577114136,0.5685864485137808
+busker_arch,Busker architecture (baseline),8,736,0.6868842488805194,0.387942704537403,0.5335539924908501
+enriched_best,"Ethiopia-enriched dataset, best variant (delta target + no climate)",8,736,0.6845025368432496,0.38431160276425336,0.5143801621714333
+enriched_level,"Ethiopia-enriched dataset, same architecture",8,736,0.6493833382399814,0.4196748754205015,0.450707620761127
+busker_arch,Busker architecture (baseline),12,736,0.6405726077274302,0.4077483135910365,0.5079602298960377
+enriched_best,"Ethiopia-enriched dataset, best variant (delta target + no climate)",12,736,0.6425885397092171,0.40625338009700385,0.48544731374478134
+enriched_level,"Ethiopia-enriched dataset, same architecture",12,736,0.6627563334237621,0.4032528350501374,0.4681043419904287

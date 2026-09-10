@@ -1,0 +1,187 @@
+# RQ5 disaster-cause taxonomy — fixed, auditable feature-to-category mapping.
+#
+# Read this file, not the rule engine code, to know what counts as evidence
+# for a category. rule_engine.py contains no hardcoded feature lists — every
+# column name, sign convention, and threshold used anywhere in Phase 1-4
+# lives here.
+#
+# SCORING RULE (implemented in rule_engine.py::score_instance, do not
+# reimplement elsewhere):
+#   For feature f assigned to category C with polarity p(f,C) in {+1,-1}:
+#     qualifies(f,C,instance) = ( p(f,C) * raw_value(f,instance) > 0 )
+#                                and ( shap_value(f,instance) > 0 )
+#   i.e. a feature only counts toward a category if (a) its RAW value that
+#   instance is actually on the side that means "this category" (this is
+#   what disambiguates Drought vs Flooding sharing rainfall_anomaly /
+#   soil_moisture at opposite polarity), AND (b) its SHAP contribution that
+#   instance is actually pushing the prediction toward a WORSE outcome
+#   (positive SHAP in this project's delta-target regression: predicted
+#   change in ipc_continuous from persistence; positive = getting worse).
+#   A feature that is technically "in the drought direction" but that the
+#   model isn't actually crediting with worsening this instance's
+#   prediction (SHAP <= 0) does not count — this is what makes the engine
+#   read the MODEL's local explanation rather than just re-describing the
+#   raw feature values.
+#   score(C, instance) = sum of shap_value(f,instance) over qualifying f.
+#   predicted_cause = argmax over categories with score > 0 (all four
+#   scores <= 0 -> label "unclassified", logged not silently dropped).
+#
+# Two features from the original spec do not exist as columns anywhere in
+# data/processed/model_tables/ (confirmed by direct grep — no temperature
+# pipeline was ever built in this project; no rolling price-std column
+# exists). Per the project owner's direction (2026-08-31, "come up with
+# similar equivalents"), both get PROXY substitutions built from features
+# that ARE in the trained model (so they have real SHAP values) rather than
+# fabricated features with fabricated SHAP values — see proxy_note on each.
+
+version: 1
+last_updated: "2026-08-31"
+
+target_convention:
+  model_output: "delta from persistence (ipc_continuous - ipc_lag1)"
+  worsening_shap_sign: positive
+  note: >
+    All subject models (XGBoost, RandomForest, and the fused Ensemble) are
+    fit in --target-mode delta per RQ1 Experiment 2 section 5 / the RQ2
+    Experiment 5 best-variant convention. A positive SHAP value means that
+    feature pushed the prediction toward a WORSE (higher) IPC outcome than
+    plain persistence.
+
+compound:
+  margin_default: 0.15
+  margin_definition: >
+    (|top1_score| - |top2_score|) / |top1_score|, computed only when both
+    top1_score and top2_score are > 0. A case is flagged COMPOUND when this
+    margin is <= margin_threshold, i.e. the two leading categories are
+    within margin_threshold of each other. Histogram of observed margins
+    across the sample must be reviewed (build_margin_histogram.py) before
+    treating 0.15 as final — see report.md.
+  margin_threshold: 0.15
+
+categories:
+
+  DROUGHT:
+    features:
+      - column: spi_3
+        polarity: -1
+        note: "3-month Standardized Precipitation Index; negative = dry anomaly"
+      - column: ndvi_anomaly
+        polarity: -1
+        note: "monthly-climatology NDVI anomaly (general mask); negative/declining vegetation = drought-leaning"
+      - column: ssmi_3
+        polarity: -1
+        note: "3-month Standardized Soil Moisture Index (GLEAM root-zone); negative = soil moisture deficit"
+      - column: spei_3
+        polarity: -1
+        proxy_for: temperature_anomaly
+        proxy_note: >
+          No temperature/LST pipeline exists in this project (confirmed
+          against docs/data_sources_master_table.md — SPEI is the only
+          built feature that "accounts for temperature"). SPEI = CHIRPS
+          precipitation minus GLEAM potential evapotranspiration (PET),
+          and PET rises with temperature — a negative SPEI beyond what SPI
+          (precipitation alone) already explains is the closest available
+          signal for temperature-driven (evaporative-demand) drought
+          stress. This is an explicit proxy substitution, not a true
+          temperature reading — flag it as such in any RQ5 write-up.
+
+  FLOODING:
+    features:
+      - column: spi_3
+        polarity: 1
+        note: "same column as Drought, opposite polarity — strongly positive SPI = wet anomaly"
+      - column: ssmi_3
+        polarity: 1
+        note: "same column as Drought, opposite polarity — positive = excess soil moisture"
+      - column: glofas_exceed_2yr
+        polarity: 1
+        note: >
+          GloFAS river-discharge 2-year-return-period exceedance
+          probability (fraction of ensemble members exceeding threshold),
+          lead1 (medium-range) pre-selected at model-table build time.
+          Not shared with Drought — a direct, unambiguous flood-specific
+          indicator (the "[flood-specific indicator if present]" the
+          original spec asked about). Zones with no river-network pixel
+          carry a real, structural 0.0 (see pipelines/glofas/), which
+          correctly never qualifies under this rule.
+
+  CONFLICT:
+    features:
+      - column: acled_event_count
+        polarity: 1
+        note: "all ACLED disorder types pooled (political violence + demonstrations + strategic developments)"
+      - column: acled_fatalities
+        polarity: 1
+    excluded_note: >
+      UNHCR displacement columns (total_refugees_hosted,
+      total_asylum_seekers_hosted, idps_ethiopia) are excluded per the
+      fixed spec: national/quarterly-resolution training-only features,
+      not eligible for local per-zone-month SHAP attribution. Deliberately
+      not scored here. Phase 4 step 4 explicitly checks for and flags
+      cases where this exclusion looks like it is costing the rule engine
+      a genuine conflict-driven-displacement case.
+
+  MARKET_SHOCK:
+    features:
+      - column: grain_price_index
+        derived: true
+        polarity: 1
+        components: [maize_price_index, wheat_price_index, sorghum_price_index, teff_price_index]
+        combination_rule: mean_of_available
+        note: >
+          Spec asked for a single "food_price_index / grain_price_index"
+          signal; the model has 4 separate staple-grain price_index
+          columns (no single combined column exists). Combined here as the
+          mean of whichever of the 4 commodities' SHAP values (and,
+          separately, raw values for the polarity gate) are non-null for
+          that zone-month — a derived aggregate over real trained
+          features, not a new feature with no SHAP grounding.
+      - column: price_volatility
+        derived: true
+        proxy_for: price_volatility
+        polarity: 1
+        components:
+          - maize_price_index_lag1
+          - maize_price_index_lag3
+          - maize_price_index_lag6
+          - maize_price_index_lag12
+          - wheat_price_index_lag1
+          - wheat_price_index_lag3
+          - wheat_price_index_lag6
+          - wheat_price_index_lag12
+          - sorghum_price_index_lag1
+          - sorghum_price_index_lag3
+          - sorghum_price_index_lag6
+          - sorghum_price_index_lag12
+          - teff_price_index_lag1
+          - teff_price_index_lag3
+          - teff_price_index_lag6
+          - teff_price_index_lag12
+        combination_rule: sum_shap_no_raw_gate
+        proxy_note: >
+          No rolling-std/CV price column exists anywhere in this project's
+          built features. A genuine statistical volatility measure was
+          never a model input, so it has no SHAP value to read — fabricating
+          one post hoc would not reflect anything the model actually used.
+          Proxy instead reads the SHAP evidence the model DOES have: the
+          16 lag1/3/6/12 price_index columns across the 4 staple grains
+          are the model's own encoding of each commodity's short/medium
+          -term price trajectory. This proxy is the SIGNED SUM of those 16
+          columns' SHAP values (no raw-value polarity gate — a "lag
+          bundle" has no single raw value to gate on; the qualifying
+          condition here is simply summed SHAP > 0, i.e. the model's own
+          price-trajectory features are collectively pushing the
+          prediction worse). Framed explicitly as "the model's price-
+          history features are collectively implicated," not a literal
+          computed standard deviation — flag this distinction in any
+          write-up that cites this signal.
+      - column: food_cpi_yoy_change
+        polarity: 1
+        note: "food CPI year-on-year % change; positive = food inflation"
+      - column: exchange_rate
+        polarity: 1
+        note: >
+          ETB per USD (investing.com official/interbank rate). RISING
+          value = birr weakening = depreciation = market-shock-leaning.
+          Confirmed from pipelines/exchange_rate/ documentation, not
+          assumed.

@@ -1,0 +1,22 @@
+Joining river-network pixels to admin2 zones...
+  4935 network pixels outside every polygon: 220 snapped, 4715 dropped.
+Zones with zero river-network pixels (expected for dry lowland zones): 6 / 92
+
+Processing medium-range (lead1) forecast files...
+
+Processing seasonal (lead3) forecast files...
+
+Wrote 19504 zone-month rows -> /Users/shadyabushady/Desktop/Diss Dataset/data/processed/features/glofas_admin2_monthly.csv
+Zones: 92 (expected 92)
+glofas_source_lead1
+reforecast               12972
+operational               5796
+no_reforecast_archive      688
+no_river_network            48
+Name: count, dtype: int64
+glofas_source_lead3
+reforecast               13156
+operational               5060
+no_reforecast_archive     1204
+no_river_network            84
+Name: count, dtype: int64
